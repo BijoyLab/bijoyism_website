@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #285c4c;
+  --color-primary-content: #ffffff;
+  --color-secondary: #e3a85c;
+  --color-secondary-content: #29241d;
+  --color-base-100: #fffdf8;
+  --color-base-200: #f2f3ed;
+  --color-base-300: #e0e5dc;
+  --color-base-content: #243a32;
+  --radius-box: 1.5rem;
+  --radius-field: 0.75rem;
+  --radius-selector: 0.5rem;
+}
+
+body {
+  font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 4px;
+}
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

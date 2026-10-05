@@ -1,0 +1,46 @@
+{
+  "Metadata": {
+    "title": "BIJOYISM | 让日常多一点快乐",
+    "description": "欢迎来到 BIJOYISM，一起发现日常里的小小快乐。"
+  },
+  "Navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "language": "选择语言",
+    "main": "主导航",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "skip": "跳转到正文"
+  },
+  "Home": {
+    "title": "让日常，多一点快乐。",
+    "description": "欢迎来到 BIJOYISM。在这里，一起发现灵感，感受日常里的小小快乐。",
+    "cta": "认识 BIJOYISM",
+    "explore": "开始探索",
+    "previewLabel": "即将上线",
+    "previewTitle": "新的快乐，正在准备中。",
+    "previewDescription": "我们的新网站正在逐步完善，更多故事和系列内容即将与你见面。",
+    "sectionTitle": "探索 BIJOYISM",
+    "discover": {
+      "title": "发现新意",
+      "description": "系列介绍与更多细节，即将上线。"
+    },
+    "inspire": {
+      "title": "寻找灵感",
+      "description": "日常生活的灵感与故事，即将上线。"
+    },
+    "connect": {
+      "title": "保持联系",
+      "description": "品牌动态与支持信息，即将上线。"
+    }
+  },
+  "About": {
+    "title": "关于 BIJOYISM",
+    "description": "我们的故事正在展开。这里将介绍品牌、我们的想法，以及接下来值得期待的内容。",
+    "back": "返回首页"
+  },
+  "Footer": {
+    "rights": "保留所有权利。",
+    "about": "关于 BIJOYISM"
+  }
+}

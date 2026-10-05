@@ -1,0 +1,46 @@
+{
+  "Metadata": {
+    "title": "BIJOYISM | A little more joy",
+    "description": "Welcome to BIJOYISM. Discover a little more joy in everyday life."
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "language": "Choose language",
+    "main": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skip": "Skip to content"
+  },
+  "Home": {
+    "title": "Make room for a little more joy.",
+    "description": "Welcome to BIJOYISM. A place for discovery, inspiration, and everyday moments.",
+    "cta": "Meet BIJOYISM",
+    "explore": "Explore",
+    "previewLabel": "Coming soon",
+    "previewTitle": "Something joyful is on its way.",
+    "previewDescription": "Our new website is taking shape. More stories and collections will be here soon.",
+    "sectionTitle": "Explore BIJOYISM",
+    "discover": {
+      "title": "Discover",
+      "description": "New collections and details, coming soon."
+    },
+    "inspire": {
+      "title": "Get inspired",
+      "description": "Ideas and stories for everyday life, coming soon."
+    },
+    "connect": {
+      "title": "Stay connected",
+      "description": "Brand updates and support information, coming soon."
+    }
+  },
+  "About": {
+    "title": "About BIJOYISM",
+    "description": "Our story is taking shape. This space will introduce our brand, our ideas, and what comes next.",
+    "back": "Back to home"
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "about": "About BIJOYISM"
+  }
+}
