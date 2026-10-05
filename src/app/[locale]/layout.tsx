@@ -1,45 +1,29 @@
 import type { Metadata } from "next";
-import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { SiteHeader } from "@/components/site-header";
-import { SiteFooter } from "@/components/site-footer";
 import "../globals.css";
 
-type Props = { children: React.ReactNode; params: Promise<{ locale: string }> };
+export const metadata: Metadata = {
+  metadataBase: new URL("https://bijoyism.cc"),
+  robots: { index: false, follow: false },
+  icons: { icon: "/assets/favicon.svg" },
+};
 
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
-}
-
-export async function generateMetadata({ params }: Omit<Props, "children">): Promise<Metadata> {
+export default async function LocaleLayout({ children, params }: {
+  children: React.ReactNode; params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
-  const t = await getTranslations({ locale, namespace: "Metadata" });
-  return {
-    title: { default: t("title"), template: "%s | BIJOYISM" },
-    description: t("description"),
-  };
-}
-
-export default async function LocaleLayout({ children, params }: Props) {
-  const { locale } = await params;
-  if (!hasLocale(routing.locales, locale)) notFound();
-  setRequestLocale(locale);
-  const t = await getTranslations("Navigation");
-
   return (
     <html lang={locale === "zh" ? "zh-CN" : locale} data-theme="light">
-      <body className="min-h-dvh bg-base-100 antialiased">
-        <NextIntlClientProvider>
-          <a href="#main-content" className="btn btn-primary fixed left-4 top-4 z-50 -translate-y-32 focus:translate-y-0">
-            {t("skip")}
-          </a>
-          <SiteHeader />
-          <main id="main-content" tabIndex={-1}>{children}</main>
-          <SiteFooter />
-        </NextIntlClientProvider>
+      <body>
+        <a className="skip" href="#main">{locale === "zh" ? "跳至正文" : "Skip to content"}</a>
+        {children}
+        <dialog id="modal" aria-labelledby="modal-title">
+          <button className="close" aria-label={locale === "zh" ? "关闭" : "Close"}>×</button>
+          <div id="modal-content" />
+        </dialog>
       </body>
     </html>
   );

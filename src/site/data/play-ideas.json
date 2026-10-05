@@ -1,0 +1,1832 @@
+[
+  {
+    "id": "animal-safari",
+    "title": {
+      "en": "Animal Safari",
+      "zh": "动物探险"
+    },
+    "mode": "explore",
+    "ageMin": 3,
+    "ageMax": 6,
+    "playersMin": 1,
+    "playersMax": 4,
+    "difficulty": "discover",
+    "productIds": [
+      "td01"
+    ],
+    "tiles": "3–8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "contentType": "signature",
+    "ruleType": "find-target",
+    "summary": {
+      "en": "Find the named animal, step over to it, and describe what you notice.",
+      "zh": "找到被点名的动物，走过去，说说它的特征。"
+    },
+    "setup": {
+      "en": "Lay 3–8 animal tiles separately in an open area. Leave room for waiting beside the route.",
+      "zh": "用 3–8 片动物垫排开放路线或散点，旁边留等候位置。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Listen",
+          "zh": "听线索"
+        },
+        "text": {
+          "en": "An adult names a visible animal, such as the penguins.",
+          "zh": "成人说出图上可见的动物，例如企鹅。"
+        },
+        "productId": "td01"
+      },
+      {
+        "label": {
+          "en": "Find",
+          "zh": "找目标"
+        },
+        "text": {
+          "en": "Point to the matching animal, then walk to its tile.",
+          "zh": "指向对应动物，再走到那片地垫。"
+        },
+        "productId": "td01"
+      },
+      {
+        "label": {
+          "en": "Describe",
+          "zh": "说发现"
+        },
+        "text": {
+          "en": "Describe one feature, then let another player choose the next animal.",
+          "zh": "描述一个特征，再让下一人选择动物。"
+        },
+        "productId": "td01"
+      }
+    ],
+    "steps": {
+      "en": [
+        "An adult names a visible animal, such as the penguins.",
+        "Point to the matching animal, then walk to its tile.",
+        "Describe one feature, then let another player choose the next animal."
+      ],
+      "zh": [
+        "成人说出图上可见的动物，例如企鹅。",
+        "指向对应动物，再走到那片地垫。",
+        "描述一个特征，再让下一人选择动物。"
+      ]
+    },
+    "easier": {
+      "en": "Use three tiles and allow pointing instead of naming.",
+      "zh": "只用三片，允许指认，不要求说名字。"
+    },
+    "variation": {
+      "en": "Give a habitat clue or try an animal movement with Move Like an Animal.",
+      "zh": "加入栖息地线索，或转到动物模仿秀。"
+    },
+    "skills": {
+      "en": "Observation, listening and animal naming.",
+      "zh": "观察、听指令、动物辨认。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td01",
+          "tiles": "3–8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "move-like-an-animal",
+    "title": {
+      "en": "Move Like an Animal",
+      "zh": "动物模仿秀"
+    },
+    "mode": "explore",
+    "ageMin": 3,
+    "ageMax": 7,
+    "playersMin": 2,
+    "playersMax": 6,
+    "difficulty": "challenge",
+    "productIds": [
+      "td01"
+    ],
+    "tiles": "3–8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "contentType": "signature",
+    "ruleType": "command-action",
+    "summary": {
+      "en": "Choose an animal, copy a simple movement, and let a friend guess.",
+      "zh": "选一只动物，模仿简单动作，让同伴猜。"
+    },
+    "setup": {
+      "en": "Place animal tiles separately, with a clear space beside them for waiting and movement.",
+      "zh": "动物垫单层分开放，旁边留出等候和动作空间。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Choose",
+          "zh": "选动物"
+        },
+        "text": {
+          "en": "One player points to an animal without saying its name.",
+          "zh": "一人指向动物，不先说名字。"
+        },
+        "productId": "td01"
+      },
+      {
+        "label": {
+          "en": "Pretend",
+          "zh": "做动作"
+        },
+        "text": {
+          "en": "Try a gentle penguin sway or a slow turtle step, with adult guidance.",
+          "zh": "在成人引导下轻轻摇摆模仿企鹅，或慢步模仿海龟。"
+        },
+        "productId": "td01"
+      },
+      {
+        "label": {
+          "en": "Guess & swap",
+          "zh": "猜并换人"
+        },
+        "text": {
+          "en": "Friends guess the animal, then swap roles. One child uses a tile at a time.",
+          "zh": "同伴猜动物，然后交换角色；每片一次一人。"
+        },
+        "productId": "td01"
+      }
+    ],
+    "steps": {
+      "en": [
+        "One player points to an animal without saying its name.",
+        "Try a gentle penguin sway or a slow turtle step, with adult guidance.",
+        "Friends guess the animal, then swap roles. One child uses a tile at a time."
+      ],
+      "zh": [
+        "一人指向动物，不先说名字。",
+        "在成人引导下轻轻摇摆模仿企鹅，或慢步模仿海龟。",
+        "同伴猜动物，然后交换角色；每片一次一人。"
+      ]
+    },
+    "easier": {
+      "en": "Name the animal first and demonstrate together.",
+      "zh": "先说出动物，一起示范。"
+    },
+    "variation": {
+      "en": "Let children invent a new movement and explain it.",
+      "zh": "让孩子自创一个动作，并说明规则。"
+    },
+    "skills": {
+      "en": "Imagination, controlled movement and turn-taking.",
+      "zh": "想象、动作控制、轮流。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td01",
+          "tiles": "3–8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "story-steps",
+    "title": {
+      "en": "Story Steps",
+      "zh": "故事脚步"
+    },
+    "mode": "explore",
+    "ageMin": 4,
+    "ageMax": 7,
+    "playersMin": 1,
+    "playersMax": 4,
+    "difficulty": "challenge",
+    "productIds": [
+      "td01"
+    ],
+    "tiles": "3–8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom",
+      "reading"
+    ],
+    "contentType": "signature",
+    "ruleType": "sequence",
+    "summary": {
+      "en": "Add one sentence at each animal stop to build a shared story.",
+      "zh": "每到一个动物站点，接一句共同的故事。"
+    },
+    "setup": {
+      "en": "Use 3–8 animal tiles in a short line or gentle curve, with all borders visible.",
+      "zh": "用 3–8 片动物垫排短直线或缓弯，保持边界可见。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Begin",
+          "zh": "开个头"
+        },
+        "text": {
+          "en": "Name the first animal and start a story: “The lion went on an adventure.”",
+          "zh": "认第一只动物并开头：“狮子去冒险了。”"
+        },
+        "productId": "td01"
+      },
+      {
+        "label": {
+          "en": "Continue",
+          "zh": "接一句"
+        },
+        "text": {
+          "en": "At the next animal, add what happened next. Players may pause to press and observe the liquid.",
+          "zh": "到下一只动物时接续情节，也可停下按压观察液体。"
+        },
+        "productId": "td01"
+      },
+      {
+        "label": {
+          "en": "Finish",
+          "zh": "一起结尾"
+        },
+        "text": {
+          "en": "Take turns until the last stop, then give the story an ending.",
+          "zh": "轮流讲到最后一站，给故事一个结尾。"
+        },
+        "productId": "td01"
+      }
+    ],
+    "steps": {
+      "en": [
+        "Name the first animal and start a story: “The lion went on an adventure.”",
+        "At the next animal, add what happened next. Players may pause to press and observe the liquid.",
+        "Take turns until the last stop, then give the story an ending."
+      ],
+      "zh": [
+        "认第一只动物并开头：“狮子去冒险了。”",
+        "到下一只动物时接续情节，也可停下按压观察液体。",
+        "轮流讲到最后一站，给故事一个结尾。"
+      ]
+    },
+    "easier": {
+      "en": "For a younger child aged 3+, pointing or adding one word is enough; an adult carries the story.",
+      "zh": "三岁起的简化版可只指认或补一个词，由成人接续故事。"
+    },
+    "variation": {
+      "en": "Let children choose the order and create their own storytelling rule.",
+      "zh": "孩子决定站点顺序和接故事规则。"
+    },
+    "skills": {
+      "en": "Language, imagination and sequencing.",
+      "zh": "语言表达、想象、顺序理解。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td01",
+          "tiles": "3–8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "color-command",
+    "title": {
+      "en": "Color Command",
+      "zh": "颜色指令"
+    },
+    "mode": "move",
+    "ageMin": 3,
+    "ageMax": 6,
+    "playersMin": 1,
+    "playersMax": 6,
+    "difficulty": "discover",
+    "productIds": [
+      "td02"
+    ],
+    "tiles": "3–8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "contentType": "signature",
+    "ruleType": "command-action",
+    "summary": {
+      "en": "Agree on color-to-action rules, then listen and try each movement.",
+      "zh": "先约定颜色对应的动作，再听指令完成。"
+    },
+    "setup": {
+      "en": "Use 3–8 Color Duos tiles with clear access around them. Choose visible colors together.",
+      "zh": "用 3–8 片双色垫，周围留通道，一起确认可见颜色。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Agree",
+          "zh": "定规则"
+        },
+        "text": {
+          "en": "Choose gentle actions: blue means slow steps, yellow means tiptoe, green means pause.",
+          "zh": "约定简单动作：蓝色慢步，黄色踮脚，绿色停住。"
+        },
+        "productId": "td02"
+      },
+      {
+        "label": {
+          "en": "Listen & act",
+          "zh": "听并做"
+        },
+        "text": {
+          "en": "An adult calls a color. One explorer tries the matching action while others wait.",
+          "zh": "成人喊颜色，一位探索者完成动作，其他人在旁等候。"
+        },
+        "productId": "td02"
+      },
+      {
+        "label": {
+          "en": "Take turns",
+          "zh": "轮流出题"
+        },
+        "text": {
+          "en": "Swap the caller and explorer. Start with two color rules before adding another.",
+          "zh": "交换发令者和探索者，先用两条规则再增加。"
+        },
+        "productId": "td02"
+      }
+    ],
+    "steps": {
+      "en": [
+        "Choose gentle actions: blue means slow steps, yellow means tiptoe, green means pause.",
+        "An adult calls a color. One explorer tries the matching action while others wait.",
+        "Swap the caller and explorer. Start with two color rules before adding another."
+      ],
+      "zh": [
+        "约定简单动作：蓝色慢步，黄色踮脚，绿色停住。",
+        "成人喊颜色，一位探索者完成动作，其他人在旁等候。",
+        "交换发令者和探索者，先用两条规则再增加。"
+      ]
+    },
+    "easier": {
+      "en": "Use one action and show it before each turn.",
+      "zh": "只用一个动作，每轮先示范。"
+    },
+    "variation": {
+      "en": "Let a child suggest a new color-action pairing.",
+      "zh": "孩子提出新的颜色与动作对应。"
+    },
+    "skills": {
+      "en": "Color choices, listening and switching actions.",
+      "zh": "颜色辨认、听指令、动作切换。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td02",
+          "tiles": "3–8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "follow-my-path",
+    "title": {
+      "en": "Follow My Path",
+      "zh": "跟着我的路线"
+    },
+    "mode": "move",
+    "ageMin": 4,
+    "ageMax": 7,
+    "playersMin": 2,
+    "playersMax": 4,
+    "difficulty": "challenge",
+    "productIds": [
+      "td02"
+    ],
+    "tiles": "3–8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "contentType": "signature",
+    "ruleType": "sequence",
+    "summary": {
+      "en": "Watch a short color route, repeat it, then swap the leader.",
+      "zh": "看一段颜色路线，记住并复现，再交换领路人。"
+    },
+    "setup": {
+      "en": "Lay 3–8 tiles in an open layout; make a waiting spot beside the route.",
+      "zh": "用 3–8 片垫子排开放布局，旁边设等候点。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Show",
+          "zh": "先示范"
+        },
+        "text": {
+          "en": "The leader chooses and walks a three-step color route.",
+          "zh": "领路人选一段三步颜色路线并走一遍。"
+        },
+        "productId": "td02"
+      },
+      {
+        "label": {
+          "en": "Remember",
+          "zh": "记顺序"
+        },
+        "text": {
+          "en": "The next player watches, then repeats the same sequence.",
+          "zh": "下一人观察，再按相同顺序走。"
+        },
+        "productId": "td02"
+      },
+      {
+        "label": {
+          "en": "Swap",
+          "zh": "交换角色"
+        },
+        "text": {
+          "en": "Swap leaders. Add another step only when everyone is ready.",
+          "zh": "交换领路人，准备好后再加一步。"
+        },
+        "productId": "td02"
+      }
+    ],
+    "steps": {
+      "en": [
+        "The leader chooses and walks a three-step color route.",
+        "The next player watches, then repeats the same sequence.",
+        "Swap leaders. Add another step only when everyone is ready."
+      ],
+      "zh": [
+        "领路人选一段三步颜色路线并走一遍。",
+        "下一人观察，再按相同顺序走。",
+        "交换领路人，准备好后再加一步。"
+      ]
+    },
+    "easier": {
+      "en": "Start with two stops and point out the route together.",
+      "zh": "从两站开始，一起指认路线。"
+    },
+    "variation": {
+      "en": "Try four or five stops, or let the group build a new sequence.",
+      "zh": "增加到四五站，或一起设计新顺序。"
+    },
+    "skills": {
+      "en": "Observation, working memory and turn-taking.",
+      "zh": "观察、顺序记忆、轮流。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td02",
+          "tiles": "3–8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "build-a-color-course",
+    "title": {
+      "en": "Build a Color Course",
+      "zh": "自创彩色挑战"
+    },
+    "mode": "move",
+    "ageMin": 4,
+    "ageMax": 8,
+    "playersMin": 1,
+    "playersMax": 6,
+    "difficulty": "create",
+    "productIds": [
+      "td02"
+    ],
+    "tiles": "3–8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "contentType": "signature",
+    "ruleType": "create-rules",
+    "summary": {
+      "en": "Design a color route and decide what happens at each stop.",
+      "zh": "设计颜色路线，为每一站约定任务。"
+    },
+    "setup": {
+      "en": "Start with 3–8 tiles. Everyone waits off the play area while an adult helps arrange them.",
+      "zh": "准备 3–8 片，所有人在区域外等候，成人协助摆放。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Arrange",
+          "zh": "排路线"
+        },
+        "text": {
+          "en": "Children suggest a line, grid or curve; an adult helps place each tile flat without overlap.",
+          "zh": "孩子提出直线、方阵或缓弯，成人协助单层平放，不重叠。"
+        },
+        "productId": "td02"
+      },
+      {
+        "label": {
+          "en": "Make rules",
+          "zh": "定任务"
+        },
+        "text": {
+          "en": "Choose a simple task at each station, such as walk slowly, point to a color or pause.",
+          "zh": "每站定简单任务，如慢步、指颜色或停留。"
+        },
+        "productId": "td02"
+      },
+      {
+        "label": {
+          "en": "Try & change",
+          "zh": "试玩修改"
+        },
+        "text": {
+          "en": "Explain the route, invite a player to try, then step aside before changing the layout.",
+          "zh": "讲清规则、邀请试玩，退出区域后再修改布局。"
+        },
+        "productId": "td02"
+      }
+    ],
+    "steps": {
+      "en": [
+        "Children suggest a line, grid or curve; an adult helps place each tile flat without overlap.",
+        "Choose a simple task at each station, such as walk slowly, point to a color or pause.",
+        "Explain the route, invite a player to try, then step aside before changing the layout."
+      ],
+      "zh": [
+        "孩子提出直线、方阵或缓弯，成人协助单层平放，不重叠。",
+        "每站定简单任务，如慢步、指颜色或停留。",
+        "讲清规则、邀请试玩，退出区域后再修改布局。"
+      ]
+    },
+    "easier": {
+      "en": "Use three stations with the same task.",
+      "zh": "三站用同一个任务。"
+    },
+    "variation": {
+      "en": "Let a partner change one rule and explain the new route.",
+      "zh": "同伴改一条规则并介绍新路线。"
+    },
+    "skills": {
+      "en": "Planning, communication and creating rules.",
+      "zh": "规划、沟通、规则创造。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td02",
+          "tiles": "3–8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "quiet-steps",
+    "title": {
+      "en": "Quiet Steps",
+      "zh": "安静脚步"
+    },
+    "mode": "reset",
+    "ageMin": 3,
+    "ageMax": 7,
+    "playersMin": 1,
+    "playersMax": 3,
+    "difficulty": "discover",
+    "productIds": [
+      "td03"
+    ],
+    "tiles": "3–8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom",
+      "reading"
+    ],
+    "contentType": "signature",
+    "ruleType": "pause-observe",
+    "summary": {
+      "en": "Take gentle steps, pause to notice a pattern, and continue at your own pace.",
+      "zh": "轻轻落脚，停看纹理，再按自己的节奏继续。"
+    },
+    "setup": {
+      "en": "Lay 3–8 Aqua Tones tiles in a short path beside a quiet space. Keep away from furniture legs and doorways.",
+      "zh": "在安静空间旁用 3–8 片 Aqua 垫排短路线，避开家具腿和门口。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Choose",
+          "zh": "选起点"
+        },
+        "text": {
+          "en": "Choose a blue or green tile as the start.",
+          "zh": "选蓝色或绿色垫作为起点。"
+        },
+        "productId": "td03"
+      },
+      {
+        "label": {
+          "en": "Step softly",
+          "zh": "轻轻走"
+        },
+        "text": {
+          "en": "Walk to the next tile with gentle footfalls. There is no race.",
+          "zh": "轻轻走到下一片，不竞速。"
+        },
+        "productId": "td03"
+      },
+      {
+        "label": {
+          "en": "Pause & notice",
+          "zh": "停看继续"
+        },
+        "text": {
+          "en": "Pause to notice the liquid, then continue. In a reading nook, keep the route beside the books.",
+          "zh": "停看液体，再继续；阅读角版本让路线留在书架旁，不压书本。"
+        },
+        "productId": "td03"
+      }
+    ],
+    "steps": {
+      "en": [
+        "Choose a blue or green tile as the start.",
+        "Walk to the next tile with gentle footfalls. There is no race.",
+        "Pause to notice the liquid, then continue. In a reading nook, keep the route beside the books."
+      ],
+      "zh": [
+        "选蓝色或绿色垫作为起点。",
+        "轻轻走到下一片，不竞速。",
+        "停看液体，再继续；阅读角版本让路线留在书架旁，不压书本。"
+      ]
+    },
+    "easier": {
+      "en": "Use three nearby stations and walk with an adult.",
+      "zh": "三站距离适中，成人陪同。"
+    },
+    "variation": {
+      "en": "Let another player choose the next color; rearrange only after everyone steps aside.",
+      "zh": "让下一人选颜色，大家退出后再换布局。"
+    },
+    "skills": {
+      "en": "Pacing, body awareness and observation.",
+      "zh": "速度调节、身体意识、观察。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td03",
+          "tiles": "3–8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "balance-islands",
+    "title": {
+      "en": "Balance Islands",
+      "zh": "平衡小岛"
+    },
+    "mode": "reset",
+    "ageMin": 4,
+    "ageMax": 8,
+    "playersMin": 1,
+    "playersMax": 4,
+    "difficulty": "challenge",
+    "productIds": [
+      "td03"
+    ],
+    "tiles": "3–8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom",
+      "reading"
+    ],
+    "contentType": "signature",
+    "ruleType": "pause-observe",
+    "summary": {
+      "en": "Stand steadily on each island, pause, then walk to the next stop.",
+      "zh": "在每座小岛上站稳停留，再走到下一站。"
+    },
+    "setup": {
+      "en": "Use a short route of 3–8 Aqua tiles with manageable steps and a waiting space.",
+      "zh": "用 3–8 片 Aqua 垫排短路线，步距适中，旁边留等候区。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Step",
+          "zh": "走上小岛"
+        },
+        "text": {
+          "en": "Walk to the first island with both feet supported.",
+          "zh": "走到第一座小岛，双脚稳稳站好。"
+        },
+        "productId": "td03"
+      },
+      {
+        "label": {
+          "en": "Pause",
+          "zh": "站稳停留"
+        },
+        "text": {
+          "en": "Pause for three seconds in a comfortable two-foot stance. An adult stays nearby.",
+          "zh": "双脚舒适站稳，停留三秒，成人在旁。"
+        },
+        "productId": "td03"
+      },
+      {
+        "label": {
+          "en": "Continue",
+          "zh": "走下一站"
+        },
+        "text": {
+          "en": "Walk to the next island and repeat; change explorer after the route.",
+          "zh": "走到下一站重复，完成路线后换人。"
+        },
+        "productId": "td03"
+      }
+    ],
+    "steps": {
+      "en": [
+        "Walk to the first island with both feet supported.",
+        "Pause for three seconds in a comfortable two-foot stance. An adult stays nearby.",
+        "Walk to the next island and repeat; change explorer after the route."
+      ],
+      "zh": [
+        "走到第一座小岛，双脚稳稳站好。",
+        "双脚舒适站稳，停留三秒，成人在旁。",
+        "走到下一站重复，完成路线后换人。"
+      ]
+    },
+    "easier": {
+      "en": "Make the pause shorter and offer an adult hand.",
+      "zh": "缩短停留，成人可伸手协助。"
+    },
+    "variation": {
+      "en": "Try a different comfortable arm position while keeping both feet supported.",
+      "zh": "保持双脚站稳，尝试不同舒适手臂姿势。"
+    },
+    "skills": {
+      "en": "Balance, controlled posture and body awareness.",
+      "zh": "平衡、姿势控制、身体意识。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td03",
+          "tiles": "3–8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "slow-motion-trail",
+    "title": {
+      "en": "Slow Motion Trail",
+      "zh": "慢动作挑战"
+    },
+    "mode": "reset",
+    "ageMin": 4,
+    "ageMax": 7,
+    "playersMin": 1,
+    "playersMax": 4,
+    "difficulty": "challenge",
+    "productIds": [
+      "td03"
+    ],
+    "tiles": "3–8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom",
+      "reading"
+    ],
+    "contentType": "signature",
+    "ruleType": "pause-observe",
+    "summary": {
+      "en": "Keep a slow step–pause rhythm along a short route.",
+      "zh": "沿短路线保持慢步、停留的节奏。"
+    },
+    "setup": {
+      "en": "Arrange 3–8 Aqua tiles in a short line or gentle curve with clear access.",
+      "zh": "用 3–8 片 Aqua 垫排短直线或缓弯，留出通道。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Set a rhythm",
+          "zh": "定节奏"
+        },
+        "text": {
+          "en": "Agree on “slow step, pause, continue” and demonstrate once.",
+          "zh": "约定“慢步、停留、继续”，先示范一次。"
+        },
+        "productId": "td03"
+      },
+      {
+        "label": {
+          "en": "Follow",
+          "zh": "跟节奏"
+        },
+        "text": {
+          "en": "Walk the route at that pace. Stepping on the floor between tiles is allowed.",
+          "zh": "按约定节奏走；垫子之间可以踩地面。"
+        },
+        "productId": "td03"
+      },
+      {
+        "label": {
+          "en": "Repeat",
+          "zh": "再试一次"
+        },
+        "text": {
+          "en": "Take turns and compare the rhythms you tried, without ranking speed.",
+          "zh": "轮流尝试，说说节奏，不排名快慢。"
+        },
+        "productId": "td03"
+      }
+    ],
+    "steps": {
+      "en": [
+        "Agree on “slow step, pause, continue” and demonstrate once.",
+        "Walk the route at that pace. Stepping on the floor between tiles is allowed.",
+        "Take turns and compare the rhythms you tried, without ranking speed."
+      ],
+      "zh": [
+        "约定“慢步、停留、继续”，先示范一次。",
+        "按约定节奏走；垫子之间可以踩地面。",
+        "轮流尝试，说说节奏，不排名快慢。"
+      ]
+    },
+    "easier": {
+      "en": "Try two stations with an adult setting the pace.",
+      "zh": "用两站，成人带节奏。"
+    },
+    "variation": {
+      "en": "Let a child suggest a different slow rhythm for the group.",
+      "zh": "孩子设计另一种慢节奏。"
+    },
+    "skills": {
+      "en": "Pacing, attention to a sequence and movement control.",
+      "zh": "节奏、顺序注意、动作控制。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td03",
+          "tiles": "3–8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "adventure-trail",
+    "title": {
+      "en": "Adventure Trail",
+      "zh": "冒险路线"
+    },
+    "mode": "mix",
+    "ageMin": 4,
+    "ageMax": 8,
+    "playersMin": 1,
+    "playersMax": 6,
+    "difficulty": "challenge",
+    "productIds": [
+      "td01",
+      "td02",
+      "td03"
+    ],
+    "tiles": "6",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "contentType": "signature",
+    "ruleType": "mixed-route",
+    "summary": {
+      "en": "Imagine at an animal stop, move at a color stop, and pause at an Aqua stop.",
+      "zh": "动物站想象，双色站行动，Aqua 站停留。"
+    },
+    "setup": {
+      "en": "Use two tiles from each collection: six in total. An adult arranges an open route while everyone waits aside.",
+      "zh": "每系列取两片，共六片；大家在旁等候，成人排开放路线。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Imagine",
+          "zh": "想象"
+        },
+        "text": {
+          "en": "At an animal tile, name a character or try a gentle animal movement.",
+          "zh": "到动物垫时，说角色或模仿简单动作。"
+        },
+        "productId": "td01"
+      },
+      {
+        "label": {
+          "en": "Move",
+          "zh": "行动"
+        },
+        "text": {
+          "en": "At a Color Duos tile, complete an agreed action, such as slow steps.",
+          "zh": "到双色垫时，完成约定动作，如慢步。"
+        },
+        "productId": "td02"
+      },
+      {
+        "label": {
+          "en": "Pause",
+          "zh": "停留"
+        },
+        "text": {
+          "en": "At an Aqua tile, pause and describe the pattern; repeat the three roles along the route.",
+          "zh": "到 Aqua 垫时停看纹理，沿路线重复三种角色。"
+        },
+        "productId": "td03"
+      }
+    ],
+    "steps": {
+      "en": [
+        "At an animal tile, name a character or try a gentle animal movement.",
+        "At a Color Duos tile, complete an agreed action, such as slow steps.",
+        "At an Aqua tile, pause and describe the pattern; repeat the three roles along the route."
+      ],
+      "zh": [
+        "到动物垫时，说角色或模仿简单动作。",
+        "到双色垫时，完成约定动作，如慢步。",
+        "到 Aqua 垫时停看纹理，沿路线重复三种角色。"
+      ]
+    },
+    "easier": {
+      "en": "With two collections, choose two distinct roles; follow the route together.",
+      "zh": "只有两系列时，明确两个不同角色，一起走。"
+    },
+    "variation": {
+      "en": "Ask children to change one station rule and explain the switch.",
+      "zh": "孩子改一站规则，并说明变化。"
+    },
+    "skills": {
+      "en": "Switching rules, imagination and remembering tasks.",
+      "zh": "规则切换、想象、任务记忆。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "all",
+      "products": [
+        {
+          "productId": "td01",
+          "tiles": "2"
+        },
+        {
+          "productId": "td02",
+          "tiles": "2"
+        },
+        {
+          "productId": "td03",
+          "tiles": "2"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "build-your-own-adventure",
+    "title": {
+      "en": "Build Your Own Adventure",
+      "zh": "自创冒险"
+    },
+    "mode": "mix",
+    "ageMin": 4,
+    "ageMax": 8,
+    "playersMin": 1,
+    "playersMax": 6,
+    "difficulty": "create",
+    "productIds": [
+      "td01",
+      "td02",
+      "td03"
+    ],
+    "tiles": "6",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "contentType": "signature",
+    "ruleType": "create-rules",
+    "summary": {
+      "en": "Choose story, movement and pause rules, then invite someone to try your adventure.",
+      "zh": "自选故事、动作和停顿规则，再邀请同伴试玩。"
+    },
+    "setup": {
+      "en": "Use two tiles from each collection. Children suggest the route; an adult helps arrange it while others wait off the area.",
+      "zh": "每系列两片，孩子提出路线，成人协助摆放，其他人在区域外等候。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Imagine",
+          "zh": "定故事"
+        },
+        "text": {
+          "en": "Choose the characters or story for the animal stations.",
+          "zh": "为动物站选择角色或故事。"
+        },
+        "productId": "td01"
+      },
+      {
+        "label": {
+          "en": "Move",
+          "zh": "定动作"
+        },
+        "text": {
+          "en": "Choose a simple action or color order for the Color Duos stations.",
+          "zh": "为双色站选择简单动作或颜色顺序。"
+        },
+        "productId": "td02"
+      },
+      {
+        "label": {
+          "en": "Pause",
+          "zh": "定停顿"
+        },
+        "text": {
+          "en": "Choose what to notice at the Aqua stations. Explain all rules, try the route, then revise together.",
+          "zh": "为 Aqua 站决定观察什么；讲清全部规则、试玩，再一起修改。"
+        },
+        "productId": "td03"
+      }
+    ],
+    "steps": {
+      "en": [
+        "Choose the characters or story for the animal stations.",
+        "Choose a simple action or color order for the Color Duos stations.",
+        "Choose what to notice at the Aqua stations. Explain all rules, try the route, then revise together."
+      ],
+      "zh": [
+        "为动物站选择角色或故事。",
+        "为双色站选择简单动作或颜色顺序。",
+        "为 Aqua 站决定观察什么；讲清全部规则、试玩，再一起修改。"
+      ]
+    },
+    "easier": {
+      "en": "Use two collections and one task for each; an adult helps explain.",
+      "zh": "用两个系列，各定一个任务，成人协助说明。"
+    },
+    "variation": {
+      "en": "Invite someone else to redesign one station and try their version.",
+      "zh": "邀请同伴改一站，再试玩新版本。"
+    },
+    "skills": {
+      "en": "Creating, planning, communication and collaboration.",
+      "zh": "创造、规划、沟通、协作。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "all",
+      "products": [
+        {
+          "productId": "td01",
+          "tiles": "2"
+        },
+        {
+          "productId": "td02",
+          "tiles": "2"
+        },
+        {
+          "productId": "td03",
+          "tiles": "2"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "treasure-quest",
+    "title": {
+      "en": "Treasure Quest",
+      "zh": "寻宝任务"
+    },
+    "mode": "mix",
+    "ageMin": 4,
+    "ageMax": 8,
+    "playersMin": 2,
+    "playersMax": 6,
+    "difficulty": "create",
+    "productIds": [
+      "td01",
+      "td02",
+      "td03"
+    ],
+    "tiles": "6",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "contentType": "signature",
+    "ruleType": "mixed-route",
+    "summary": {
+      "en": "Create animal, color and pause clues for a friend to find a paper treasure.",
+      "zh": "设计动物、颜色和停顿线索，让同伴找到纸质宝藏。"
+    },
+    "setup": {
+      "en": "Use two tiles from each collection and a paper treasure card placed beside the final stop.",
+      "zh": "每系列两片，终点旁放一张纸质宝藏卡。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Make clues",
+          "zh": "编线索"
+        },
+        "text": {
+          "en": "Children and an adult create a route: start with an animal, then choose a visible color.",
+          "zh": "孩子和成人编路线线索：从动物起步，再选可见颜色。"
+        },
+        "productId": "td01"
+      },
+      {
+        "label": {
+          "en": "Follow",
+          "zh": "找路线"
+        },
+        "text": {
+          "en": "A partner follows the clues through the Color Duos stations while the group helps.",
+          "zh": "同伴按线索经过双色站点，小组一起提示。"
+        },
+        "productId": "td02"
+      },
+      {
+        "label": {
+          "en": "Pause & find",
+          "zh": "停看寻宝"
+        },
+        "text": {
+          "en": "Pause at an Aqua station before finding the card beside the last stop; swap clue-makers and explorers.",
+          "zh": "在 Aqua 站停看，再找最后一站旁的卡片，交换出题者与探索者。"
+        },
+        "productId": "td03"
+      }
+    ],
+    "steps": {
+      "en": [
+        "Children and an adult create a route: start with an animal, then choose a visible color.",
+        "A partner follows the clues through the Color Duos stations while the group helps.",
+        "Pause at an Aqua station before finding the card beside the last stop; swap clue-makers and explorers."
+      ],
+      "zh": [
+        "孩子和成人编路线线索：从动物起步，再选可见颜色。",
+        "同伴按线索经过双色站点，小组一起提示。",
+        "在 Aqua 站停看，再找最后一站旁的卡片，交换出题者与探索者。"
+      ]
+    },
+    "easier": {
+      "en": "An adult provides two clues; this guided variation is Challenge.",
+      "zh": "成人提供两条线索；此执行版本属于 Challenge。"
+    },
+    "variation": {
+      "en": "Let the children invent a new clue route and explain it to another group.",
+      "zh": "孩子自编新线索，向另一组解释。"
+    },
+    "skills": {
+      "en": "Clue-making, problem solving and cooperation.",
+      "zh": "线索设计、解决问题、合作。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "all",
+      "products": [
+        {
+          "productId": "td01",
+          "tiles": "2"
+        },
+        {
+          "productId": "td02",
+          "tiles": "2"
+        },
+        {
+          "productId": "td03",
+          "tiles": "2"
+        }
+      ],
+      "extras": [
+        {
+          "en": "One paper treasure card",
+          "zh": "一张纸质宝藏卡"
+        }
+      ]
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "choose-a-color",
+    "title": {
+      "en": "Choose a Color, Choose a Step",
+      "zh": "选一个颜色，走下一步"
+    },
+    "mode": "move",
+    "ageMin": 3,
+    "ageMax": 6,
+    "playersMin": 1,
+    "playersMax": 4,
+    "difficulty": "discover",
+    "productIds": [
+      "td02"
+    ],
+    "tiles": "3–8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "contentType": "starter",
+    "ruleType": "turn-taking",
+    "summary": {
+      "en": "Choose the next color yourself, explore its pattern, then swap roles.",
+      "zh": "自己选下一种颜色，探索纹理，再交换角色。"
+    },
+    "setup": {
+      "en": "Place 3–8 Color Duos tiles in an open path, with a waiting spot beside it.",
+      "zh": "用 3–8 片双色垫排开放路线，旁边留等候点。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Choose",
+          "zh": "自主选择"
+        },
+        "text": {
+          "en": "One player points to a visible color on a tile. Naming the color is optional.",
+          "zh": "一人指向垫上可见颜色，不要求说对色名。"
+        },
+        "productId": "td02"
+      },
+      {
+        "label": {
+          "en": "Explore",
+          "zh": "探索描述"
+        },
+        "text": {
+          "en": "The explorer steps or presses on it and describes the moving liquid.",
+          "zh": "探索者踩踏或按压，说说液体变化。"
+        },
+        "productId": "td02"
+      },
+      {
+        "label": {
+          "en": "Swap",
+          "zh": "交换角色"
+        },
+        "text": {
+          "en": "Swap chooser and explorer; a solo player can do both, with an adult nearby.",
+          "zh": "交换选择者和探索者；单人可自己完成，成人陪同。"
+        },
+        "productId": "td02"
+      }
+    ],
+    "steps": {
+      "en": [
+        "One player points to a visible color on a tile. Naming the color is optional.",
+        "The explorer steps or presses on it and describes the moving liquid.",
+        "Swap chooser and explorer; a solo player can do both, with an adult nearby."
+      ],
+      "zh": [
+        "一人指向垫上可见颜色，不要求说对色名。",
+        "探索者踩踏或按压，说说液体变化。",
+        "交换选择者和探索者；单人可自己完成，成人陪同。"
+      ]
+    },
+    "easier": {
+      "en": "Start with three tiles and allow gestures.",
+      "zh": "从三片开始，允许手势回应。"
+    },
+    "variation": {
+      "en": "Explain your choice; for fixed action rules try Color Command, or for memory try Follow My Path.",
+      "zh": "说说为何选这片；固定动作规则可玩颜色指令，记顺序可玩跟着我的路线。"
+    },
+    "skills": {
+      "en": "Agency, observation, describing and turn-taking.",
+      "zh": "自主选择、观察、描述、轮流。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td02",
+          "tiles": "3–8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "quiet-color-watch",
+    "title": {
+      "en": "Quiet Color Watch",
+      "zh": "静静看蓝绿流动"
+    },
+    "mode": "reset",
+    "ageMin": 3,
+    "ageMax": 8,
+    "playersMin": 1,
+    "playersMax": 4,
+    "difficulty": "discover",
+    "productIds": [
+      "td03"
+    ],
+    "tiles": "1–4",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom",
+      "reading"
+    ],
+    "contentType": "starter",
+    "ruleType": "pause-observe",
+    "summary": {
+      "en": "Look, press with a hand, then lift your hand and describe the changing pattern.",
+      "zh": "先看、用手按压、移开，再描述纹理变化。"
+    },
+    "setup": {
+      "en": "Place 1–4 Aqua tiles beside a quiet indoor area. Keep books and furniture off them.",
+      "zh": "安静室内区域旁平放 1–4 片 Aqua 垫，书本和家具不压在上面。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Look",
+          "zh": "先观察"
+        },
+        "text": {
+          "en": "Choose a blue or green tile and look at its current pattern.",
+          "zh": "选蓝色或绿色垫，先看当前纹理。"
+        },
+        "productId": "td03"
+      },
+      {
+        "label": {
+          "en": "Press",
+          "zh": "按压"
+        },
+        "text": {
+          "en": "Press with a hand and notice where the color moves.",
+          "zh": "用手按压，观察颜色往哪里移动。"
+        },
+        "productId": "td03"
+      },
+      {
+        "label": {
+          "en": "Lift & notice",
+          "zh": "移开继续看"
+        },
+        "text": {
+          "en": "Lift your hand, keep observing, then invite another player to choose. There is no timer.",
+          "zh": "移开手继续看，再邀请下一人选择，不设倒计时。"
+        },
+        "productId": "td03"
+      }
+    ],
+    "steps": {
+      "en": [
+        "Choose a blue or green tile and look at its current pattern.",
+        "Press with a hand and notice where the color moves.",
+        "Lift your hand, keep observing, then invite another player to choose. There is no timer."
+      ],
+      "zh": [
+        "选蓝色或绿色垫，先看当前纹理。",
+        "用手按压，观察颜色往哪里移动。",
+        "移开手继续看，再邀请下一人选择，不设倒计时。"
+      ]
+    },
+    "easier": {
+      "en": "Use one tile and let an adult demonstrate once.",
+      "zh": "只用一片，成人示范一次。"
+    },
+    "variation": {
+      "en": "Compare the pattern before and after a press. For movement, try Quiet Steps.",
+      "zh": "比较按压前后纹理；想加入移动可玩安静脚步。"
+    },
+    "skills": {
+      "en": "Observation, describing changes and taking turns.",
+      "zh": "细节观察、变化描述、轮流。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td03",
+          "tiles": "1–4"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "three-tile-layouts",
+    "title": {
+      "en": "Three Tile Layouts",
+      "zh": "一套地垫，三种摆法"
+    },
+    "mode": "move",
+    "ageMin": 3,
+    "ageMax": 8,
+    "playersMin": 1,
+    "playersMax": 6,
+    "difficulty": "discover",
+    "productIds": [
+      "td01",
+      "td02",
+      "td03"
+    ],
+    "tiles": "8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "contentType": "guide",
+    "ruleType": "create-rules",
+    "summary": {
+      "en": "Use any one eight-tile collection to make a line, grid or gentle curve.",
+      "zh": "任一八片系列都可排直线、方阵或缓弯。"
+    },
+    "setup": {
+      "en": "Start with one collection. Rearrange only while children wait outside the play area.",
+      "zh": "使用任一系列一套，孩子在区域外等候时再调整。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Line",
+          "zh": "直线"
+        },
+        "text": {
+          "en": "Place tiles one after another, flat and without overlap.",
+          "zh": "依次单层平放，不重叠。"
+        },
+        "productId": null
+      },
+      {
+        "label": {
+          "en": "Grid",
+          "zh": "方阵"
+        },
+        "text": {
+          "en": "Try two rows of four with every border visible.",
+          "zh": "两行四列，边界可见。"
+        },
+        "productId": null
+      },
+      {
+        "label": {
+          "en": "Curve",
+          "zh": "缓弯"
+        },
+        "text": {
+          "en": "Change positions to form a gentle turn without blocking a walkway.",
+          "zh": "改变位置让路线缓转，不堵通道。"
+        },
+        "productId": null
+      }
+    ],
+    "steps": {
+      "en": [
+        "Place tiles one after another, flat and without overlap.",
+        "Try two rows of four with every border visible.",
+        "Change positions to form a gentle turn without blocking a walkway."
+      ],
+      "zh": [
+        "依次单层平放，不重叠。",
+        "两行四列，边界可见。",
+        "改变位置让路线缓转，不堵通道。"
+      ]
+    },
+    "easier": {
+      "en": "Start with fewer tiles.",
+      "zh": "先用更少片数。"
+    },
+    "variation": {
+      "en": "Add a task using Build a Color Course or Build Your Own Adventure.",
+      "zh": "搭配自创彩色挑战或自创冒险加入任务。"
+    },
+    "skills": {
+      "en": "A setup reference, not a separate game.",
+      "zh": "这是布置参考，不是独立游戏。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td01",
+          "tiles": "8"
+        },
+        {
+          "productId": "td02",
+          "tiles": "8"
+        },
+        {
+          "productId": "td03",
+          "tiles": "8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "preschool-turn-taking",
+    "title": {
+      "en": "Preschool Turn-Taking",
+      "zh": "课堂轮流组织指南"
+    },
+    "mode": "explore",
+    "ageMin": 3,
+    "ageMax": 8,
+    "playersMin": 2,
+    "playersMax": 6,
+    "difficulty": "discover",
+    "productIds": [
+      "td01",
+      "td02"
+    ],
+    "tiles": "4–8",
+    "prepMinutes": 3,
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "settings": [
+      "classroom"
+    ],
+    "contentType": "guide",
+    "ruleType": "turn-taking",
+    "summary": {
+      "en": "Organize chooser, explorer and observer roles for a shared classroom activity.",
+      "zh": "用选择者、探索者、观察者组织课堂活动。"
+    },
+    "setup": {
+      "en": "Choose either suitable collection, use 4–8 tiles and prepare a waiting space with adult supervision.",
+      "zh": "任选适用系列，用 4–8 片，在成人监护下设等候区。"
+    },
+    "ruleSteps": [
+      {
+        "label": {
+          "en": "Choose",
+          "zh": "选择者"
+        },
+        "text": {
+          "en": "One child points to an animal or visible color.",
+          "zh": "一人指动物或可见颜色。"
+        },
+        "productId": null
+      },
+      {
+        "label": {
+          "en": "Explore",
+          "zh": "探索者"
+        },
+        "text": {
+          "en": "The next child presses or steps; only one child uses a tile at a time.",
+          "zh": "下一人按压或踩踏，每片一次一人。"
+        },
+        "productId": null
+      },
+      {
+        "label": {
+          "en": "Observe & swap",
+          "zh": "观察并轮换"
+        },
+        "text": {
+          "en": "Others describe what they noticed, then rotate roles. Adapt group size to the room.",
+          "zh": "其他人描述所见，再轮换角色；人数按空间调整。"
+        },
+        "productId": null
+      }
+    ],
+    "steps": {
+      "en": [
+        "One child points to an animal or visible color.",
+        "The next child presses or steps; only one child uses a tile at a time.",
+        "Others describe what they noticed, then rotate roles. Adapt group size to the room."
+      ],
+      "zh": [
+        "一人指动物或可见颜色。",
+        "下一人按压或踩踏，每片一次一人。",
+        "其他人描述所见，再轮换角色；人数按空间调整。"
+      ]
+    },
+    "easier": {
+      "en": "Use two roles and demonstrate a turn.",
+      "zh": "从两个角色开始，示范一轮。"
+    },
+    "variation": {
+      "en": "Use these roles alongside a Signature game; multiple compatible products do not make this Mixed Play.",
+      "zh": "将角色用于代表玩法；适用多个产品并不等于混合玩法。"
+    },
+    "skills": {
+      "en": "A group organization reference, not a separate game.",
+      "zh": "这是小组组织参考，不是独立游戏。"
+    },
+    "tip": {
+      "en": "Keep the invitation flexible. Pointing or describing is enough.",
+      "zh": "保持邀请开放，指认或描述都可以。"
+    },
+    "requirements": {
+      "selection": "any",
+      "products": [
+        {
+          "productId": "td01",
+          "tiles": "4–8"
+        },
+        {
+          "productId": "td02",
+          "tiles": "4–8"
+        }
+      ],
+      "extras": []
+    },
+    "version": "1.0",
+    "updatedAt": "2026-10-04"
+  }
+]

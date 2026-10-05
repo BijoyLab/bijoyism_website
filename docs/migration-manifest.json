@@ -1,0 +1,281 @@
+{
+  "reference": "../../bijoyism-website",
+  "routes": [
+    "",
+    "products",
+    "shop",
+    "shop/collections",
+    "shop/compare",
+    "shop/find-your-fit",
+    "play-ideas",
+    "our-products",
+    "our-products/care",
+    "our-products/testing",
+    "our-products/liquid-sensory-tiles",
+    "families",
+    "schools",
+    "about",
+    "contact",
+    "faq",
+    "buying",
+    "privacy",
+    "products/td01-animal-discovery",
+    "products/td02-color-duos",
+    "products/td03-aqua-tones",
+    "collections/animal-discovery",
+    "collections/color-duos",
+    "collections/aqua-tones",
+    "play-ideas/animal-safari",
+    "play-ideas/move-like-an-animal",
+    "play-ideas/story-steps",
+    "play-ideas/color-command",
+    "play-ideas/follow-my-path",
+    "play-ideas/build-a-color-course",
+    "play-ideas/quiet-steps",
+    "play-ideas/balance-islands",
+    "play-ideas/slow-motion-trail",
+    "play-ideas/adventure-trail",
+    "play-ideas/build-your-own-adventure",
+    "play-ideas/treasure-quest",
+    "play-ideas/choose-a-color",
+    "play-ideas/quiet-color-watch",
+    "play-ideas/three-tile-layouts",
+    "play-ideas/preschool-turn-taking"
+  ],
+  "modules": [
+    {
+      "source": "bijoyism-website/dist/inquiry-form.js",
+      "target": "src/site/inquiry-form.js",
+      "sourceSha256": "40bd51819cda62ee2829de7819ae3e06db7e47bf04f156ea1270ea5d68ddfdd6"
+    },
+    {
+      "source": "bijoyism-website/dist/site-config.js",
+      "target": "src/site/site-config.js",
+      "sourceSha256": "1b6b272c33a1200726e070898c51517e9ad4f00755a94567973bbf0f9a5f08f9"
+    },
+    {
+      "source": "bijoyism-website/dist/play-actions.js",
+      "target": "src/site/play-actions.js",
+      "sourceSha256": "77ca8b9b1848320ba34cbe38bff26a9d666487f5c0a76460b991d55ca5f022b6"
+    },
+    {
+      "source": "bijoyism-website/dist/site-render.js",
+      "target": "src/site/site-render.js",
+      "sourceSha256": "8407d26168ffcca02ab6ba2c55e4cf9e714b281502079ce88e2723a8823d4535"
+    },
+    {
+      "source": "bijoyism-website/dist/copy.js",
+      "target": "src/site/copy.js",
+      "sourceSha256": "32329328c42e4a4ff1b75322cf3d81b01e5efa1125da9e7c59f8041d18bb8469"
+    },
+    {
+      "source": "bijoyism-website/dist/value-icons.js",
+      "target": "src/site/value-icons.js",
+      "sourceSha256": "21ba79f62863ef3fe916d493a92c0816a794fd1e75c4d504700722007ead6a4e"
+    },
+    {
+      "source": "bijoyism-website/dist/play-library.js",
+      "target": "src/site/play-library.js",
+      "sourceSha256": "b306b7f5c5828bf2a1700bea74295094295e1b7002a6c6c7151930e0fbe96c02"
+    },
+    {
+      "source": "bijoyism-website/dist/customization.js",
+      "target": "src/site/customization.js",
+      "sourceSha256": "90cbf1ddb01e219f104173a01eb17de94fab5dd302566d1bd4d00926abb563f2"
+    },
+    {
+      "source": "bijoyism-website/dist/languages.js",
+      "target": "src/site/languages.js",
+      "sourceSha256": "cacc1e3167b5cbee01b5e1715f5df0fb72038c52f15907cb97bac5ddd5eba0cb"
+    },
+    {
+      "source": "bijoyism-website/dist/knowledge.js",
+      "target": "src/site/knowledge.js",
+      "sourceSha256": "b08d6caebac718ffcea4d17f37659537584e7cc0d0ab12ded59370b47a224d1d"
+    },
+    {
+      "source": "bijoyism-website/dist/purchase-events.js",
+      "target": "src/site/purchase-events.js",
+      "sourceSha256": "71cfcd6feabad4890df0ff040759c10f725bad449ca80f940d69b55af7b9a4d3"
+    },
+    {
+      "source": "bijoyism-website/dist/pages.js",
+      "target": "src/site/pages.js",
+      "sourceSha256": "1217d12116ae769ddc48443722ad49160ad0fd10c4fb803758618c798b63c53e"
+    },
+    {
+      "source": "bijoyism-website/dist/play-content.js",
+      "target": "src/site/play-content.js",
+      "sourceSha256": "02d328bb1f6132c5cce8915153e7e7ccc8bdd25ffa932ae4e9dceb21bd9a8741"
+    },
+    {
+      "source": "bijoyism-website/dist/site-copy.js",
+      "target": "src/site/site-copy.js",
+      "sourceSha256": "7e81342f48c0212113d14c582d04dd6007f98c066a51649322314cabbde7956c"
+    },
+    {
+      "source": "bijoyism-website/dist/play-interactions.js",
+      "target": "src/site/play-interactions.js",
+      "sourceSha256": "c498aa1e1b9f028b5faab33aab725a18478fe0bb92fa89a006e7d9932ce79db6"
+    }
+  ],
+  "assetsCopiedWithoutModification": true,
+  "assets": [
+    {
+      "path": "td02-press-exploration-v01.webp",
+      "sha256": "147d2af1321fa3c7cd9f8467a041d21924117733cf1ec4805b8b31d2f9069e97"
+    },
+    {
+      "path": "play-actions.svg",
+      "sha256": "f6181420bbe09619951cf72a49f944fd500e5c10d37e8bafa50d6a77a0b25bec"
+    },
+    {
+      "path": "hero.webp",
+      "sha256": "b90c2eaa5b65a0a96e77121c3b84bcb2542857f63f815904b910b79acf126c18"
+    },
+    {
+      "path": "td03-angled-v01.webp",
+      "sha256": "bdb25b80df4e8cac69c46622a369c4e67af9823fc5219c3a7f76de0642ed78f7"
+    },
+    {
+      "path": "animal-discovery.webp",
+      "sha256": "20f84bbddc126210b7c16fc5ffdf991384092f7c46dbaf55b2e2410b1e1fbdba"
+    },
+    {
+      "path": "corner.webp",
+      "sha256": "735de42e2fdfbed6b37af4637e299b9ff0944c3a3426ad50ec260eb5d1bc0c98"
+    },
+    {
+      "path": "shared-play.webp",
+      "sha256": "ce469601ecaf33140c6c71896ce0af8a7726dce8488dae1246c3bb6ceb472aa6"
+    },
+    {
+      "path": "td03-corner-v01.webp",
+      "sha256": "37bbdc421d5c728df88b659d9cea818063e0632f7ebec3c443f5df5c9dbb3545"
+    },
+    {
+      "path": "aqua-tones.webp",
+      "sha256": "6de893e447b554db3115a735d58739fe067899fbaaa074b365cabc5dfa8c7285"
+    },
+    {
+      "path": "td03-back-v01.webp",
+      "sha256": "0c0fd78cdb6862067e24b5cd491ec34c54212674ece6b7de50cf79589696c8e7"
+    },
+    {
+      "path": "hero-mobile.webp",
+      "sha256": "1e9251a299704968135198ef1dff2909602c5c0205ccf790c06c5dd28b2d2f47"
+    },
+    {
+      "path": "td03-reading-desktop-v01.webp",
+      "sha256": "6232bdc13f4f1f8e754ba2472ce89261bacd96736e87af7a404564a714009911"
+    },
+    {
+      "path": "logo-white.png",
+      "sha256": "c1adf2a306e79f5d7fff78936d3208ce482a72ffece1892179f98fa913906936"
+    },
+    {
+      "path": "td02-heart-path-v01.webp",
+      "sha256": "3b9eb6e66b2ab9d29ce87c99144d4065f449305932b35e3e9f05c30c646b1aba"
+    },
+    {
+      "path": "td03-share-en-v01.jpg",
+      "sha256": "2393c0f9b4a459b3a124895e986366774f06f57594b1a614776fd9c66216bdbb"
+    },
+    {
+      "path": "logo.png",
+      "sha256": "d3ad4933b70a1d2135e266a05c99d78509d04e189447dc3733d8874298ef729f"
+    },
+    {
+      "path": "td03-share-zh-cn-v01.jpg",
+      "sha256": "d643f676e9c014e9afc2c393aa9c1fb545f2c03348b9e880e42360ef00870003"
+    },
+    {
+      "path": "logo-white-v01.svg",
+      "sha256": "6a5db217977ad6e4a129796223af00f573fb22a79d0239d984f226103e8d3d29"
+    },
+    {
+      "path": "color-duos.webp",
+      "sha256": "392a3f57182515e4463fc8f3362cdc437480474960ebf50f48219f5293d61fb8"
+    },
+    {
+      "path": "logo-black-v01.svg",
+      "sha256": "59c17381fdf3c28491cf7c6c70a061217adcbce16bfd1aad1eb164617bafaf08"
+    },
+    {
+      "path": "td03-set-v01.webp",
+      "sha256": "f1e66c3123d39e95898b1614f3c7bbb302ef1b84e984822e1a4c66d25523e37e"
+    },
+    {
+      "path": "school-mobile-v01.webp",
+      "sha256": "2d363923626443f71da21b2f4a8a2bbedbe01a419d245a42176cff5be88190f4"
+    },
+    {
+      "path": "school-desktop-v01.webp",
+      "sha256": "2230c3b3e8897576488672c9277e2235b29a8e7dccceadaca4fe861925add34f"
+    },
+    {
+      "path": "logo-red-v01.svg",
+      "sha256": "7bc05e7c8ebbacdb29386810a981e789e69c9fe5eb9af1fc9c411bc822e4faad"
+    },
+    {
+      "path": "td02-rearrange-path-v01.webp",
+      "sha256": "f01986530251d53926b80db6c423363f7cbefe122c6f1cab537ab8e66c0cd80e"
+    },
+    {
+      "path": "td03-reading-mobile-v01.webp",
+      "sha256": "9bd974b22bb72b55423f0636dbdae4409c78ee4fc9184dbd6c50299fe03919d3"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "a372c8e24a640ea469dc8a462a3c90b1a42c261c498727afaeb9029f94b07094"
+    },
+    {
+      "path": "fonts/MiSans-Regular.ttf",
+      "sha256": "6aa32ded55e110a95be10080e0c322f2382681cd581c5cbb24f4fd4ce96fbb08"
+    },
+    {
+      "path": "fonts/Montserrat-400.woff2",
+      "sha256": "47c0a83344a3045137c1118e3b0112ed08bb1acb19b8899a5f4f7947e94cc1e0"
+    },
+    {
+      "path": "fonts/MiSans-License.pdf",
+      "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86"
+    },
+    {
+      "path": "fonts/AlimamaFangYuanTiVF-Thin.woff2",
+      "sha256": "47e697d4077a3f625b43d2f4cd9e2870f03ff8bab4086896bb56e6be19416649"
+    },
+    {
+      "path": "fonts/Montserrat-600.woff2",
+      "sha256": "0cd090924f3fd8152c4ea37c15ce4b87c18b682fc8446562bac59ac4acb1e898"
+    },
+    {
+      "path": "fonts/Montserrat-700.woff2",
+      "sha256": "e0485c2354f15ab256bf2ac095a409a99e8f408c3f850cbc4afefa34c5e17a26"
+    },
+    {
+      "path": "fonts/AlimamaFangYuanTiVF-Thin.ttf",
+      "sha256": "b0b8c4c057af7dbc6ccb52a3ad00138fed41d1ad37d4f4a666b6cd431c913d94"
+    },
+    {
+      "path": "fonts/Montserrat-700.ttf",
+      "sha256": "247f052d2f5b84a5bbe7831c3b08a71ca391ff54f1dfb9be88a3d3da569e3a38"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "fonts/MiSans-Regular.woff2",
+      "sha256": "861917f5457e400fea1cc57eed71d32db08b86d289619eb911ed6c5ee06418a2"
+    },
+    {
+      "path": "fonts/Montserrat-400.ttf",
+      "sha256": "84f3d3275dfb159dd311c61828fd754a82ec31c377120518e2cd3e7d34394e96"
+    },
+    {
+      "path": "fonts/Montserrat-600.ttf",
+      "sha256": "c535bb158e8cfc3c27654f73aa68a87732899e7d9b10d8496b68605a56d947a7"
+    }
+  ]
+}

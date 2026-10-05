@@ -1,0 +1,414 @@
+[
+  {
+    "locale": "en",
+    "route": "",
+    "textHash": "766e4ad6673b4cbe02d4681d04f1366b41adf7e98b0e232231e5cff16f9d4766"
+  },
+  {
+    "locale": "en",
+    "route": "products",
+    "textHash": "9bbd7f7cccea2803cfcb6a8afa74cdcbcb56f91d60c0759b5283f2c73e73abc6"
+  },
+  {
+    "locale": "en",
+    "route": "shop",
+    "textHash": "be3f5650414930784cb76d6a4d3a5d6ad855c2b4c8c21d3c86f44695a87959a8"
+  },
+  {
+    "locale": "en",
+    "route": "shop/collections",
+    "textHash": "be3f5650414930784cb76d6a4d3a5d6ad855c2b4c8c21d3c86f44695a87959a8"
+  },
+  {
+    "locale": "en",
+    "route": "shop/compare",
+    "textHash": "379e6c9889f3d38ad9af5a72fdeb93ee22ca644102fd71906bf9b29fd3db8176"
+  },
+  {
+    "locale": "en",
+    "route": "shop/find-your-fit",
+    "textHash": "ec431be92b459ac78980310080e26118daa140800b85568c966b5bc1853d0cb9"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas",
+    "textHash": "6e2310940d979f689d79445538f733d632c37ac089577c9612dcd525b40145cf"
+  },
+  {
+    "locale": "en",
+    "route": "our-products",
+    "textHash": "182e4b7e94259997db5adbcc29dfd2adc77c4cc615d96e6c5f6c8169fe689fd3"
+  },
+  {
+    "locale": "en",
+    "route": "our-products/care",
+    "textHash": "f5af68a0ed7ab72110a478aee25743c67cef5e546630f785b65dedfc8a0ec533"
+  },
+  {
+    "locale": "en",
+    "route": "our-products/testing",
+    "textHash": "fc58a3844953a84dc9c02030d7dc9caf8a2650d32d0bd373c551e5a0b27c9aef"
+  },
+  {
+    "locale": "en",
+    "route": "our-products/liquid-sensory-tiles",
+    "textHash": "7cd8064c4f3a97e35ca980e8b22e3685e81026c7e552b669b24cd5bee7ec613f"
+  },
+  {
+    "locale": "en",
+    "route": "families",
+    "textHash": "8403d9a90d7fa8758e88b2fabd710781e37d78d4d1115870574d237bdbfd1a01"
+  },
+  {
+    "locale": "en",
+    "route": "schools",
+    "textHash": "3c489c39212c6258d7ff47925af1bb44eeb8786cb31b59d0dd8322fab6c467e5"
+  },
+  {
+    "locale": "en",
+    "route": "about",
+    "textHash": "43efc62efc51d05c666254a0b2a46ff5c81d3d201b7548882ae154bfe4e052a9"
+  },
+  {
+    "locale": "en",
+    "route": "contact",
+    "textHash": "434951f37a152c26f7ea37b42b72c6cfdb22a33e247cc60f4289a3da2a00071f"
+  },
+  {
+    "locale": "en",
+    "route": "faq",
+    "textHash": "f9f43b3232925f1bfde91ceea431816ab4a1d9a9208705132c58890cbae7688e"
+  },
+  {
+    "locale": "en",
+    "route": "buying",
+    "textHash": "ba937196ca725793877416e78686cbe01829ce14f0f4c7d28190f4de903598aa"
+  },
+  {
+    "locale": "en",
+    "route": "privacy",
+    "textHash": "2815161a7e3c4da6ebcd245a7b6897c3888c5832566b78e2b4ebd1a84b414c5c"
+  },
+  {
+    "locale": "en",
+    "route": "products/td01-animal-discovery",
+    "textHash": "42b6418bee718a62eaaf3fac92d5a2f0398693a4ede8b1929225da778661977f"
+  },
+  {
+    "locale": "en",
+    "route": "products/td02-color-duos",
+    "textHash": "875715d57be2b6c40d2f913f052aae3382f0485cee95dae6226a6c80b8e0a9cb"
+  },
+  {
+    "locale": "en",
+    "route": "products/td03-aqua-tones",
+    "textHash": "eb3f134ff48667ac34bf3ec61532bff0afca36b32cf1b44c9d1a48beb8f67979"
+  },
+  {
+    "locale": "en",
+    "route": "collections/animal-discovery",
+    "textHash": "f15e3bfe4112266ef901667c283259af98c1eb270b46668b2615ddfcdaa8db28"
+  },
+  {
+    "locale": "en",
+    "route": "collections/color-duos",
+    "textHash": "af6b89b53fe2a9870804923febefb4a4fe390f8f5df89a39cc4c11612aaa5987"
+  },
+  {
+    "locale": "en",
+    "route": "collections/aqua-tones",
+    "textHash": "570eea90ce29b5b35749e5d6b70a08d1fdf460abb6ece92f531c2a33b1e43b95"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/animal-safari",
+    "textHash": "f4795f73f8219b4f5b415e61d95ab99acd3f6fcfb69e8ca2996a2b853b5cc176"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/move-like-an-animal",
+    "textHash": "955905ab6cb6c9a573d4041c3b57490f2fcac0ea0b10bc4a7becf6eaa40f50c8"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/story-steps",
+    "textHash": "f6a589f5113a2a84ad52be94af7199f76274f54506f39b9cd427df2c9aa8c890"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/color-command",
+    "textHash": "d4fb471418508333ddf9676d6fa8d22d5e55c46799562e0c02bdabe71efbc1bb"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/follow-my-path",
+    "textHash": "13eabe7215d8df424e09be228f445038c352a37f9d2ffe721a9573d8b1bfa0dd"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/build-a-color-course",
+    "textHash": "4424a40b71bf35ce8719e8ef01077329ce938ae090165282333f684ee8203b94"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/quiet-steps",
+    "textHash": "be7920221a6ac531eb4a0bffd56a39b265c9a27e58285ea0efea8e9661130fac"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/balance-islands",
+    "textHash": "e3be9c690804bbd5e6c3828c73290d3599d95ba41506fef6765e360e9f72b4aa"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/slow-motion-trail",
+    "textHash": "2426ac2d268586e222e043da914e3e07a5ef4d097cb9e32613017498c5090f03"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/adventure-trail",
+    "textHash": "a04e649a5ee8600c1f604346486d95bd26fec3c6a12693b46f2831553878b800"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/build-your-own-adventure",
+    "textHash": "2a6e5d7a4f139c8196625f3c51f7d50c9f11ab83cbdf1cbd4fc4dff308171d04"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/treasure-quest",
+    "textHash": "bd2635ac611d3b05ed0d1014de0d5bb2254192976ecf16c32a7f6296fa0cf6ba"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/choose-a-color",
+    "textHash": "1d543a56ded8fa6a2ab444cb6e713a9490ad086e9158096c68d219f40fa92279"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/quiet-color-watch",
+    "textHash": "3c3e8975fbfbf06888b75c46514bc3b9743b7bd2a349d012bb74ee114ada016f"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/three-tile-layouts",
+    "textHash": "bd23b6c2f0e7cbdf781e6eb9818137eb5274232f07ecc7eca2e13c463df8d6ff"
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/preschool-turn-taking",
+    "textHash": "789c8d32dba7f0abc30e3b5a8dbf15444c8fc24a557fac765045ffb713239f3d"
+  },
+  {
+    "locale": "zh",
+    "route": "",
+    "textHash": "2f518d3d7bf5d056a35370e776a13241563df5690dc74721ea5d843f40741ee4"
+  },
+  {
+    "locale": "zh",
+    "route": "products",
+    "textHash": "8420906472dcf2ad2039a8100028131b0cc5eaea65551fce242019824776a73b"
+  },
+  {
+    "locale": "zh",
+    "route": "shop",
+    "textHash": "649cfa4d95800b319a022442c5f8f0201630619018cf5dc374c3c2dedcd3fde7"
+  },
+  {
+    "locale": "zh",
+    "route": "shop/collections",
+    "textHash": "649cfa4d95800b319a022442c5f8f0201630619018cf5dc374c3c2dedcd3fde7"
+  },
+  {
+    "locale": "zh",
+    "route": "shop/compare",
+    "textHash": "6ca312013b0a6cfc3bbd5919402ccbf640c79059ca810c8895f3c2b90820dbaf"
+  },
+  {
+    "locale": "zh",
+    "route": "shop/find-your-fit",
+    "textHash": "ab54de1e2276c018dee879249b77bfb7280fa17bef32d72003ebd8f901049faf"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas",
+    "textHash": "de5d0d7139c018a12c04e3f854d3d00a6f7f4e28f3255a75925fe0ebbb6b4a95"
+  },
+  {
+    "locale": "zh",
+    "route": "our-products",
+    "textHash": "50ce94075dab01850f6e326ba2465105a64a60a2bdaafc274e8219333994f1fe"
+  },
+  {
+    "locale": "zh",
+    "route": "our-products/care",
+    "textHash": "fc00fef0e4a4fcdf963d8b18cb77d00d0e26fc1874ceb2e3a64e0ae452473bd2"
+  },
+  {
+    "locale": "zh",
+    "route": "our-products/testing",
+    "textHash": "d84592113f21f6eee49d77f07293ad4d38427f8d913a5a233dfa6b6efd18adeb"
+  },
+  {
+    "locale": "zh",
+    "route": "our-products/liquid-sensory-tiles",
+    "textHash": "7158a0187fb0331f386acef13bad4e6b5dcfc0a6172732d9a0d27af40c027c94"
+  },
+  {
+    "locale": "zh",
+    "route": "families",
+    "textHash": "229e0d9b4c8081e9059f6ab2f5a9a59232111155a0ae9b5374db39b3c6c7add0"
+  },
+  {
+    "locale": "zh",
+    "route": "schools",
+    "textHash": "0fd7fa41dc600161ee66ebabf8f62563864388e7f927b0c7e082fe42fdee4cb2"
+  },
+  {
+    "locale": "zh",
+    "route": "about",
+    "textHash": "5eabc513ac17fa795881e409cab3ad88d03bd366f5683a1d128300b4245932a3"
+  },
+  {
+    "locale": "zh",
+    "route": "contact",
+    "textHash": "cecae7114165d39dbd7f2e56e4f82e4e7e7c3649432961bad76a11f2ab4e243c"
+  },
+  {
+    "locale": "zh",
+    "route": "faq",
+    "textHash": "93a9b5bfd1d6de8239a617fe52655fb78e23e9d3ecf157234e28f9a03f8636e1"
+  },
+  {
+    "locale": "zh",
+    "route": "buying",
+    "textHash": "cdcfee8a336c233238a9ca8ed80c63e60e728f2593472a3d73932db958b5e90b"
+  },
+  {
+    "locale": "zh",
+    "route": "privacy",
+    "textHash": "222095efeb5aa2d4f54b5183860e48cf5da65177acf45f80c739f87242e2525d"
+  },
+  {
+    "locale": "zh",
+    "route": "products/td01-animal-discovery",
+    "textHash": "aba91e62149cda43efa9a9458101400fdadbe24f12270c0e0378b6169c526663"
+  },
+  {
+    "locale": "zh",
+    "route": "products/td02-color-duos",
+    "textHash": "5aeaf1d175a1b1d323dd31907e7271346618af04216215c684341e91c1e59f4c"
+  },
+  {
+    "locale": "zh",
+    "route": "products/td03-aqua-tones",
+    "textHash": "84124ac66fb47edbb4d36b7ddfeb6b3105ebe8810393f9852d62906f6c43f43b"
+  },
+  {
+    "locale": "zh",
+    "route": "collections/animal-discovery",
+    "textHash": "a6acda6673cdc7c2ce62c092fad042cec4b1daf77e00c93c51d63b99ca2707e6"
+  },
+  {
+    "locale": "zh",
+    "route": "collections/color-duos",
+    "textHash": "902250542fa713911a50f59fce69363caff577fcae63a922e0b0bc4019435f7a"
+  },
+  {
+    "locale": "zh",
+    "route": "collections/aqua-tones",
+    "textHash": "f5203cf5fde3f4125c688779804ac87f785e3cea194cada6278e8b703c7cff04"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/animal-safari",
+    "textHash": "e31e76e3a62506f980f6257d15d09ae9740b80af1f7385e1b5a7ff18e8d03932"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/move-like-an-animal",
+    "textHash": "787d953cae136e41b550313c89c4d5b7b6cc3b4cb3ce12a2c98594138a012271"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/story-steps",
+    "textHash": "94916989506ab35717d3602491adba15918326ccf518ee592b37dc732290cb26"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/color-command",
+    "textHash": "18bf43cf09402f054120cb0f3968f03a717e497e50b8512cc88fdbfd3c53fe66"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/follow-my-path",
+    "textHash": "0b113331852fd5a74509464337a8ab7e46870c821d0565409e1db432d4364efa"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/build-a-color-course",
+    "textHash": "06e0fdc93ae11e79f27024e760c2821372d5c0c37da664e9ba006e5be5b2393b"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/quiet-steps",
+    "textHash": "09fdf2747822bef6437610a436c880db99149b0bce990d31a52bd694fbb75cad"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/balance-islands",
+    "textHash": "8d7581287343f1b3513b7339bbd73e10620c8d610a0db8378c629f9ea334e775"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/slow-motion-trail",
+    "textHash": "4ceae661fd6d645eb25d764afd766511b4dbf6676b5bbbf2be16cfa16f41b8e6"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/adventure-trail",
+    "textHash": "b61becb731fc2116452ed9327bddd41f603781a1cce6ace4928021149c9b99d5"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/build-your-own-adventure",
+    "textHash": "83c5d2fdd27b4bfa49b0476a028e06ef78831c32e688fd2fd066fe3994e495ef"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/treasure-quest",
+    "textHash": "f20472bea21d2414888a6b11ceb679e4a60f324c0433c246c0c04040d858b0a8"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/choose-a-color",
+    "textHash": "ee9fcfca07fdcc7fe10d39ef8647636397a3243c066dd8fabcf50b1c1025315e"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/quiet-color-watch",
+    "textHash": "7d0d89fa1d462d561a949b77af007c34bdcd24dbf8056051b89fedfab00c884d"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/three-tile-layouts",
+    "textHash": "f7f2768b1a156fdd64a42a1f32643e3197f3532224f82d21a823c0c2a6aba80c"
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/preschool-turn-taking",
+    "textHash": "c87a3f8143241cf98dac35e908723c4f9a27cadcf7ed2acf9879a25a2117de4e"
+  },
+  {
+    "locale": "en",
+    "route": "contact",
+    "search": "?topic=customization",
+    "textHash": "52fa3e81458c46bc408189a9f80da010f0a024db68e662f4971399df393f7700"
+  },
+  {
+    "locale": "zh",
+    "route": "contact",
+    "search": "?topic=customization",
+    "textHash": "57f9d165a503d1d3f8d7752be34a1beea9fcf3a1500b4bf52dab5f6e1dcd41e9"
+  }
+]

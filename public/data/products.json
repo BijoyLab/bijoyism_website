@@ -1,0 +1,248 @@
+[
+  {
+    "id": "td01",
+    "slug": "animal-discovery",
+    "status": "live",
+    "featured": true,
+    "category": "liquid-sensory-tiles",
+    "ageMin": 3,
+    "pieceCount": 8,
+    "dimensions": {
+      "lengthIn": 11.8,
+      "widthIn": 11.8,
+      "thicknessIn": 0.24
+    },
+    "materials": {
+      "surface": "PVC",
+      "base": "TPE"
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "activities": [
+      "story",
+      "path",
+      "turns"
+    ],
+    "image": "/assets/animal-discovery.webp",
+    "accent": "#edbd37",
+    "name": {
+      "en": "Animal Discovery",
+      "zh": "动物探索"
+    },
+    "headline": {
+      "en": "Explore animals, colors, and stories with every step.",
+      "zh": "每一步，探索动物、色彩与故事。"
+    },
+    "description": {
+      "en": "Animal artwork, moving color, and eight separate tiles invite kids to notice, name, match, and imagine.",
+      "zh": "动物图案、流动色彩与 8 片独立地垫结合在一起，邀请孩子寻找、命名、配对和想象。"
+    },
+    "alt": {
+      "en": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid.",
+      "zh": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+    },
+    "factSource": "product-truth.md; TD01_Animal_Discovery_Listing_V5_CN_EN.md"
+  },
+  {
+    "id": "td02",
+    "slug": "color-duos",
+    "status": "live",
+    "featured": true,
+    "category": "liquid-sensory-tiles",
+    "ageMin": 3,
+    "pieceCount": 8,
+    "dimensions": {
+      "lengthIn": 11.8,
+      "widthIn": 11.8,
+      "thicknessIn": 0.24
+    },
+    "materials": {
+      "surface": "PVC",
+      "base": "TPE"
+    },
+    "settings": [
+      "home",
+      "classroom"
+    ],
+    "activities": [
+      "color",
+      "path",
+      "turns"
+    ],
+    "image": "/assets/color-duos.webp",
+    "accent": "#de777f",
+    "name": {
+      "en": "Color Duos",
+      "zh": "缤纷双色"
+    },
+    "headline": {
+      "en": "Turn each step into a color game.",
+      "zh": "双色流动，玩出不断变化的路线。"
+    },
+    "description": {
+      "en": "Two liquid colors shift into changing patterns when kids press or step, inviting color choices and open-ended movement play.",
+      "zh": "两种颜色随着按压或踩踏形成变化的液体纹理，邀请孩子选择颜色、观察变化和探索路线。"
+    },
+    "alt": {
+      "en": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns.",
+      "zh": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+    },
+    "factSource": "product-truth.md; TD02_Color_Duos_Listing_V2_CN_EN.md",
+    "gallery": [
+      {
+        "image": "/assets/color-duos.webp",
+        "label": {
+          "en": "Eight-tile set",
+          "zh": "八片整套"
+        },
+        "alt": {
+          "en": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns.",
+          "zh": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+        }
+      },
+      {
+        "image": "/assets/td02-press-exploration-v01.webp",
+        "label": {
+          "en": "Press and explore",
+          "zh": "按压探索"
+        },
+        "alt": {
+          "en": "A child presses a pink-purple Color Duos tile among eight separate tiles.",
+          "zh": "孩子双手按压粉紫双色地垫，周围共展示八片单层地垫。"
+        }
+      },
+      {
+        "image": "/assets/td02-heart-path-v01.webp",
+        "label": {
+          "en": "Extended heart layout — more than one set",
+          "zh": "扩展爱心布局示例：需要多于一套"
+        },
+        "alt": {
+          "en": "A parent and child explore an extended heart-shaped arrangement using more than eight tiles.",
+          "zh": "家长陪孩子探索爱心形扩展布局，图中使用超过八片地垫。"
+        }
+      },
+      {
+        "image": "/assets/td02-rearrange-path-v01.webp",
+        "label": {
+          "en": "Rearrange together",
+          "zh": "一起重排路径"
+        },
+        "alt": {
+          "en": "A parent and child hold a tile while rearranging a separate flat path.",
+          "zh": "家长和孩子一起拿起一片地垫，重新摆放地面上的独立地垫。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "td03",
+    "slug": "aqua-tones",
+    "status": "live",
+    "featured": true,
+    "category": "liquid-sensory-tiles",
+    "ageMin": 3,
+    "pieceCount": 8,
+    "dimensions": {
+      "lengthIn": 11.8,
+      "widthIn": 11.8,
+      "thicknessIn": 0.24
+    },
+    "materials": {
+      "surface": "PVC",
+      "base": "TPE"
+    },
+    "settings": [
+      "home",
+      "classroom",
+      "reading"
+    ],
+    "activities": [
+      "observe",
+      "path",
+      "turns"
+    ],
+    "image": "/assets/td03-set-v01.webp",
+    "accent": "#55a7b5",
+    "name": {
+      "en": "Aqua Tones",
+      "zh": "水漾色彩"
+    },
+    "headline": {
+      "en": "Create a calm corner in blue and green.",
+      "zh": "用蓝绿配色，营造一个沉静角落。"
+    },
+    "description": {
+      "en": "Four blue and four green tiles without animal artwork bring a coordinated palette to a reading nook, quiet corner, or sensory space.",
+      "zh": "四片蓝色与四片绿色地垫没有动物印刷图案，适合阅读角、安静角或感官空间中的观察活动。"
+    },
+    "alt": {
+      "en": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork.",
+      "zh": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+    },
+    "factSource": "TD3_Aqua_Tones_Amazon_Master_Plan_2026-10-02.md",
+    "gallery": [
+      {
+        "image": "/assets/td03-set-v01.webp",
+        "label": {
+          "en": "Eight-tile set",
+          "zh": "八片整套"
+        },
+        "alt": {
+          "en": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork.",
+          "zh": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+        }
+      },
+      {
+        "image": "/assets/td03-angled-v01.webp",
+        "label": {
+          "en": "Angled view",
+          "zh": "斜视外观"
+        },
+        "alt": {
+          "en": "A green Aqua Tones tile photographed at an angle.",
+          "zh": "绿色水漾色彩地垫的斜视外观。"
+        }
+      },
+      {
+        "image": "/assets/td03-reading-desktop-v01.webp",
+        "label": {
+          "en": "Press and observe",
+          "zh": "按压观察"
+        },
+        "alt": {
+          "en": "A child touches blue and green tiles beside a reading nook.",
+          "zh": "孩子在阅读角旁触摸蓝绿地垫，观察液体纹理。"
+        }
+      },
+      {
+        "image": "/assets/td03-corner-v01.webp",
+        "label": {
+          "en": "Surface and edge",
+          "zh": "表面与薄边"
+        },
+        "alt": {
+          "en": "Close-up of a blue tile surface and thin edge.",
+          "zh": "蓝色地垫表面与薄边实拍近景。"
+        }
+      },
+      {
+        "image": "/assets/td03-back-v01.webp",
+        "label": {
+          "en": "Textured reverse",
+          "zh": "背面纹理"
+        },
+        "alt": {
+          "en": "The photographed grey textured reverse of an Aqua Tones tile.",
+          "zh": "水漾色彩地垫灰色纹理背面实拍。"
+        }
+      }
+    ],
+    "shareImages": {
+      "en": "/assets/td03-share-en-v01.jpg",
+      "zh": "/assets/td03-share-zh-cn-v01.jpg"
+    }
+  }
+]

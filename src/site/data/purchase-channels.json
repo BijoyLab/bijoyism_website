@@ -1,0 +1,5 @@
+{
+  "td01":{"amazon":{"status":"connected","url":"https://www.amazon.com/dp/B0HCPQ373H?th=1","asin":"B0HCPQ373H","market":"US","identityVerifiedOn":"2026-10-02","identityEvidence":"Amazon variation set_name: TD01 Animal Prints","availability":"not-verified"},"taobao":{"status":"pending","url":null}},
+  "td02":{"amazon":{"status":"connected","url":"https://www.amazon.com/dp/B0HCPFBKS3?th=1","asin":"B0HCPFBKS3","market":"US","identityVerifiedOn":"2026-10-02","identityEvidence":"Amazon variation set_name: TD02 Dual Color on B0HCPQ373H page","availability":"not-verified","observedResolvedAsin":"B0HCPQ373H","verificationNote":"Requested TD02 URL returned the TD01 selected variant during retrieval. Keep the owner-provided TD02 ASIN URL; confirm Amazon variant selection before public launch."},"taobao":{"status":"pending","url":null}},
+  "td03":{"amazon":{"status":"connected","url":"https://www.amazon.com/dp/B0HCPR7VQM?th=1","asin":"B0HCPR7VQM","market":"US","identityVerifiedOn":"2026-10-02","identityEvidence":"Amazon variation set_name: TD03 Blue-Green","availability":"not-verified"},"taobao":{"status":"pending","url":null}}
+}
