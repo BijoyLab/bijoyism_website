@@ -164,7 +164,7 @@
       "path",
       "turns"
     ],
-    "image": "/assets/td03-set-v01.webp",
+    "image": "/assets/aqua-tones.webp",
     "accent": "#55a7b5",
     "name": {
       "en": "Aqua Tones",
@@ -185,7 +185,7 @@
     "factSource": "TD3_Aqua_Tones_Amazon_Master_Plan_2026-10-02.md",
     "gallery": [
       {
-        "image": "/assets/td03-set-v01.webp",
+        "image": "/assets/aqua-tones.webp",
         "label": {
           "en": "Eight-tile set",
           "zh": "八片整套"

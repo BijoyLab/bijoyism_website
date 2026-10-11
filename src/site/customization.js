@@ -14,10 +14,10 @@ export const customization={
    process:[['Share your brief','Tell us the collection, artwork or colors, quantity, and desired timing.'],['Review the scope & costs','Discuss the proposed design, production feasibility, and fees for your requirements.'],['Confirm the design & sample','Review the artwork and colors, then agree on the sampling arrangements and fees.'],['Plan the order & delivery','Confirm the final design, quantity, production schedule, and delivery arrangements.']],
    faqTitle:'Custom-project questions',
    faqs:[['Which collections can be customized?','All three: Animal Discovery (TD01), Color Duos (TD02), and Aqua Tones (TD03) support artwork and color customization.'],['Can we use our own artwork or logo?','Yes. You can supply your organization’s artwork or logo for the custom design.'],['Is there a minimum order quantity?','The minimum order quantity for customization is five sets.'],['Can we order a sample first?','Yes. Samples can be arranged first. Sample fees are determined by your requirements.'],['How much does customization cost, and how long will it take?','Project pricing, production timing, and delivery arrangements are confirmed after reviewing the design and requirements.']],
-   cta:'Discuss a custom project',ctaNote:'Complete the inquiry form, or email support@bijoyism.cc.',
+   cta:'Discuss a custom project',
    contactTitle:'Prepare your custom-project brief.',contactIntro:'Use this checklist to prepare a school or organization project for Animal Discovery, Color Duos, or Aqua Tones.',
    checklist:['Organization name, contact person, and email','Country or region and intended use setting','Preferred collection and artwork, logo, or color direction','Estimated quantity and desired delivery time','Optional reference images or existing artwork'],
-   contactNote:'Contact support@bijoyism.cc for your custom project.',back:'View customization options'
+   contactNote:'Contact support@bijoyism.cn for your custom project.',back:'View customization options'
   },
   'zh':{
    eyebrow:'为学校与机构定制',title:'为你的空间，定制图案与颜色。',
@@ -29,10 +29,10 @@ export const customization={
    process:[['分享需求','告诉我们目标系列、图案或配色方向、预计数量和期望时间。'],['确认范围与费用','结合需求讨论设计方案、生产可行性与具体费用。'],['确认图稿与打样','核对图案和配色，确认打样安排及费用。'],['确认订单与交付','确认最终设计、数量、生产时间和交付安排。']],
    faqTitle:'关于定制，你可能想知道',
    faqs:[['哪些系列支持定制？','动物探索 TD01、缤纷双色 TD02、水漾色彩 TD03，三个系列均支持图案与颜色定制。'],['可以使用机构自己的图稿或 Logo 吗？','可以。你可以提供机构自己的图稿或 Logo，用于定制设计。'],['最低起订量是多少？','定制产品最低起订量为 5 套。'],['可以先打样吗？费用如何计算？','可以先打样。打样费用根据具体需求确定。'],['定制费用和交期是多少？','设计与生产费用、生产时间和交付安排，将在了解具体设计和需求后确认。']],
-   cta:'咨询定制方案',ctaNote:'填写定制咨询表单，或发送邮件至 support@bijoyism.cc。',
+   cta:'咨询定制方案',
    contactTitle:'准备你的机构定制需求。',contactIntro:'动物探索、缤纷双色、水漾色彩均可定制。用下面的清单整理需求，方便后续沟通。',
    checklist:['机构名称、联系人和邮箱','所在国家／地区及计划使用的空间','目标系列，以及图稿、Logo 或配色方向','预计数量和期望交付时间','可选的参考图片或现有图稿'],
-   contactNote:'定制需求请联系 support@bijoyism.cc。',back:'返回定制服务介绍'
+   contactNote:'定制需求请联系 support@bijoyism.cn。',back:'返回定制服务介绍'
   }
  }
 };

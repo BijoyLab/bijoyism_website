@@ -46,7 +46,7 @@ export default async function Page(props: Props) {
   const { locale, route, search } = await context(props);
   const page = pageInfo(locale, route, search);
   const url = `https://bijoyism.cc/${locale}/${route}${route ? "/" : ""}`;
-  const organization = { "@type": "Organization", "@id": "https://bijoyism.cc/#organization", name: "BIJOYISM", url: "https://bijoyism.cc", email: "support@bijoyism.cc", logo: "https://bijoyism.cc/assets/logo-red-v01.svg" };
+  const organization = { "@type": "Organization", "@id": "https://bijoyism.cc/#organization", name: "BIJOYISM", url: "https://bijoyism.cc", email: "support@bijoyism.cn", logo: "https://bijoyism.cc/assets/logo-red-v01.svg" };
   const graph: Record<string, unknown>[] = [organization, { "@type": "WebSite", "@id": "https://bijoyism.cc/#website", name: "BIJOYISM", url: "https://bijoyism.cc", publisher: { "@id": organization["@id"] } }, { "@type": "WebPage", "@id": `${url}#webpage`, url, name: page.title, description: page.description, inLanguage: locale === "zh" ? "zh-CN" : "en" }];
   if (route) graph.push({ "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: locale === "zh" ? "首页" : "Home", item: `https://bijoyism.cc/${locale}/` }, { "@type": "ListItem", position: 2, name: page.title, item: url }] });
   const product = products.find((p) => route === productPath(p));

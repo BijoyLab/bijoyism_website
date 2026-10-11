@@ -2,413 +2,413 @@
   {
     "locale": "en",
     "route": "",
-    "textHash": "766e4ad6673b4cbe02d4681d04f1366b41adf7e98b0e232231e5cff16f9d4766"
+    "textHash": "16cbb3636d9e358a301adc5a8e271d02820ae9b07960fbdc0bc263a135c9b6e0"
   },
   {
     "locale": "en",
     "route": "products",
-    "textHash": "9bbd7f7cccea2803cfcb6a8afa74cdcbcb56f91d60c0759b5283f2c73e73abc6"
+    "textHash": "943a11c56cc92c1b55f66cdbf63fd698caff5604a50bf5043c4026782df20ebe"
   },
   {
     "locale": "en",
     "route": "shop",
-    "textHash": "be3f5650414930784cb76d6a4d3a5d6ad855c2b4c8c21d3c86f44695a87959a8"
+    "textHash": "e1a712abbb208ea7350181a75cbb3e4a758ad92e9fd5a251040e4d0fe14a0063"
   },
   {
     "locale": "en",
     "route": "shop/collections",
-    "textHash": "be3f5650414930784cb76d6a4d3a5d6ad855c2b4c8c21d3c86f44695a87959a8"
+    "textHash": "e1a712abbb208ea7350181a75cbb3e4a758ad92e9fd5a251040e4d0fe14a0063"
   },
   {
     "locale": "en",
     "route": "shop/compare",
-    "textHash": "379e6c9889f3d38ad9af5a72fdeb93ee22ca644102fd71906bf9b29fd3db8176"
+    "textHash": "8912ed3425de7a10882c5ef75d17b646513d4df2395ab1a4802824c9f68b44af"
   },
   {
     "locale": "en",
     "route": "shop/find-your-fit",
-    "textHash": "ec431be92b459ac78980310080e26118daa140800b85568c966b5bc1853d0cb9"
+    "textHash": "90a578cf89fddfef89a01e04c153e4b4138cca1761154fbff99c47a29ba3fbed"
   },
   {
     "locale": "en",
     "route": "play-ideas",
-    "textHash": "6e2310940d979f689d79445538f733d632c37ac089577c9612dcd525b40145cf"
+    "textHash": "b68708d4f9e3360224ed6ced2442130156d609933702b9680fa9f80fe492f25d"
   },
   {
     "locale": "en",
     "route": "our-products",
-    "textHash": "182e4b7e94259997db5adbcc29dfd2adc77c4cc615d96e6c5f6c8169fe689fd3"
+    "textHash": "e28fc376ff7d26d3504e3deb2a265b3231e3b4a3e0f1578e79225a875aedb8c9"
   },
   {
     "locale": "en",
     "route": "our-products/care",
-    "textHash": "f5af68a0ed7ab72110a478aee25743c67cef5e546630f785b65dedfc8a0ec533"
+    "textHash": "c200df0d7c1cf73cc65d046a2af0414dc35c6c4139bc2c0b330039f8d9862028"
   },
   {
     "locale": "en",
     "route": "our-products/testing",
-    "textHash": "fc58a3844953a84dc9c02030d7dc9caf8a2650d32d0bd373c551e5a0b27c9aef"
+    "textHash": "b88ace532e539d979c88170d1e75c922c1ace02daadbf2cc66d8f05453e583e2"
   },
   {
     "locale": "en",
     "route": "our-products/liquid-sensory-tiles",
-    "textHash": "7cd8064c4f3a97e35ca980e8b22e3685e81026c7e552b669b24cd5bee7ec613f"
+    "textHash": "08f6548ca82c9cc3ba999b43332790fa3dfa4c1ca13656a6d70c68b6b15fd1f6"
   },
   {
     "locale": "en",
     "route": "families",
-    "textHash": "8403d9a90d7fa8758e88b2fabd710781e37d78d4d1115870574d237bdbfd1a01"
+    "textHash": "097f8ce875f46ec5317d7c271b051633994c9445b69d0a582b513409d183a567"
   },
   {
     "locale": "en",
     "route": "schools",
-    "textHash": "3c489c39212c6258d7ff47925af1bb44eeb8786cb31b59d0dd8322fab6c467e5"
+    "textHash": "27c3e65d52fb4ecb575735ca0b25c805f42fd64ea11c1c1ca38c57c65808ec2b"
   },
   {
     "locale": "en",
     "route": "about",
-    "textHash": "43efc62efc51d05c666254a0b2a46ff5c81d3d201b7548882ae154bfe4e052a9"
+    "textHash": "dcefdbbee012efbabfe70b4ae43a79ca2592197b3b2cd13b34e584af1bb8478e"
   },
   {
     "locale": "en",
     "route": "contact",
-    "textHash": "434951f37a152c26f7ea37b42b72c6cfdb22a33e247cc60f4289a3da2a00071f"
+    "textHash": "5a9dd37ff5f3a2aa3f7e74e50da3496ad2b59af410ff5ce81fb6cefafeff0a4f"
   },
   {
     "locale": "en",
     "route": "faq",
-    "textHash": "f9f43b3232925f1bfde91ceea431816ab4a1d9a9208705132c58890cbae7688e"
+    "textHash": "f25e5df0e50926813aad9754f73253701afb857cb401e2dfba2625f0839231f3"
   },
   {
     "locale": "en",
     "route": "buying",
-    "textHash": "ba937196ca725793877416e78686cbe01829ce14f0f4c7d28190f4de903598aa"
+    "textHash": "6591610cc0f2af26c7beaa2deab8b3b36777681c1b571d61172f8d8580af7874"
   },
   {
     "locale": "en",
     "route": "privacy",
-    "textHash": "2815161a7e3c4da6ebcd245a7b6897c3888c5832566b78e2b4ebd1a84b414c5c"
+    "textHash": "863c9dce00c58b65f125da1b293a7a86373397a7cc0667f1a973b82cdbb8bae5"
   },
   {
     "locale": "en",
     "route": "products/td01-animal-discovery",
-    "textHash": "42b6418bee718a62eaaf3fac92d5a2f0398693a4ede8b1929225da778661977f"
+    "textHash": "2cb971cc89db6a50a0e390f951c57ba1941b72c1b06ce20f5c9c79afc503eb29"
   },
   {
     "locale": "en",
     "route": "products/td02-color-duos",
-    "textHash": "875715d57be2b6c40d2f913f052aae3382f0485cee95dae6226a6c80b8e0a9cb"
+    "textHash": "e0f383a6837640fcaa47b108a77bdd5bc1fa63b67022e37577e8f3f3df6d369e"
   },
   {
     "locale": "en",
     "route": "products/td03-aqua-tones",
-    "textHash": "eb3f134ff48667ac34bf3ec61532bff0afca36b32cf1b44c9d1a48beb8f67979"
+    "textHash": "e6d140156ea0d856f134be04a897b4a37d59324d9fb377c5035fa253d3e73804"
   },
   {
     "locale": "en",
     "route": "collections/animal-discovery",
-    "textHash": "f15e3bfe4112266ef901667c283259af98c1eb270b46668b2615ddfcdaa8db28"
+    "textHash": "3104c7855d2927f3f01bb2fb9c526c54eacf9dac3c193f85924b36d0fb3b81bf"
   },
   {
     "locale": "en",
     "route": "collections/color-duos",
-    "textHash": "af6b89b53fe2a9870804923febefb4a4fe390f8f5df89a39cc4c11612aaa5987"
+    "textHash": "f09c4ed4d12e5a1b28fc75c0eb11001325e73bdc1678ccd13cf0eeb1d2a2f637"
   },
   {
     "locale": "en",
     "route": "collections/aqua-tones",
-    "textHash": "570eea90ce29b5b35749e5d6b70a08d1fdf460abb6ece92f531c2a33b1e43b95"
+    "textHash": "f941c7d26658fcb8ea7fcbb6fece006a7bdba1941b8d029312efe22790b59eb7"
   },
   {
     "locale": "en",
     "route": "play-ideas/animal-safari",
-    "textHash": "f4795f73f8219b4f5b415e61d95ab99acd3f6fcfb69e8ca2996a2b853b5cc176"
+    "textHash": "ef1769909889582d32548c7f3013af9a15a0418d774c17a1dc4099c71b17d682"
   },
   {
     "locale": "en",
     "route": "play-ideas/move-like-an-animal",
-    "textHash": "955905ab6cb6c9a573d4041c3b57490f2fcac0ea0b10bc4a7becf6eaa40f50c8"
+    "textHash": "bd1e73b6dea7333cda7e33b091baafcb69aff70edc1bc1136f7f4dafdb23fd98"
   },
   {
     "locale": "en",
     "route": "play-ideas/story-steps",
-    "textHash": "f6a589f5113a2a84ad52be94af7199f76274f54506f39b9cd427df2c9aa8c890"
+    "textHash": "e858a39f5dd240e3b6e3c3644b5eafe9a80adf794fb83b5dfa4b095d922271ce"
   },
   {
     "locale": "en",
     "route": "play-ideas/color-command",
-    "textHash": "d4fb471418508333ddf9676d6fa8d22d5e55c46799562e0c02bdabe71efbc1bb"
+    "textHash": "a2141dc6abfaf97558ce5cbd8ecb8cc68164d4cdc8492c64028846133198fbc0"
   },
   {
     "locale": "en",
     "route": "play-ideas/follow-my-path",
-    "textHash": "13eabe7215d8df424e09be228f445038c352a37f9d2ffe721a9573d8b1bfa0dd"
+    "textHash": "73cfe84973efbe758eb98680846b16aa81328084b1ee4472df7354328f6e62a1"
   },
   {
     "locale": "en",
     "route": "play-ideas/build-a-color-course",
-    "textHash": "4424a40b71bf35ce8719e8ef01077329ce938ae090165282333f684ee8203b94"
+    "textHash": "c88b4d540a8ba204297c24cd5c56dcde4176321cc775d2ba770af352a422f2a8"
   },
   {
     "locale": "en",
     "route": "play-ideas/quiet-steps",
-    "textHash": "be7920221a6ac531eb4a0bffd56a39b265c9a27e58285ea0efea8e9661130fac"
+    "textHash": "5c827388630f353fc1c933c11782d259adb4e33d70a256d7e6eccca601af5584"
   },
   {
     "locale": "en",
     "route": "play-ideas/balance-islands",
-    "textHash": "e3be9c690804bbd5e6c3828c73290d3599d95ba41506fef6765e360e9f72b4aa"
+    "textHash": "3d558308efee3da4a59fc668893dc5d9f74b9fd9c077e98758292e02db5ff15d"
   },
   {
     "locale": "en",
     "route": "play-ideas/slow-motion-trail",
-    "textHash": "2426ac2d268586e222e043da914e3e07a5ef4d097cb9e32613017498c5090f03"
+    "textHash": "b6ae0745981c5412a9d278e8d33f55d6700a98aef1cded78aed6ffd680de98b1"
   },
   {
     "locale": "en",
     "route": "play-ideas/adventure-trail",
-    "textHash": "a04e649a5ee8600c1f604346486d95bd26fec3c6a12693b46f2831553878b800"
+    "textHash": "2a447f68a4dce9576145ace92677ca49d0524ba6a6df6ce08d40c049efbe4f87"
   },
   {
     "locale": "en",
     "route": "play-ideas/build-your-own-adventure",
-    "textHash": "2a6e5d7a4f139c8196625f3c51f7d50c9f11ab83cbdf1cbd4fc4dff308171d04"
+    "textHash": "9c35d62414eb439e61952088b960dcab0e18c5e332947bd712a783c34cedc99a"
   },
   {
     "locale": "en",
     "route": "play-ideas/treasure-quest",
-    "textHash": "bd2635ac611d3b05ed0d1014de0d5bb2254192976ecf16c32a7f6296fa0cf6ba"
+    "textHash": "7a2e4eed63c90ef98af986897a0604ad8382fd78557351874a0a90855623aba0"
   },
   {
     "locale": "en",
     "route": "play-ideas/choose-a-color",
-    "textHash": "1d543a56ded8fa6a2ab444cb6e713a9490ad086e9158096c68d219f40fa92279"
+    "textHash": "0f7df7cec804ea641e7259d23496f37df834add36488c0b2e141d90c3ceb58f2"
   },
   {
     "locale": "en",
     "route": "play-ideas/quiet-color-watch",
-    "textHash": "3c3e8975fbfbf06888b75c46514bc3b9743b7bd2a349d012bb74ee114ada016f"
+    "textHash": "e846ac1b085c539043e92b6dde44594501e0f9b11c714b21c0e4425c6fbcd5ec"
   },
   {
     "locale": "en",
     "route": "play-ideas/three-tile-layouts",
-    "textHash": "bd23b6c2f0e7cbdf781e6eb9818137eb5274232f07ecc7eca2e13c463df8d6ff"
+    "textHash": "05a85c3278bdec5b8864d443f2f0681afc562e9968f2c3cbc82a5872c6e177bd"
   },
   {
     "locale": "en",
     "route": "play-ideas/preschool-turn-taking",
-    "textHash": "789c8d32dba7f0abc30e3b5a8dbf15444c8fc24a557fac765045ffb713239f3d"
+    "textHash": "e7c122420ddb4c2bff314a9d2bf20d86dd4b6934909e41bc36177192ef824ff0"
   },
   {
     "locale": "zh",
     "route": "",
-    "textHash": "2f518d3d7bf5d056a35370e776a13241563df5690dc74721ea5d843f40741ee4"
+    "textHash": "a7a96de48529c5f69af7f3baddbc2f3eb8054a926cb363459faa16a596f2fa78"
   },
   {
     "locale": "zh",
     "route": "products",
-    "textHash": "8420906472dcf2ad2039a8100028131b0cc5eaea65551fce242019824776a73b"
+    "textHash": "ea9edfc1eb82c936beb057e852b77db475b74869c86db3f1e8cd2db29fcafa02"
   },
   {
     "locale": "zh",
     "route": "shop",
-    "textHash": "649cfa4d95800b319a022442c5f8f0201630619018cf5dc374c3c2dedcd3fde7"
+    "textHash": "cfb01515f9ea59e662b75439215bbe0a5dd8b7c6501d5849d029aff44589b208"
   },
   {
     "locale": "zh",
     "route": "shop/collections",
-    "textHash": "649cfa4d95800b319a022442c5f8f0201630619018cf5dc374c3c2dedcd3fde7"
+    "textHash": "cfb01515f9ea59e662b75439215bbe0a5dd8b7c6501d5849d029aff44589b208"
   },
   {
     "locale": "zh",
     "route": "shop/compare",
-    "textHash": "6ca312013b0a6cfc3bbd5919402ccbf640c79059ca810c8895f3c2b90820dbaf"
+    "textHash": "4efe74edb28d4441139f55dd72ed6cc1c33573a5bde5b0093356754c6f308de1"
   },
   {
     "locale": "zh",
     "route": "shop/find-your-fit",
-    "textHash": "ab54de1e2276c018dee879249b77bfb7280fa17bef32d72003ebd8f901049faf"
+    "textHash": "8c54c7a105e1146d772e9dedde12d6398babd3a8cb0653ee214a455c691300ea"
   },
   {
     "locale": "zh",
     "route": "play-ideas",
-    "textHash": "de5d0d7139c018a12c04e3f854d3d00a6f7f4e28f3255a75925fe0ebbb6b4a95"
+    "textHash": "84059bdd95ea8c5bb9748cae29ce34e0216e84b80fe234f93411c60c68a69605"
   },
   {
     "locale": "zh",
     "route": "our-products",
-    "textHash": "50ce94075dab01850f6e326ba2465105a64a60a2bdaafc274e8219333994f1fe"
+    "textHash": "4845e46a58868665a732ef5bc0740eab4fa478b104f9fc8498dc72ef2ffaf501"
   },
   {
     "locale": "zh",
     "route": "our-products/care",
-    "textHash": "fc00fef0e4a4fcdf963d8b18cb77d00d0e26fc1874ceb2e3a64e0ae452473bd2"
+    "textHash": "8ab0dd3259481a09fb5f2723383a5af46f6f8cb2ae77969b66253c16d571d8a3"
   },
   {
     "locale": "zh",
     "route": "our-products/testing",
-    "textHash": "d84592113f21f6eee49d77f07293ad4d38427f8d913a5a233dfa6b6efd18adeb"
+    "textHash": "e9eb57e1f7c9294d8515f8cae253f09b1d03be0b436553594dda27b3e46a4f60"
   },
   {
     "locale": "zh",
     "route": "our-products/liquid-sensory-tiles",
-    "textHash": "7158a0187fb0331f386acef13bad4e6b5dcfc0a6172732d9a0d27af40c027c94"
+    "textHash": "06ddb40a560de8b9239acd1082c49f0af294de5a7bf53761c9a0dabf7781e4fe"
   },
   {
     "locale": "zh",
     "route": "families",
-    "textHash": "229e0d9b4c8081e9059f6ab2f5a9a59232111155a0ae9b5374db39b3c6c7add0"
+    "textHash": "987a911fef0e37fa8e426824002e2b0785b37afd312ec4caf037aea88d930918"
   },
   {
     "locale": "zh",
     "route": "schools",
-    "textHash": "0fd7fa41dc600161ee66ebabf8f62563864388e7f927b0c7e082fe42fdee4cb2"
+    "textHash": "34c1bf4398920075792b51a098e9f455875f476ba62a656d6b09408311b94ec1"
   },
   {
     "locale": "zh",
     "route": "about",
-    "textHash": "5eabc513ac17fa795881e409cab3ad88d03bd366f5683a1d128300b4245932a3"
+    "textHash": "534de97971e9559b267125eb79856729e278537cbdb32c3506c12a7d2878161f"
   },
   {
     "locale": "zh",
     "route": "contact",
-    "textHash": "cecae7114165d39dbd7f2e56e4f82e4e7e7c3649432961bad76a11f2ab4e243c"
+    "textHash": "7172c90d941db039964c13ff9c8631350e6464945dd5e72e223a017900fa0300"
   },
   {
     "locale": "zh",
     "route": "faq",
-    "textHash": "93a9b5bfd1d6de8239a617fe52655fb78e23e9d3ecf157234e28f9a03f8636e1"
+    "textHash": "8a487e2e0e404d0848f7d2f649f9c4011d971b9124c842f8305d2a86251ba6dd"
   },
   {
     "locale": "zh",
     "route": "buying",
-    "textHash": "cdcfee8a336c233238a9ca8ed80c63e60e728f2593472a3d73932db958b5e90b"
+    "textHash": "0cab8085a6e379110c6a3af84461c62472cdadeed974fa894729a5fcad720b04"
   },
   {
     "locale": "zh",
     "route": "privacy",
-    "textHash": "222095efeb5aa2d4f54b5183860e48cf5da65177acf45f80c739f87242e2525d"
+    "textHash": "0e2af7f4d867aae969f702bcda5471b7ca54fd3ee31d522f96e074f1f6caa4c1"
   },
   {
     "locale": "zh",
     "route": "products/td01-animal-discovery",
-    "textHash": "aba91e62149cda43efa9a9458101400fdadbe24f12270c0e0378b6169c526663"
+    "textHash": "b5788b83cfd58a9034bd7889d30a5629062f01793ddafd789ef0e114dad829eb"
   },
   {
     "locale": "zh",
     "route": "products/td02-color-duos",
-    "textHash": "5aeaf1d175a1b1d323dd31907e7271346618af04216215c684341e91c1e59f4c"
+    "textHash": "5535b1033fe8a10ed4038a58c7987dfecb9ed84f564eb258e54fb7d23f03fa4b"
   },
   {
     "locale": "zh",
     "route": "products/td03-aqua-tones",
-    "textHash": "84124ac66fb47edbb4d36b7ddfeb6b3105ebe8810393f9852d62906f6c43f43b"
+    "textHash": "2ccc173f55c658fdd994bb5942c89738905580021596f81d5b46e6bbb9b4fa4b"
   },
   {
     "locale": "zh",
     "route": "collections/animal-discovery",
-    "textHash": "a6acda6673cdc7c2ce62c092fad042cec4b1daf77e00c93c51d63b99ca2707e6"
+    "textHash": "3f302b0611ff0a0eb25c29b255449e95aab4fb1c49f2d8571150e9562b477937"
   },
   {
     "locale": "zh",
     "route": "collections/color-duos",
-    "textHash": "902250542fa713911a50f59fce69363caff577fcae63a922e0b0bc4019435f7a"
+    "textHash": "996009ded7a1cbdeecb35f35949e6b018dfaf0824a8a9469a1782944ff46b95c"
   },
   {
     "locale": "zh",
     "route": "collections/aqua-tones",
-    "textHash": "f5203cf5fde3f4125c688779804ac87f785e3cea194cada6278e8b703c7cff04"
+    "textHash": "d55a46a620cc56521e0087482c45dd8af3492804746908ee90f7deab6c1bda6a"
   },
   {
     "locale": "zh",
     "route": "play-ideas/animal-safari",
-    "textHash": "e31e76e3a62506f980f6257d15d09ae9740b80af1f7385e1b5a7ff18e8d03932"
+    "textHash": "94a6da4ce992afffcf3853589c2f97d33848216f709d412e4b8147c4a4cef635"
   },
   {
     "locale": "zh",
     "route": "play-ideas/move-like-an-animal",
-    "textHash": "787d953cae136e41b550313c89c4d5b7b6cc3b4cb3ce12a2c98594138a012271"
+    "textHash": "8e7b7c088ae8e7782ddeb0eb36e0d0bc09298a8da8033138baba6d9a1e47f6e6"
   },
   {
     "locale": "zh",
     "route": "play-ideas/story-steps",
-    "textHash": "94916989506ab35717d3602491adba15918326ccf518ee592b37dc732290cb26"
+    "textHash": "c5f1b070c7cdc01950f5e8bd536b47ffb56989a0b6e635156448faf66657eacf"
   },
   {
     "locale": "zh",
     "route": "play-ideas/color-command",
-    "textHash": "18bf43cf09402f054120cb0f3968f03a717e497e50b8512cc88fdbfd3c53fe66"
+    "textHash": "2a3d3b94ab81e400d214be3387f5eee26984c6bb3061c3cfa4b44b61266cb9ff"
   },
   {
     "locale": "zh",
     "route": "play-ideas/follow-my-path",
-    "textHash": "0b113331852fd5a74509464337a8ab7e46870c821d0565409e1db432d4364efa"
+    "textHash": "6a05a14e36f2b7fb55297cf6f16916d289d078075668fb679a342fe8badb5371"
   },
   {
     "locale": "zh",
     "route": "play-ideas/build-a-color-course",
-    "textHash": "06e0fdc93ae11e79f27024e760c2821372d5c0c37da664e9ba006e5be5b2393b"
+    "textHash": "ae929d297f749118e3b5ca49fd72d1b4f5b84cc5c759ab780be549749edd64e9"
   },
   {
     "locale": "zh",
     "route": "play-ideas/quiet-steps",
-    "textHash": "09fdf2747822bef6437610a436c880db99149b0bce990d31a52bd694fbb75cad"
+    "textHash": "ccf4f9de2a07db581bbbba704aa8e0eee52d757e68d73a9c441559cf1e62f53f"
   },
   {
     "locale": "zh",
     "route": "play-ideas/balance-islands",
-    "textHash": "8d7581287343f1b3513b7339bbd73e10620c8d610a0db8378c629f9ea334e775"
+    "textHash": "54554bf15c30eeb5316a64e1ba148887f518d776bb5b29394cf5dabbbfc25936"
   },
   {
     "locale": "zh",
     "route": "play-ideas/slow-motion-trail",
-    "textHash": "4ceae661fd6d645eb25d764afd766511b4dbf6676b5bbbf2be16cfa16f41b8e6"
+    "textHash": "671b0496f8b1fad0859f5ce526a93f1296cdc0d30bbfc1ec604b543d032e1399"
   },
   {
     "locale": "zh",
     "route": "play-ideas/adventure-trail",
-    "textHash": "b61becb731fc2116452ed9327bddd41f603781a1cce6ace4928021149c9b99d5"
+    "textHash": "56d1d899c276732d3b34e7a301bde4452c9a2f36673e639ed41219a18399b9d4"
   },
   {
     "locale": "zh",
     "route": "play-ideas/build-your-own-adventure",
-    "textHash": "83c5d2fdd27b4bfa49b0476a028e06ef78831c32e688fd2fd066fe3994e495ef"
+    "textHash": "ed0ddb6fbecb62f7b1d2203f06f905e63c0edc909a0f9e40aac2cc4e2559793e"
   },
   {
     "locale": "zh",
     "route": "play-ideas/treasure-quest",
-    "textHash": "f20472bea21d2414888a6b11ceb679e4a60f324c0433c246c0c04040d858b0a8"
+    "textHash": "6765c7287e887cf0e09ded3324783dd49586880fab836010a43de755b65fdc58"
   },
   {
     "locale": "zh",
     "route": "play-ideas/choose-a-color",
-    "textHash": "ee9fcfca07fdcc7fe10d39ef8647636397a3243c066dd8fabcf50b1c1025315e"
+    "textHash": "0c292d3a1ca9d67537b76274e9337fc502e0b6837546e14064dc4bbb0bdbd5d8"
   },
   {
     "locale": "zh",
     "route": "play-ideas/quiet-color-watch",
-    "textHash": "7d0d89fa1d462d561a949b77af007c34bdcd24dbf8056051b89fedfab00c884d"
+    "textHash": "f1009f7127fe22832b8fbdb90c761ff8d934fdb9f9882250601bf0dc7388b5d9"
   },
   {
     "locale": "zh",
     "route": "play-ideas/three-tile-layouts",
-    "textHash": "f7f2768b1a156fdd64a42a1f32643e3197f3532224f82d21a823c0c2a6aba80c"
+    "textHash": "b6b8015e47f9d39521cc1b9d45f2cb6596d754a4c3062d35064e9bb34695ffb6"
   },
   {
     "locale": "zh",
     "route": "play-ideas/preschool-turn-taking",
-    "textHash": "c87a3f8143241cf98dac35e908723c4f9a27cadcf7ed2acf9879a25a2117de4e"
+    "textHash": "2eb8367aa1d13fe18a1511740bead543eb155c009ca614538f304ee6acb200ab"
   },
   {
     "locale": "en",
     "route": "contact",
     "search": "?topic=customization",
-    "textHash": "52fa3e81458c46bc408189a9f80da010f0a024db68e662f4971399df393f7700"
+    "textHash": "c9afb018f816622180b60b5c2a898af9edff177fedab6c51c57a2426ff50a67a"
   },
   {
     "locale": "zh",
     "route": "contact",
     "search": "?topic=customization",
-    "textHash": "57f9d165a503d1d3f8d7752be34a1beea9fcf3a1500b4bf52dab5f6e1dcd41e9"
+    "textHash": "f60c03f65e6810e3371d3c27962d7598beecb985ee289466fa9bfd25c4b07aa0"
   }
 ]

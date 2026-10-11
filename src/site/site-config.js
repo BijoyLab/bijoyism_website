@@ -1,1 +1,1 @@
-export const siteConfig={origin:'https://bijoyism.cc',releaseMode:'preview',supportEmail:'support@bijoyism.cc'};
+export const siteConfig={origin:'https://bijoyism.cc',supportEmail:'support@bijoyism.cn'};

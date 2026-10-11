@@ -1,0 +1,39 @@
+{
+  "updated": "2026-10-05",
+  "projectRoot": "/Users/emiliachen/Projects/Bijoysim_amazon_share",
+  "websiteRoot": "/Users/emiliachen/Projects/Bijoysim_amazon_share/技术/bijoyism_website",
+  "archiveRoot": "materials",
+  "webAssetsRoot": "public/assets",
+  "webManifest": "docs/website-asset-manifest.json",
+  "requirements": "materials/records/asset-requirements.json",
+  "progress": "materials/records/asset-progress.json",
+  "checklist": "docs/website-materials-checklist-2026-10-03.md",
+  "content": {
+    "products": "src/site/data/products.json",
+    "playIdeas": "src/site/play-content.js",
+    "templates": [
+      "src/site/pages.js",
+      "src/site/site-render.js",
+      "src/site/play-library.js"
+    ],
+    "locales": [
+      "en",
+      "zh"
+    ],
+    "legacyLocale": "zh-cn",
+    "publicData": "Compatibility snapshots only; do not use as authoritative content"
+  },
+  "productEvidence": {
+    "truth": "Product/03-truth/product-truth.md",
+    "constraints": "brand/temp/td01-product-visual-constraints.md",
+    "td01": "Product/02-assets/td01-library",
+    "td02": "Product/02-assets/td02-library",
+    "td03": "Product/02-assets/td03-library",
+    "packaging": "brand/packaging-library"
+  },
+  "legacyPlayIds": {
+    "animal-story-trail": "story-steps",
+    "calm-corner-path": "quiet-steps"
+  },
+  "previousWebsiteRoot": "/Users/emiliachen/Projects/Bijoysim_amazon_share/bijoyism-website"
+}

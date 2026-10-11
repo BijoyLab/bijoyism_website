@@ -1,6 +1,6 @@
 // HTTP-only mail adapter, usable from Node or an edge/serverless request handler.
 // Credentials stay in server environment variables, never in dist/.
-export const RECIPIENT='support@bijoyism.cc';
+export const RECIPIENT='support@bijoyism.cn';
 export const MAX_BODY_BYTES=22*1024*1024;
 const reply=(status,data)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});
 const email=/^[^\s@<>\r\n]+@[^\s@<>\r\n]+\.[^\s@<>\r\n]+$/;
@@ -64,7 +64,7 @@ export function createInquiryHandler({fetchEmail=fetch,now=()=>Date.now()}={}){
   const hash=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(JSON.stringify(data)));
   const digest=Array.from(new Uint8Array(hash),x=>x.toString(16).padStart(2,'0')).join('');
   try{
-   const response=await fetchEmail('https://api.resend.com/emails',{method:'POST',headers:{Authorization:`Bearer ${env.RESEND_API_KEY}`,'Content-Type':'application/json','Idempotency-Key':`inquiry/${token}/${digest}`},body:JSON.stringify(buildEmail(data,env.INQUIRY_MAIL_FROM||'BIJOYISM <support@bijoyism.cc>')),signal:AbortSignal.timeout(20000)});
+   const response=await fetchEmail('https://api.resend.com/emails',{method:'POST',headers:{Authorization:`Bearer ${env.RESEND_API_KEY}`,'Content-Type':'application/json','Idempotency-Key':`inquiry/${token}/${digest}`},body:JSON.stringify(buildEmail(data,env.INQUIRY_MAIL_FROM||'BIJOYISM <support@bijoyism.cn>')),signal:AbortSignal.timeout(20000)});
    if(!response.ok)return reply(502,{error:'send_failed'});
    const result=await response.json();if(typeof result.id!=='string'||!result.id)return reply(502,{error:'send_failed'});
    return reply(200,{accepted:true});

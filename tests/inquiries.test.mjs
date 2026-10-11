@@ -9,7 +9,7 @@ test('fixed recipient, reply-to and real attachments; user cannot choose recipie
  const {handle,sent}=adapter();const content=Buffer.from('%PDF-1.4\nexample').toString('base64');
  const r=await handle(request({...payload,to:'other@example.org',attachments:[{filename:'reference.pdf',content}]}),env,'client');
  assert.equal(r.status,200);assert.deepEqual(await r.json(),{accepted:true});
- const mail=JSON.parse(sent[0].body);assert.deepEqual(mail.to,['support@bijoyism.cc']);assert.equal(mail.reply_to,payload.email);assert.equal(mail.attachments[0].content,content);assert.ok(mail.text.includes('Example artwork request'));
+ const mail=JSON.parse(sent[0].body);assert.deepEqual(mail.to,['support@bijoyism.cn']);assert.equal(mail.reply_to,payload.email);assert.equal(mail.attachments[0].content,content);assert.ok(mail.text.includes('Example artwork request'));
 });
 test('same retry has identical provider idempotency key; edited contents differ',async()=>{
  const {handle,sent}=adapter();await handle(request(),env,'client');await handle(request(),env,'client');await handle(request({...payload,description:'Changed'}),env,'client');

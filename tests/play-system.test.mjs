@@ -44,23 +44,41 @@ test('age ranges overlap, people use ranges, and conditions combine with AND',()
 test('curated recommendations survive reordered content; guides never enter the library',()=>{
  assert.deepEqual(pickIdeas(playIdeas,'td03').map(i=>i.id),pickIdeas([...playIdeas].reverse(),'td03').map(i=>i.id));
  for(const lang of ['en','zh']){
-  const html=renderLibrary(lang,products,playIdeas);assert.equal((html.match(/<select name=/g)||[]).length,3);
+  const html=renderLibrary(lang,products,playIdeas);assert.equal((html.match(/<select name=/g)||[]).length,4);
   assert.ok(!html.includes('name="mode"')&&!html.includes('name="mood"')&&!html.includes('name="difficulty"'));
   assert.equal(getRoutes(products,playIdeas).length,40);
   const detail=renderPlayDetail(playIdeas.find(i=>i.id==='adventure-trail'),lang,products,playIdeas);
   assert.ok(detail.includes('station-td01')&&detail.includes('station-td02')&&detail.includes('station-td03'));
  }
 });
-test('wireframe library preserves four mode anchors, all games, starters and shopping path',()=>{
+test('independent library keeps all games and guides without collection grouping',()=>{
  for(const lang of ['en','zh']){
   const html=renderLibrary(lang,products,playIdeas);
-  for(const mode of ['explore','move','reset','mix'])assert.ok(html.includes('id="games-'+mode+'"'));
   assert.equal((html.match(/class="play-card mode-/g)||[]).length,16);
-  assert.equal((html.match(/class="library-starters"/g)||[]).length,2);
-  assert.ok(html.includes('/'+lang+'/shop/collections/'));
-  assert.ok(html.includes('class="library-hero-visual"'));
+  assert.ok(!html.includes('library-series')&&!html.includes('library-mode-section'));
+  assert.ok(html.includes('name="collection"'));
+  assert.ok(!html.includes('type="submit"'));
   const filtered=renderLibrary(lang,products,playIdeas,'?age=5-6&players=2&setting=reading');
   assert.equal((filtered.match(/class="play-card mode-/g)||[]).length,7);
-  assert.ok(!filtered.includes('name="mood"'));
  }
+});
+test('collection filtering separates required combinations from single-collection games',()=>{
+ for(const product of products){
+  const found=filterGames(playIdeas,'?collection='+product.id);
+  assert.ok(found.length>0);
+  assert.ok(found.every(i=>i.requirements.selection==='any'&&i.productIds.includes(product.id)));
+ }
+ const mixed=filterGames(playIdeas,'?collection=mix');
+ assert.equal(mixed.length,3);
+ assert.ok(mixed.every(i=>i.requirements.selection==='all'));
+ assert.equal(filterGames(playIdeas,'?collection=td01&setting=reading').length,1);
+ assert.equal(filterGames(playIdeas,'?collection=mix&players=solo&age=3-4').length,2);
+});
+
+test('future collection IDs filter without hardcoded SKU names',()=>{
+ const future={...playIdeas[0],productIds:['nature-series'],requirements:{...playIdeas[0].requirements,products:[{productId:'nature-series',tiles:'3'}]}};
+ assert.deepEqual(filterGames([future],'?collection=nature-series'),[future]);
+ const html=renderLibrary('zh',[{id:'nature-series',name:{zh:'自然系列',en:'Nature'}}],[future]);
+ assert.ok(html.includes('自然系列'));
+ assert.ok(!html.includes('动物探索'));
 });

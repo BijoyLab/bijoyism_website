@@ -1,0 +1,1291 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-03",
+  "source": "docs/website-materials-checklist-2026-10-03.md",
+  "note": "目标母版尺寸；实际原图可保留并记录尺寸例外。选配项按用户本次范围制作；新增页面位需另行接入。",
+  "tasks": [
+    {
+      "id": "logo-received",
+      "title": "已收到的四份 SVG（待辨识用途）",
+      "folder": "originals/brand/logo",
+      "variants": {
+        "asset-2": {
+          "dimensions": null
+        },
+        "asset-3": {
+          "dimensions": null
+        },
+        "asset-4": {
+          "dimensions": null
+        },
+        "asset-5": {
+          "dimensions": null
+        }
+      },
+      "priority": "reference",
+      "formats": [
+        ".svg"
+      ]
+    },
+    {
+      "id": "brand-logo",
+      "title": "品牌红／白／黑矢量 Logo",
+      "folder": "originals/brand/logo",
+      "variants": {
+        "red": {
+          "dimensions": null
+        },
+        "white": {
+          "dimensions": null
+        },
+        "black": {
+          "dimensions": null
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".svg"
+      ]
+    },
+    {
+      "id": "favicon",
+      "title": "网站图标",
+      "folder": "originals/brand/logo",
+      "variants": {
+        "svg": {
+          "dimensions": null
+        },
+        "png": {
+          "dimensions": [
+            512,
+            512
+          ]
+        },
+        "touch": {
+          "dimensions": [
+            180,
+            180
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".svg",
+        ".png"
+      ]
+    },
+    {
+      "id": "homepage-hero",
+      "title": "首页主视觉",
+      "folder": "originals/scenes/brand",
+      "variants": {
+        "desktop": {
+          "dimensions": [
+            2928,
+            1200
+          ]
+        },
+        "mobile": {
+          "dimensions": [
+            1200,
+            900
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "homepage-play",
+      "title": "首页玩法主视觉",
+      "folder": "originals/scenes/home",
+      "variants": {
+        "desktop": {
+          "dimensions": [
+            2928,
+            1200
+          ]
+        },
+        "mobile": {
+          "dimensions": [
+            1200,
+            900
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "home-scene",
+      "title": "家庭页场景",
+      "folder": "originals/scenes/home",
+      "variants": {
+        "desktop": {
+          "dimensions": [
+            2928,
+            1200
+          ]
+        },
+        "mobile": {
+          "dimensions": [
+            1200,
+            900
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "school-scene",
+      "title": "学校与机构场景",
+      "folder": "originals/scenes/school",
+      "variants": {
+        "desktop": {
+          "dimensions": [
+            2928,
+            1200
+          ]
+        },
+        "mobile": {
+          "dimensions": [
+            1200,
+            900
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td02-scene",
+      "title": "TD02 双色观察场景",
+      "folder": "originals/scenes/home",
+      "variants": {
+        "desktop": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        },
+        "mobile": {
+          "dimensions": [
+            1200,
+            900
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td03-scene",
+      "title": "TD03 蓝绿观察场景",
+      "folder": "originals/scenes/reading",
+      "variants": {
+        "desktop": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        },
+        "mobile": {
+          "dimensions": [
+            1200,
+            900
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "about-scene",
+      "title": "真实品牌工作素材",
+      "folder": "originals/scenes/brand",
+      "variants": {
+        "desktop": {
+          "dimensions": [
+            2928,
+            1200
+          ]
+        },
+        "mobile": {
+          "dimensions": [
+            1200,
+            900
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td01-set",
+      "title": "TD01 整套正面",
+      "folder": "originals/products/td01",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td01-angled",
+      "title": "TD01 斜视",
+      "folder": "originals/products/td01",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td01-interaction",
+      "title": "TD01 互动",
+      "folder": "originals/products/td01",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td01-corner",
+      "title": "TD01 表面圆角",
+      "folder": "originals/products/td01",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td01-back",
+      "title": "TD01 背面",
+      "folder": "originals/products/td01",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td01-packaging",
+      "title": "TD01 包装",
+      "folder": "originals/products/td01",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td02-set",
+      "title": "TD02 整套正面",
+      "folder": "originals/products/td02",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td02-angled",
+      "title": "TD02 斜视",
+      "folder": "originals/products/td02",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td02-interaction",
+      "title": "TD02 互动",
+      "folder": "originals/products/td02",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td02-corner",
+      "title": "TD02 表面圆角",
+      "folder": "originals/products/td02",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td02-back",
+      "title": "TD02 背面",
+      "folder": "originals/products/td02",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td02-packaging",
+      "title": "TD02 包装",
+      "folder": "originals/products/td02",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td03-set",
+      "title": "TD03 整套正面",
+      "folder": "originals/products/td03",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td03-angled",
+      "title": "TD03 斜视",
+      "folder": "originals/products/td03",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td03-interaction",
+      "title": "TD03 互动",
+      "folder": "originals/products/td03",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td03-corner",
+      "title": "TD03 表面圆角",
+      "folder": "originals/products/td03",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td03-back",
+      "title": "TD03 背面",
+      "folder": "originals/products/td03",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "td03-packaging",
+      "title": "TD03 包装",
+      "folder": "originals/products/td03",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "activity-animal-story-trail",
+      "title": "动物故事小路 配图",
+      "folder": "originals/activities/animal-story-trail",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "activity-choose-a-color",
+      "title": "选一个颜色，走下一步 配图",
+      "folder": "originals/activities/choose-a-color",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "activity-three-tile-layouts",
+      "title": "一套地垫，三种摆法 配图",
+      "folder": "originals/activities/three-tile-layouts",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "activity-quiet-color-watch",
+      "title": "静静看蓝绿流动 配图",
+      "folder": "originals/activities/quiet-color-watch",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "activity-preschool-turn-taking",
+      "title": "幼儿园轮流选择游戏 配图",
+      "folder": "originals/activities/preschool-turn-taking",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "activity-calm-corner-path",
+      "title": "阅读角旁的蓝绿小路 配图",
+      "folder": "originals/activities/calm-corner-path",
+      "variants": {
+        "master": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "three-layouts",
+      "title": "三种路径摆法",
+      "folder": "originals/activities/three-tile-layouts",
+      "variants": {
+        "line": {
+          "dimensions": [
+            1600,
+            1200
+          ]
+        },
+        "grid": {
+          "dimensions": [
+            1600,
+            1200
+          ]
+        },
+        "curve": {
+          "dimensions": [
+            1600,
+            1200
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "customization-examples",
+      "title": "定制实例／标明示意的效果稿",
+      "folder": "originals/customization",
+      "variants": {
+        "artwork": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        },
+        "colors": {
+          "dimensions": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "care-steps",
+      "title": "护理步骤图",
+      "folder": "originals/activities/care",
+      "variants": {
+        "wipe": {
+          "dimensions": [
+            1600,
+            1200
+          ]
+        },
+        "homepage-desktop": {
+          "dimensions": [
+            2928,
+            1200
+          ]
+        },
+        "homepage-mobile": {
+          "dimensions": [
+            1200,
+            900
+          ]
+        },
+        "dry": {
+          "dimensions": [
+            1600,
+            1200
+          ]
+        },
+        "store": {
+          "dimensions": [
+            1600,
+            1200
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ]
+    },
+    {
+      "id": "share-brand",
+      "title": "brand 中英分享封面",
+      "folder": "originals/share-covers",
+      "variants": {
+        "en": {
+          "dimensions": [
+            1200,
+            630
+          ]
+        },
+        "zh-cn": {
+          "dimensions": [
+            1200,
+            630
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".jpg",
+        ".jpeg",
+        ".png"
+      ]
+    },
+    {
+      "id": "share-td01",
+      "title": "td01 中英分享封面",
+      "folder": "originals/share-covers",
+      "variants": {
+        "en": {
+          "dimensions": [
+            1200,
+            630
+          ]
+        },
+        "zh-cn": {
+          "dimensions": [
+            1200,
+            630
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".jpg",
+        ".jpeg",
+        ".png"
+      ]
+    },
+    {
+      "id": "share-td02",
+      "title": "td02 中英分享封面",
+      "folder": "originals/share-covers",
+      "variants": {
+        "en": {
+          "dimensions": [
+            1200,
+            630
+          ]
+        },
+        "zh-cn": {
+          "dimensions": [
+            1200,
+            630
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".jpg",
+        ".jpeg",
+        ".png"
+      ]
+    },
+    {
+      "id": "share-td03",
+      "title": "td03 中英分享封面",
+      "folder": "originals/share-covers",
+      "variants": {
+        "en": {
+          "dimensions": [
+            1200,
+            630
+          ]
+        },
+        "zh-cn": {
+          "dimensions": [
+            1200,
+            630
+          ]
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".jpg",
+        ".jpeg",
+        ".png"
+      ]
+    },
+    {
+      "id": "testing-documents",
+      "title": "对应型号真实报告及可公开版本",
+      "folder": "originals/documents/testing",
+      "variants": {
+        "original": {
+          "dimensions": null
+        },
+        "public": {
+          "dimensions": null
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".pdf"
+      ]
+    },
+    {
+      "id": "manuals",
+      "title": "中英产品说明／护理 PDF",
+      "folder": "originals/documents/manuals",
+      "variants": {
+        "en": {
+          "dimensions": null
+        },
+        "zh-cn": {
+          "dimensions": null
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".pdf"
+      ]
+    },
+    {
+      "id": "card-animal-story-trail",
+      "title": "动物故事小路 活动卡",
+      "folder": "originals/documents/activity-cards/animal-story-trail",
+      "variants": {
+        "en": {
+          "dimensions": null
+        },
+        "zh-cn": {
+          "dimensions": null
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".pdf"
+      ]
+    },
+    {
+      "id": "card-choose-a-color",
+      "title": "选一个颜色，走下一步 活动卡",
+      "folder": "originals/documents/activity-cards/choose-a-color",
+      "variants": {
+        "en": {
+          "dimensions": null
+        },
+        "zh-cn": {
+          "dimensions": null
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".pdf"
+      ]
+    },
+    {
+      "id": "card-three-tile-layouts",
+      "title": "一套地垫，三种摆法 活动卡",
+      "folder": "originals/documents/activity-cards/three-tile-layouts",
+      "variants": {
+        "en": {
+          "dimensions": null
+        },
+        "zh-cn": {
+          "dimensions": null
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".pdf"
+      ]
+    },
+    {
+      "id": "card-quiet-color-watch",
+      "title": "静静看蓝绿流动 活动卡",
+      "folder": "originals/documents/activity-cards/quiet-color-watch",
+      "variants": {
+        "en": {
+          "dimensions": null
+        },
+        "zh-cn": {
+          "dimensions": null
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".pdf"
+      ]
+    },
+    {
+      "id": "card-preschool-turn-taking",
+      "title": "幼儿园轮流选择游戏 活动卡",
+      "folder": "originals/documents/activity-cards/preschool-turn-taking",
+      "variants": {
+        "en": {
+          "dimensions": null
+        },
+        "zh-cn": {
+          "dimensions": null
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".pdf"
+      ]
+    },
+    {
+      "id": "card-calm-corner-path",
+      "title": "阅读角旁的蓝绿小路 活动卡",
+      "folder": "originals/documents/activity-cards/calm-corner-path",
+      "variants": {
+        "en": {
+          "dimensions": null
+        },
+        "zh-cn": {
+          "dimensions": null
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".pdf"
+      ]
+    },
+    {
+      "id": "td01-video",
+      "title": "TD01 演示视频",
+      "folder": "originals/products/td01/video",
+      "variants": {
+        "landscape": {
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        "portrait": {
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".mp4",
+        ".mov"
+      ]
+    },
+    {
+      "id": "td02-video",
+      "title": "TD02 演示视频",
+      "folder": "originals/products/td02/video",
+      "variants": {
+        "landscape": {
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        "portrait": {
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".mp4",
+        ".mov"
+      ]
+    },
+    {
+      "id": "td03-video",
+      "title": "TD03 演示视频",
+      "folder": "originals/products/td03/video",
+      "variants": {
+        "landscape": {
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        "portrait": {
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".mp4",
+        ".mov"
+      ]
+    },
+    {
+      "id": "purchase-data",
+      "title": "淘宝链接与渠道核对",
+      "folder": "originals/documents/business",
+      "variants": {
+        "record": {
+          "dimensions": null
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".md",
+        ".json",
+        ".csv",
+        ".pdf",
+        ".txt"
+      ]
+    },
+    {
+      "id": "brand-contact",
+      "title": "品牌主体、客服与咨询邮箱",
+      "folder": "originals/documents/business",
+      "variants": {
+        "record": {
+          "dimensions": null
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".md",
+        ".json",
+        ".csv",
+        ".pdf",
+        ".txt"
+      ]
+    },
+    {
+      "id": "business-policies",
+      "title": "服务地区、渠道购买与售后说明",
+      "folder": "originals/documents/business",
+      "variants": {
+        "record": {
+          "dimensions": null
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".md",
+        ".json",
+        ".csv",
+        ".pdf",
+        ".txt"
+      ]
+    },
+    {
+      "id": "usage-rights",
+      "title": "图片、人物与字体使用范围记录",
+      "folder": "originals/documents/business",
+      "variants": {
+        "record": {
+          "dimensions": null
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".md",
+        ".json",
+        ".csv",
+        ".pdf",
+        ".txt"
+      ]
+    },
+    {
+      "id": "domain-mail",
+      "title": "域名、托管与邮件接收方案（不含密钥）",
+      "folder": "originals/documents/business",
+      "variants": {
+        "record": {
+          "dimensions": null
+        }
+      },
+      "priority": "P1",
+      "formats": [
+        ".md",
+        ".json",
+        ".csv",
+        ".pdf",
+        ".txt"
+      ]
+    },
+    {
+      "id": "td02-activity-press-exploration",
+      "title": "TD02 按压探索",
+      "folder": "originals/activities/td02",
+      "variants": {
+        "mobile": {
+          "dimensions": [
+            1600,
+            1200
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png"
+      ]
+    },
+    {
+      "id": "td02-activity-heart-path",
+      "title": "TD02 扩展爱心布局",
+      "folder": "originals/activities/td02",
+      "variants": {
+        "mobile": {
+          "dimensions": [
+            1600,
+            1200
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png"
+      ]
+    },
+    {
+      "id": "td02-activity-rearrange-path",
+      "title": "TD02 重排路径",
+      "folder": "originals/activities/td02",
+      "variants": {
+        "mobile": {
+          "dimensions": [
+            1600,
+            1200
+          ]
+        }
+      },
+      "priority": "P2-optional",
+      "formats": [
+        ".png"
+      ]
+    }
+  ]
+}

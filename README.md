@@ -59,7 +59,7 @@ npm run test:e2e
 
 ## 咨询邮件
 
-复制 `.env.example` 到 `.env.local`，按实际服务配置服务端变量；默认 `INQUIRY_MAIL_ENABLED=false`，没有密钥时不发信，表单明确提示未启用并提供 `support@bijoyism.cc`。
+复制 `.env.example` 到 `.env.local`，按实际服务配置服务端变量；默认 `INQUIRY_MAIL_ENABLED=false`，没有密钥时不发信，表单明确提示未启用并提供 `support@bijoyism.cn`。
 
 后端保留固定收件人、表单校验、5 套起订、最多 3 个附件／每个 5 MB、文件签名校验、来源限制、限流、幂等和失败重试。文字草稿仅在当前标签页保存。当前部署代理的客户端 IP 信任规则尚未配置，默认共享一个受限请求桶；公开启用前应配置可信代理和入口限流。
 
@@ -72,3 +72,7 @@ npm run test:e2e
 远程：`git@github.com:BijoyLab/bijoyism_website.git`，主分支 `main`。CI 执行检查、单元测试、构建和浏览器测试。
 
 本机 macOS 13 兼容配置：开发／构建使用 Webpack，`@swc/core` 固定 1.15.2，Playwright 固定 1.58.2。依赖通过锁定文件重现，不需要远程字体下载。
+
+## 网站素材管理（2026-10-05）
+
+后续素材制作使用 `$bijoyism-website-assets`，默认工作区已更新为本项目。母版与候选保存到 `materials/`，共享需求和进度位于 `materials/records/`；路径配置见 `materials/records/asset-workspace.json`，尺寸清单见 `docs/website-materials-checklist-2026-10-03.md`。旧项目的现有母版、60 个任务、26 条素材记录与历史已复制并核验哈希；后续只更新本项目的共享记录。网页导出文件位于 `public/assets/`，导出索引为 `docs/website-asset-manifest.json`，归档母版不自动修改页面或发布。

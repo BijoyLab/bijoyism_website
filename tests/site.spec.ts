@@ -41,15 +41,17 @@ test("catalog, gallery, dimensions and mobile navigation", async ({ page }, test
   const thumb = page.locator("[data-gallery-index]").nth(1);
   await thumb.click();
   await expect(thumb).toHaveAttribute("aria-pressed", "true");
-  await page.locator('[data-unit="in"]').click();
+  await expect(page.locator('[data-unit]')).toHaveCount(0);
   await expect(page.locator("[data-dimensions]")).not.toContainText("cm");
-  await page.locator('[data-unit="dual"]').click();
+  await page.goto("/zh/products/td03-aqua-tones/");
+  await expect(page.locator("#app")).toHaveAttribute("data-ready", "true");
+  await expect(page.locator('[data-unit]')).toHaveCount(0);
   await expect(page.locator("[data-dimensions]")).toContainText("cm");
   if (testInfo.project.name !== "desktop") {
     await page.locator(".menu-toggle").click();
     await expect(page.locator("#navigation")).toHaveClass(/open/);
-    await page.locator('#navigation a[href="/en/about/"]').click();
-    await expect(page).toHaveURL(/\/en\/about\/$/);
+    await page.locator('#navigation a[href="/zh/about/"]').click();
+    await expect(page).toHaveURL(/\/zh\/about\/$/);
   }
 });
 
@@ -102,7 +104,7 @@ test("FAQ language persistence and customization draft", async ({ page }) => {
   await expect(page.locator("#app")).toHaveAttribute("data-ready", "true");
   await expect(page.locator("details").first()).toHaveAttribute("open", "");
   await page.goto("/zh/contact/?topic=customization");
-  await expect(page.locator("#delivery-notice")).toContainText("在线提交暂未启用");
+  await expect(page.locator("#delivery-notice")).toContainText("在线提交暂时不可用");
   await expect(page.locator('#inquiry-form [type="submit"]')).toBeDisabled();
   await page.locator("#organization").fill("Example School");
   await page.selectOption("#inquiryType", "sample");

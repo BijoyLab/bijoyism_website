@@ -1,0 +1,490 @@
+[
+  {
+    "asset": "hero",
+    "source": "output/td01-aplus-scenes/bijoysim-td01-aplus-animal-worlds-hero-v03-no-text-2928x1200.png",
+    "type": "existing-generated-scene",
+    "sourceSha256": "d8b7fe53937a58c60a8f3448f859101ebf72f8feb2291b62189bd519903f82af",
+    "export": "public/assets/hero.webp",
+    "dimensions": [
+      1800,
+      738
+    ],
+    "bytes": 146052,
+    "transform": "Proportional web resize and WebP encoding only; no artwork edits",
+    "previousExport": "dist/assets/hero.webp",
+    "exportSha256": "b90c2eaa5b65a0a96e77121c3b84bcb2542857f63f815904b910b79acf126c18"
+  },
+  {
+    "asset": "hero-mobile",
+    "source": "output/td01-aplus-scenes/bijoysim-td01-aplus-animal-worlds-mobile-v05-no-text-1200x900.png",
+    "type": "existing-generated-scene",
+    "sourceSha256": "c9b0434b7f7cb29a13f327a92b7af89cd8e28a7d944cae8bbbc890fe07d9f829",
+    "export": "public/assets/hero-mobile.webp",
+    "dimensions": [
+      900,
+      675
+    ],
+    "bytes": 98566,
+    "transform": "Proportional web resize and WebP encoding only; no artwork edits",
+    "previousExport": "dist/assets/hero-mobile.webp",
+    "exportSha256": "1e9251a299704968135198ef1dff2909602c5c0205ccf790c06c5dd28b2d2f47"
+  },
+  {
+    "asset": "animal-discovery",
+    "source": "materials/originals/products/td01/bijoyism-td01-set-master-v02.png",
+    "type": "user-provided-product-source",
+    "sourceSha256": "91736c609f8ffba828440c9baa23d3f2835437c46fb73fd6b4c40301bf034245",
+    "export": "public/assets/animal-discovery.webp",
+    "dimensions": [
+      1200,
+      600
+    ],
+    "bytes": 148252,
+    "transform": "Proportional resize from user-provided 4000 × 2000 PNG to 1200 × 600 WebP; no artwork edits",
+    "previousExport": "public/assets/animal-discovery.webp",
+    "exportSha256": "8e1bc2a7ad9aac5b904a2d54752425b16a6214768230bd7c8659f31ba40c70bf",
+    "previousExportSha256": "20f84bbddc126210b7c16fc5ffdf991384092f7c46dbaf55b2e2410b1e1fbdba"
+  },
+  {
+    "asset": "color-duos",
+    "source": "materials/originals/products/td02/bijoyism-td02-set-master-v02.png",
+    "type": "user-provided-product-source",
+    "sourceSha256": "2a721c7f9d5eaeb01ac74b76d7f810f4b74ba138195ff52a6a885e9c4041cfc5",
+    "export": "public/assets/color-duos.webp",
+    "dimensions": [
+      1200,
+      600
+    ],
+    "bytes": 165220,
+    "transform": "Proportional resize from user-provided 4000 × 2000 PNG to 1200 × 600 WebP; no artwork edits",
+    "previousExport": "public/assets/color-duos.webp",
+    "exportSha256": "3db9c480e5cb0f67229668428a8959195658f599b5a755a66ca83d14448b3040",
+    "previousExportSha256": "392a3f57182515e4463fc8f3362cdc437480474960ebf50f48219f5293d61fb8"
+  },
+  {
+    "asset": "aqua-tones",
+    "source": "materials/originals/products/td03/bijoyism-td03-set-master-v02.png",
+    "type": "user-provided-product-source",
+    "sourceSha256": "de579c0395dcbfa9c20805176f9535b428028c167f7a8337fc14e1132931f715",
+    "export": "public/assets/aqua-tones.webp",
+    "dimensions": [
+      1200,
+      600
+    ],
+    "bytes": 91284,
+    "transform": "Proportional resize from user-provided 4000 × 2000 PNG to 1200 × 600 WebP; no artwork edits",
+    "previousExport": "public/assets/aqua-tones.webp",
+    "exportSha256": "15bc91e6b83dea9b7885ef954804ad7a44c5529274f4b0c036639322e27e19b2",
+    "previousExportSha256": "6de893e447b554db3115a735d58739fe067899fbaaa074b365cabc5dfa8c7285"
+  },
+  {
+    "asset": "shared-play",
+    "source": "output/td01-aplus-scenes/bijoysim-td01-aplus-more-ways-to-play-desktop-v01-no-text-2928x1200.png",
+    "type": "existing-generated-scene",
+    "sourceSha256": "464496772623e4ecc41736af5d5c1e18d26bf62d5874d3ba6197e6abbd38c9be",
+    "export": "public/assets/shared-play.webp",
+    "dimensions": [
+      1800,
+      738
+    ],
+    "bytes": 188272,
+    "transform": "Proportional web resize and WebP encoding only; no artwork edits",
+    "previousExport": "dist/assets/shared-play.webp",
+    "exportSha256": "ce469601ecaf33140c6c71896ce0af8a7726dce8488dae1246c3bb6ceb472aa6"
+  },
+  {
+    "asset": "corner",
+    "source": "Source/TD01-bjs-animal-8-source/TD01-bij-animal-MVP/bjs-animal-set-08-rounded-corner-detail-01.png",
+    "type": "user-product-source",
+    "sourceSha256": "a3f60bb688985f15013a3e6f85806215db7630e6e9ef03542652ef4748fa3ddf",
+    "export": "public/assets/corner.webp",
+    "dimensions": [
+      1100,
+      733
+    ],
+    "bytes": 66292,
+    "transform": "Proportional web resize and WebP encoding only; no artwork edits",
+    "previousExport": "dist/assets/corner.webp",
+    "exportSha256": "735de42e2fdfbed6b37af4637e299b9ff0944c3a3426ad50ec260eb5d1bc0c98"
+  },
+  {
+    "asset": "homepage-carousel-school-desktop-v01",
+    "source": "materials/originals/scenes/brand/bijoyism-homepage-carousel-desktop-v01.png",
+    "type": "generated",
+    "sourceSha256": "a7a7351c73eb4963e5676a8679445936c26faf38022946f394600e04598d487a",
+    "export": "public/assets/homepage-carousel-school-desktop-v01.webp",
+    "dimensions": [
+      1800,
+      738
+    ],
+    "bytes": 123882,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "exportSha256": "8d45cc819adfc830b33a7d0d456196090965185b7360046c0ede61c1f04d5ba4",
+    "uses": [
+      "homepage institutions: indoor movement games"
+    ]
+  },
+  {
+    "asset": "school-desktop-v03",
+    "source": "materials/originals/scenes/school/bijoyism-mixed-school-desktop-v03.png",
+    "type": "generated",
+    "sourceSha256": "655f5aabaf7b342930aaa3ac69e5ed85c9085bc2c015f3f2044cae9f7df47829",
+    "export": "public/assets/school-desktop-v03.webp",
+    "dimensions": [
+      1800,
+      739
+    ],
+    "bytes": 216966,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "previousExport": "dist/assets/school-desktop-v01.webp",
+    "exportSha256": "ef22f0b1ebc2a1c159f3b1eb3be4da7e8f15b05a2c6b6c0d5fb577edbc6237cd"
+  },
+  {
+    "asset": "homepage-carousel-td02-rearrange-v01",
+    "source": "materials/originals/scenes/home/bijoyism-td02-homepage-rearrange-mobile-v01.png",
+    "type": "generated",
+    "sourceSha256": "e47710cc9ff7f8c552dbb90a387788cb6afe6686f95e78ae1fdb8c2f78311777",
+    "export": "public/assets/homepage-carousel-td02-rearrange-v01.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "bytes": 170058,
+    "transform": "Proportional resize to 1200 × 900 and WebP encoding; artwork unchanged; desktop carousel uses contain fit to preserve the full 4:3 composition",
+    "exportSha256": "976f0ab1aee1b9d5b07f8954db4a5de4158f099afc44c3bb4aa651aa36bc2738",
+    "uses": [
+      "homepage carousel slide 3",
+      "TD02 rearrange paths"
+    ]
+  },
+  {
+    "asset": "td03-reading-desktop-v01",
+    "source": "materials/originals/scenes/reading/bijoyism-td03-reading-nook-desktop-v01.png",
+    "type": "generated",
+    "sourceSha256": "23ef6858183f6c1a2ad84b5b14462e5936b55dde250bcc57c0240cf86abe0e7c",
+    "export": "public/assets/td03-reading-desktop-v01.webp",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "bytes": 249484,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "previousExport": "dist/assets/td03-reading-desktop-v01.webp",
+    "exportSha256": "6232bdc13f4f1f8e754ba2472ce89261bacd96736e87af7a404564a714009911"
+  },
+  {
+    "asset": "school-mobile-v01",
+    "source": "materials/originals/scenes/school/bijoyism-mixed-school-mobile-v01.png",
+    "type": "generated",
+    "sourceSha256": "ebe7202c1f7a16dfffda88f93001961f33f9c3153712ccdc6f293c5a732a7e40",
+    "export": "public/assets/school-mobile-v01.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "bytes": 184692,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "previousExport": "dist/assets/school-mobile-v01.webp",
+    "exportSha256": "2d363923626443f71da21b2f4a8a2bbedbe01a419d245a42176cff5be88190f4",
+    "uses": [
+      "homepage institutions: classroom activities"
+    ]
+  },
+  {
+    "asset": "td03-reading-mobile-v01",
+    "source": "materials/originals/scenes/reading/bijoyism-td03-reading-nook-mobile-v01.png",
+    "type": "generated",
+    "sourceSha256": "5d5793056acf39d3d0b42df1278069ab74454534b6969280daea3b2190d00cfe",
+    "export": "public/assets/td03-reading-mobile-v01.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "bytes": 136326,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "previousExport": "dist/assets/td03-reading-mobile-v01.webp",
+    "exportSha256": "9bd974b22bb72b55423f0636dbdae4409c78ee4fc9184dbd6c50299fe03919d3",
+    "uses": [
+      "homepage institutions: reading and discovery corners"
+    ]
+  },
+  {
+    "asset": "td03-set-v01",
+    "source": "materials/originals/products/td03/bijoyism-td03-set-master-v01.png",
+    "type": "user-product-source",
+    "sourceSha256": "895567820c8cd63897a31f530c17f7e659cec9be07c962dd35913948dd9b967b",
+    "export": "public/assets/td03-set-v01.webp",
+    "dimensions": [
+      1600,
+      1067
+    ],
+    "bytes": 140392,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "previousExport": "dist/assets/td03-set-v01.webp",
+    "exportSha256": "f1e66c3123d39e95898b1614f3c7bbb302ef1b84e984822e1a4c66d25523e37e"
+  },
+  {
+    "asset": "td03-angled-v01",
+    "source": "materials/originals/products/td03/bijoyism-td03-angled-master-v01.png",
+    "type": "user-product-source",
+    "sourceSha256": "f91aaa372c5d2d6b42ef3981257db27653cad119257ca34c675f89e482bde458",
+    "export": "public/assets/td03-angled-v01.webp",
+    "dimensions": [
+      1600,
+      1067
+    ],
+    "bytes": 339002,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "previousExport": "dist/assets/td03-angled-v01.webp",
+    "exportSha256": "bdb25b80df4e8cac69c46622a369c4e67af9823fc5219c3a7f76de0642ed78f7"
+  },
+  {
+    "asset": "td03-corner-v01",
+    "source": "materials/originals/products/td03/bijoyism-td03-corner-master-v01.png",
+    "type": "user-product-source",
+    "sourceSha256": "632081e4e4e2e1534ac15d650848b83f95b69cabf6f01f7528f12f30727a1b98",
+    "export": "public/assets/td03-corner-v01.webp",
+    "dimensions": [
+      1600,
+      1067
+    ],
+    "bytes": 191850,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "previousExport": "dist/assets/td03-corner-v01.webp",
+    "exportSha256": "37bbdc421d5c728df88b659d9cea818063e0632f7ebec3c443f5df5c9dbb3545"
+  },
+  {
+    "asset": "td03-back-v01",
+    "source": "materials/originals/products/td03/bijoyism-td03-back-master-v01.png",
+    "type": "user-product-source",
+    "sourceSha256": "cd5cd82344e8e8aafd207de0ffaa681d417b145970ec7e83413e0ab957c41b63",
+    "export": "public/assets/td03-back-v01.webp",
+    "dimensions": [
+      1600,
+      1067
+    ],
+    "bytes": 164180,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "previousExport": "dist/assets/td03-back-v01.webp",
+    "exportSha256": "0c0fd78cdb6862067e24b5cd491ec34c54212674ece6b7de50cf79589696c8e7"
+  },
+  {
+    "asset": "td02-press-exploration-v01",
+    "source": "materials/originals/activities/td02/bijoyism-td02-press-exploration-mobile-v01.png",
+    "type": "generated",
+    "sourceSha256": "248471848f9e7d685a1ef2d953144e7f9025664f15bba31ef81fc506ccd26689",
+    "export": "public/assets/td02-press-exploration-v01.webp",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "bytes": 213930,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "previousExport": "dist/assets/td02-press-exploration-v01.webp",
+    "exportSha256": "147d2af1321fa3c7cd9f8467a041d21924117733cf1ec4805b8b31d2f9069e97"
+  },
+  {
+    "asset": "td02-heart-path-v01",
+    "source": "materials/originals/activities/td02/bijoyism-td02-heart-path-mobile-v01.png",
+    "type": "generated",
+    "sourceSha256": "e99e152f29c584197ece288016ab2a0f8e7ad89715a6b8dd1c1ca26931b3bed4",
+    "export": "public/assets/td02-heart-path-v01.webp",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "bytes": 260216,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "previousExport": "dist/assets/td02-heart-path-v01.webp",
+    "exportSha256": "3b9eb6e66b2ab9d29ce87c99144d4065f449305932b35e3e9f05c30c646b1aba"
+  },
+  {
+    "asset": "td02-rearrange-path-v01",
+    "source": "materials/originals/activities/td02/bijoyism-td02-rearrange-path-mobile-v01.png",
+    "type": "generated",
+    "sourceSha256": "7618a1f8be2c047d86eb53e31693a84d0e9f0a85123878ebb7a959142d868305",
+    "export": "public/assets/td02-rearrange-path-v01.webp",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "bytes": 222588,
+    "transform": "Proportional downsize and WebP encoding; artwork unchanged",
+    "previousExport": "dist/assets/td02-rearrange-path-v01.webp",
+    "exportSha256": "f01986530251d53926b80db6c423363f7cbefe122c6f1cab537ab8e66c0cd80e"
+  },
+  {
+    "asset": "td03-share-en",
+    "source": "materials/originals/share-covers/bijoyism-td03-share-cover-en-v01.jpg",
+    "type": "generated-share-cover",
+    "sourceSha256": "2393c0f9b4a459b3a124895e986366774f06f57594b1a614776fd9c66216bdbb",
+    "export": "public/assets/td03-share-en-v01.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 150059,
+    "transform": "Unchanged copy",
+    "previousExport": "dist/assets/td03-share-en-v01.jpg",
+    "exportSha256": "2393c0f9b4a459b3a124895e986366774f06f57594b1a614776fd9c66216bdbb"
+  },
+  {
+    "asset": "td03-share-zh-cn",
+    "source": "materials/originals/share-covers/bijoyism-td03-share-cover-zh-cn-v01.jpg",
+    "type": "generated-share-cover",
+    "sourceSha256": "d643f676e9c014e9afc2c393aa9c1fb545f2c03348b9e880e42360ef00870003",
+    "export": "public/assets/td03-share-zh-cn-v01.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 151166,
+    "transform": "Unchanged copy",
+    "previousExport": "dist/assets/td03-share-zh-cn-v01.jpg",
+    "exportSha256": "d643f676e9c014e9afc2c393aa9c1fb545f2c03348b9e880e42360ef00870003"
+  },
+  {
+    "asset": "logo-black-v01.svg",
+    "source": "materials/originals/brand/logo/Asset 3.svg",
+    "type": "user-brand-source",
+    "sourceSha256": "59c17381fdf3c28491cf7c6c70a061217adcbce16bfd1aad1eb164617bafaf08",
+    "export": "public/assets/logo-black-v01.svg",
+    "bytes": 7381,
+    "transform": "Unchanged SVG copy",
+    "previousExport": "dist/assets/logo-black-v01.svg",
+    "exportSha256": "59c17381fdf3c28491cf7c6c70a061217adcbce16bfd1aad1eb164617bafaf08"
+  },
+  {
+    "asset": "logo-white-v01.svg",
+    "source": "materials/originals/brand/logo/Asset 2.svg",
+    "type": "user-brand-source",
+    "sourceSha256": "6a5db217977ad6e4a129796223af00f573fb22a79d0239d984f226103e8d3d29",
+    "export": "public/assets/logo-white-v01.svg",
+    "bytes": 7378,
+    "transform": "Unchanged SVG copy",
+    "previousExport": "dist/assets/logo-white-v01.svg",
+    "exportSha256": "6a5db217977ad6e4a129796223af00f573fb22a79d0239d984f226103e8d3d29"
+  },
+  {
+    "asset": "logo-red-v01.svg",
+    "source": "materials/originals/brand/logo/Asset 3.svg",
+    "type": "user-brand-source",
+    "sourceSha256": "59c17381fdf3c28491cf7c6c70a061217adcbce16bfd1aad1eb164617bafaf08",
+    "export": "public/assets/logo-red-v01.svg",
+    "bytes": 7381,
+    "transform": "User-requested red variant (#e13828 from supplied brand SVG); original vector paths unchanged",
+    "previousExport": "dist/assets/logo-red-v01.svg",
+    "exportSha256": "7bc05e7c8ebbacdb29386810a981e789e69c9fe5eb9af1fc9c411bc822e4faad"
+  },
+  {
+    "asset": "bijoyism-brand-banner-desktop-v01",
+    "source": "materials/originals/scenes/brand/bijoyism-brand-banner-desktop-v01.png",
+    "type": "user-brand-source",
+    "sourceSha256": "9b271e7b71265f8d787d70204350fff3d4c68d461d97ba19c17b21835e0ec401",
+    "export": "public/assets/bijoyism-brand-banner-desktop-v01.png",
+    "dimensions": [
+      2928,
+      1250
+    ],
+    "bytes": 2797102,
+    "transform": "Unchanged PNG copy; HTML overlay adds localized slogan and four brand values",
+    "usage": "About page brand banner",
+    "references": [
+      "brand/background/bijoyism-brand-card-2x.png"
+    ]
+  },
+  {
+    "asset": "home-care-scene-v01",
+    "source": "materials/originals/activities/care/bijoyism-home-care-scene-desktop-v01.png",
+    "type": "generated",
+    "sourceSha256": "cba98d241ecf508aad820d98b410d60efdf9de06c75a4e5238c36a26592e8d9f",
+    "export": "public/assets/home-care-scene-v01.webp",
+    "dimensions": [
+      1920,
+      787
+    ],
+    "bytes": 209376,
+    "transform": "Proportional resize and WebP encoding; artwork unchanged",
+    "exportSha256": "5f6ef60eda0e4064e8c5563ca0de9d3d1ec773ad9358d34bb580fd1d2d69d37e"
+  },
+  {
+    "asset": "home-care-scene-v02",
+    "source": "materials/originals/activities/care/bijoyism-td01-home-care-desktop-v02.png",
+    "type": "generated",
+    "sourceSha256": "a6a9a491f5ca39dd336abfef5b0ceb0d0f6b722f07aabe596a86feb824ad59d6",
+    "export": "public/assets/home-care-scene-v02.webp",
+    "dimensions": [
+      1920,
+      787
+    ],
+    "bytes": 149352,
+    "transform": "Proportional downsize and WebP encoding; text-free website composition.",
+    "exportSha256": "1ef3b7a4a0b72bef9feaeb51c615f9913541830a03cb5959d370a14358f2d462"
+  },
+  {
+    "asset": "home-care-scene-v02-mobile",
+    "source": "materials/originals/activities/care/bijoyism-td01-home-care-mobile-v02.png",
+    "type": "generated",
+    "sourceSha256": "78ebbb4c21ed32e8750a270bd69c9312caf440eb8dc1c4f3962e3008c0fb38d0",
+    "export": "public/assets/home-care-scene-v02-mobile.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "bytes": 171426,
+    "transform": "Proportional downsize and WebP encoding; separate text-free mobile composition.",
+    "exportSha256": "17b120e7473fff25fb0c823e77cb950dbd285ad082720681f211641ebf792981"
+  },
+  {
+    "asset": "td01-back-texture-v01",
+    "source": "materials/originals/products/td01/bijoyism-td01-back-master-v01.png",
+    "type": "user-product-source",
+    "sourceSha256": "cd35fbac3acffc2b85b65a27982572307ce578dff9a96ca19e87de839b0a0c37",
+    "export": "public/assets/td01-back-texture-v01.webp",
+    "dimensions": [
+      1600,
+      1067
+    ],
+    "bytes": 132346,
+    "transform": "Proportional resize and WebP encoding; artwork unchanged",
+    "exportSha256": "3f416bb211181f6101950cc66a09c8daf524cb29bd68be93f1bf9b98378b668f"
+  },
+  {
+    "asset": "td03-reading-institutions-v02",
+    "source": "materials/originals/scenes/reading/bijoyism-td03-reading-institutions-v02.png",
+    "type": "generated",
+    "sourceSha256": "4ec5916e9ed6d4eb65f95ec18b0317bb53211e4173a262b485da640b94bc6c99",
+    "export": "public/assets/td03-reading-institutions-v02.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "bytes": 202560,
+    "transform": "Proportional downsize from 1448 × 1086 to 1200 × 900 and WebP encoding only; no crop or artwork changes",
+    "exportSha256": "72dc665d17aefc1b38af4b0059b2d4631620c2f46d082ccc91d7ba05d377f404",
+    "uses": [
+      "homepage institutions: reading and discovery corners"
+    ],
+    "references": "materials/records/td03-reading-institutions-v02-references.json",
+    "prompt": "materials/records/td03-reading-institutions-v02-prompt.txt"
+  },
+  {
+    "asset": "td01-classroom-table-v01",
+    "source": "materials/originals/scenes/school/bijoyism-td01-classroom-table-v01.png",
+    "type": "generated",
+    "sourceSha256": "ca98d2cf48a928c092627755d88568eb56d58f67d2c7c5f57c1dc29605787266",
+    "export": "public/assets/td01-classroom-table-v01.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "bytes": 191358,
+    "transform": "Proportional resize from 1448 × 1086 to 1200 × 900, WebP encoding; no crop",
+    "exportSha256": "545509d27e8fd863d83ed3016470ca6443fe4b9ec5df90eadf262dbffaca76cf",
+    "uses": [
+      "zh/en homepage classroom activities"
+    ],
+    "references": "materials/records/td01-classroom-table-v01-references.json",
+    "prompt": "materials/records/td01-classroom-table-v01-prompt.txt"
+  }
+]

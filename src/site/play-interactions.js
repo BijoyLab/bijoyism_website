@@ -9,16 +9,19 @@ export function bindPlayInteractions({app,render,signal}){
  listen(app,'click',e=>{const a=e.target.closest('a');if(!a)return;
   if(a.hasAttribute('data-play-filter-link')){if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();const u=new URL(a.href);update(u.search,u.hash);return;}
   if(a.hasAttribute('data-play-link'))persist();
+  if(a.hasAttribute('data-back-play')){try{sessionStorage.setItem('bijoyism-play-return-pending','true');}catch{}}
  });
  listen(window,'scroll',persist,{passive:true});
- listen(window,'popstate',()=>{if(inLibrary()){render();restorePlayReturn();}});
+ listen(window,'popstate',()=>{if(inLibrary()){render();const saved=readReturn();if(saved&&saved.search===location.search)requestAnimationFrame(()=>scrollTo({top:saved.scroll||0,behavior:'instant'}));}});
  listen(window,'pageshow',()=>{if(inLibrary())restorePlayReturn();});
  let printClosed=[],printing=false;
  listen(window,'beforeprint',()=>{if(printing)return;printing=true;printClosed=[...document.querySelectorAll('.play-variation:not([open])')];printClosed.forEach(d=>d.open=true);});
  listen(window,'afterprint',()=>{printClosed.forEach(d=>d.open=false);printClosed=[];printing=false;});
 }
+function readReturn(){try{return JSON.parse(sessionStorage.getItem('bijoyism-play-return')||'null');}catch{return null;}}
 export function restorePlayReturn(){
  let saved;try{saved=JSON.parse(sessionStorage.getItem('bijoyism-play-return')||'null');}catch{}
  document.querySelectorAll('[data-back-play]').forEach(a=>{const base=a.getAttribute('href').split(/[?#]/)[0];if(saved)a.href=base+(saved.search||'')+(saved.hash||'');});
- if(/^\/(en|zh)\/play-ideas\/?$/.test(location.pathname)&&saved&&saved.search===location.search){requestAnimationFrame(()=>scrollTo({top:saved.scroll||0,behavior:'instant'}));}
+ let pending=false;try{pending=sessionStorage.getItem('bijoyism-play-return-pending')==='true';if(pending)sessionStorage.removeItem('bijoyism-play-return-pending');}catch{}
+ if(/^\/(en|zh)\/play-ideas\/?$/.test(location.pathname)&&pending&&saved&&saved.search===location.search){requestAnimationFrame(()=>scrollTo({top:saved.scroll||0,behavior:'instant'}));}
 }

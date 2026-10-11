@@ -1,0 +1,52 @@
+[
+  {
+    "map_key": "products.lion.front",
+    "product_key": "lion",
+    "role": "front",
+    "filename": "bjs-animal-01-yellow-lion-front-01.png",
+    "path": "Source/TD01-bjs-animal-8-source/TD01-bij-animal-MVP/bjs-animal-01-yellow-lion-front-01.png",
+    "sha256": "d7fad9d3d6857492b4efeaae03665097445b371bcbf0909e63bc6fcdefdef513",
+    "asset_id": "TD01-A032",
+    "actual_path": "/Users/emiliachen/Projects/Bijoysim_amazon_share/Product/01-Source/TD01/MVP/bjs-animal-01-yellow-lion-front-01.png"
+  },
+  {
+    "map_key": "products.deer.front",
+    "product_key": "deer",
+    "role": "front",
+    "filename": "bjs-animal-02-green-deer-front-01.png",
+    "path": "Source/TD01-bjs-animal-8-source/TD01-bij-animal-MVP/bjs-animal-02-green-deer-front-01.png",
+    "sha256": "e5108b412f74720c1d834b25a306aa852ea7b17c4f0ff843262756d05a67590b",
+    "asset_id": "TD01-A034",
+    "actual_path": "/Users/emiliachen/Projects/Bijoysim_amazon_share/Product/01-Source/TD01/MVP/bjs-animal-02-green-deer-front-01.png"
+  },
+  {
+    "map_key": "products.turtle.front",
+    "product_key": "turtle",
+    "role": "front",
+    "filename": "bjs-animal-03-blue-turtle-front-01.png",
+    "path": "Source/TD01-bjs-animal-8-source/TD01-bij-animal-MVP/bjs-animal-03-blue-turtle-front-01.png",
+    "sha256": "83f09ca2323d7221b2ca7d66b97a1b2077a2482b42e6960d27f30092f91b33e9",
+    "asset_id": "TD01-A036",
+    "actual_path": "/Users/emiliachen/Projects/Bijoysim_amazon_share/Product/01-Source/TD01/MVP/bjs-animal-03-blue-turtle-front-01.png"
+  },
+  {
+    "map_key": "products.flamingo.front",
+    "product_key": "flamingo",
+    "role": "front",
+    "filename": "bjs-animal-07-pink-flamingos-front-01.png",
+    "path": "Source/TD01-bjs-animal-8-source/TD01-bij-animal-MVP/bjs-animal-07-pink-flamingos-front-01.png",
+    "sha256": "d3341bda8be21deff4c91409bd72fa17a98c03cab6cbf8ee44ba022f27ff99d1",
+    "asset_id": "TD01-A046",
+    "actual_path": "/Users/emiliachen/Projects/Bijoysim_amazon_share/Product/01-Source/TD01/MVP/bjs-animal-07-pink-flamingos-front-01.png"
+  },
+  {
+    "map_key": "products.fish.front",
+    "product_key": "fish",
+    "role": "front",
+    "filename": "bjs-animal-08-blue-fish-front-01.png",
+    "path": "Source/TD01-bjs-animal-8-source/TD01-bij-animal-MVP/bjs-animal-08-blue-fish-front-01.png",
+    "sha256": "f9bb04ea30765d37a63bfc40866e6947bafd21e4be1a081abf83bf37af2b7ec5",
+    "asset_id": "TD01-A048",
+    "actual_path": "/Users/emiliachen/Projects/Bijoysim_amazon_share/Product/01-Source/TD01/MVP/bjs-animal-08-blue-fish-front-01.png"
+  }
+]
