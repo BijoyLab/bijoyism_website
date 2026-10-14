@@ -1200,9 +1200,65 @@
       "fileValid": true,
       "sizeMatchesTarget": false,
       "reviewReady": true
+    },
+    {
+      "task": "td02-scene",
+      "variant": "desktop",
+      "path": "/Users/emiliachen/Projects/Bijoysim_amazon_share/技术/bijoyism_website/materials/originals/scenes/home/bijoyism-td02-homepage-rearrange-desktop-v02.png",
+      "source": "/Users/emiliachen/.codex/generated_images/01a0a37d-d23b-75a3-9436-08f67fa84278/exec-56ac5395-1c08-4886-993d-cf101da65fe5.png",
+      "sha256": "3a9f4b0cde6b154bad4233c56ad1fc8366748bbd762118c7a28e980bd603cb39",
+      "bytes": 2217480,
+      "kind": "generated",
+      "dimensions": [
+        1959,
+        803
+      ],
+      "updated": "2026-10-12T18:56:37+08:00",
+      "reviewNote": "实际查看并已接入：首页轮播第 3 张桌面版使用该宽幅构图；产品单层分开摆放，地砖保持正方形和真实边缘。",
+      "sizeException": "生成图实际为 1959 × 803，比例约 2.44:1；网页 WebP 导出为 1800 × 738。",
+      "note": "homepage-carousel-td02-rearrange-desktop-v02.webp 已接入首页轮播第三张桌面端。",
+      "integration": "in-use",
+      "usage": "confirmed",
+      "references": [
+        {
+          "path": "/Users/emiliachen/Projects/Bijoysim_amazon_share/Product/02-assets/td02-library/README.md",
+          "sha256": "4ac32af8372c964ff9f0cbbbd2a02d8a73223415bb14cc7344d6726fec74438a"
+        }
+      ],
+      "fileValid": true,
+      "sizeMatchesTarget": false,
+      "reviewReady": true
+    },
+    {
+      "task": "td02-scene",
+      "variant": "mobile",
+      "path": "/Users/emiliachen/Projects/Bijoysim_amazon_share/技术/bijoyism_website/materials/originals/scenes/home/bijoyism-td02-homepage-rearrange-mobile-v02.png",
+      "source": "/Users/emiliachen/.codex/generated_images/01a0a37d-d23b-75a3-9436-08f67fa84278/exec-37cb8acd-735b-43dd-967f-8f238ac5576b.png",
+      "sha256": "6fae7ac262969a1d9fb5a75f3451e4bac137191a956e40a186693f38408576f8",
+      "bytes": 2209164,
+      "kind": "generated",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "updated": "2026-10-12T18:56:37+08:00",
+      "reviewNote": "实际查看并已接入：首页轮播第 3 张移动版使用该 4:3 构图；产品单层分开摆放，地砖保持正方形和真实边缘。",
+      "sizeException": "生成图实际为 1448 × 1086；网页 WebP 导出为 1200 × 900。",
+      "note": "homepage-carousel-td02-rearrange-mobile-v02.webp 已接入首页轮播第三张移动端。",
+      "integration": "in-use",
+      "usage": "confirmed",
+      "references": [
+        {
+          "path": "/Users/emiliachen/Projects/Bijoysim_amazon_share/Product/02-assets/td02-library/README.md",
+          "sha256": "4ac32af8372c964ff9f0cbbbd2a02d8a73223415bb14cc7344d6726fec74438a"
+        }
+      ],
+      "fileValid": true,
+      "sizeMatchesTarget": false,
+      "reviewReady": true
     }
   ],
-  "updated": "2026-10-12T07:21:37+08:00",
+  "updated": "2026-10-12T18:56:37+08:00",
   "tasks": [
     {
       "id": "logo-received",
@@ -1299,14 +1355,13 @@
       "id": "td02-scene",
       "title": "TD02 双色观察场景",
       "priority": "P1",
-      "status": "partially-reviewed",
+      "status": "reviewed",
       "reviewedVariants": [
+        "desktop",
         "mobile"
       ],
-      "missingReviewedVariants": [
-        "desktop"
-      ],
-      "archivedFiles": 1
+      "missingReviewedVariants": [],
+      "archivedFiles": 3
     },
     {
       "id": "td03-scene",
@@ -1908,8 +1963,8 @@
     }
   ],
   "summary": {
-    "reviewed": 13,
-    "partially-reviewed": 6,
+    "reviewed": 14,
+    "partially-reviewed": 5,
     "archived-needs-review": 3,
     "not-started": 38
   },

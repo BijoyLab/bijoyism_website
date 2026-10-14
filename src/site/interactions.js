@@ -1,4 +1,7 @@
 import {bindHeroCarousel} from './hero-carousel.js';
+import {languageUrl} from './site-config.js';
+import {seoInfo,canonicalRoute} from './seo.js';
+import {purchaseDestination} from './purchase-links.js';
 import {renderSite} from './site-render.js';
 import {bindPurchaseEvents} from './purchase-events.js';
 import {languages} from './languages.js';
@@ -15,7 +18,7 @@ export function mountSite(app, {lang, route}) {
 const controller = new AbortController();
 const {signal} = controller;
 const listen = (target, type, callback, options = {}) => target.addEventListener(type, callback, {...options, signal});
-const pageUrl=path=>`/${lang}/${path}${path?'/':''}`;
+const pageUrl=input=>{const path=canonicalRoute(input);return `/${lang}/${path}${path?'/':''}`;};
 let modalState=null;
 const dialog=document.querySelector('#modal');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -32,15 +35,14 @@ function render(){
    saveInquiryDraft();
    try{localStorage.setItem('bijoyism-language',target);sessionStorage.setItem('bijoyism-faq-'+route,JSON.stringify([...document.querySelectorAll('details')].map((d,i)=>d.open?i:-1).filter(i=>i>=0)));}catch{}
    // Full document navigation keeps form drafts and page controllers scoped to one page.
-   // eslint-disable-next-line @next/next/no-location-assign-relative-destination
-   window.location.assign(`/${target}/${route}${route?'/':''}${location.search}${location.hash}`);
+   window.location.assign(languageUrl(target,route,location.search,location.hash));
   };
   languageSelect.onchange=changeLanguage;
  }
  document.querySelector('.brand').href=pageUrl('');
  document.querySelectorAll('nav a').forEach((a,i)=>{const path=['products','play-ideas','families','schools','about'][i];a.href=pageUrl(path);if(route===path||route.startsWith(path+'/'))a.setAttribute('aria-current','page');});
- document.querySelector('.footer-links').innerHTML=[['play-ideas',siteCopy[lang].ideas],['about',siteCopy[lang].about],['contact',siteCopy[lang].contact],['products',siteCopy[lang].testing],['faq',siteCopy[lang].faq],['buying',siteCopy[lang].storeTerms],['privacy',siteCopy[lang].privacy]].map(([path,label])=>`<a href="${pageUrl(path)}">${label}</a>`).join('');
- if(route){const page=renderPage({lang,route,products,channels,ideas,search:location.search});document.title=page.title+' | BIJOYISM';document.querySelector('meta[name="description"]').content=page.description;}
+ document.querySelector('.footer-links').innerHTML=[['play-ideas',siteCopy[lang].ideas],['about',siteCopy[lang].about],['contact',siteCopy[lang].contact],['guides/liquid-sensory-tiles',siteCopy[lang].testing],['guides/care',siteCopy[lang].care],['guides/testing',lang==='zh'?'检测依据':'Testing evidence'],['faq',siteCopy[lang].faq],['buying',siteCopy[lang].storeTerms],['privacy',siteCopy[lang].privacy]].map(([path,label])=>`<a href="${pageUrl(path)}">${label}</a>`).join('');
+ if(route){const page=renderPage({lang,route,products,channels,ideas,search:location.search});const info=seoInfo(lang,route,page,products,ideas);document.title=info.title.startsWith('BIJOYISM')?info.title:info.title+' | BIJOYISM';document.querySelector('meta[name="description"]').content=info.description;}
  try {const open=JSON.parse(sessionStorage.getItem('bijoyism-faq-'+route)||'[]');document.querySelectorAll('details').forEach((d,i)=>d.open=open.includes(i));}catch{}
  document.querySelectorAll('.hero .actions a').forEach((a,i)=>a.href=pageUrl(i?'play-ideas':'products'));
  bindInquiryForm(lang, signal);
@@ -50,7 +52,7 @@ function render(){
  app.dataset.ready='true';
 }
 function showModal(state){modalState=state;const c=t();let body='';
- if(state.type==='product'){const p=products.find(p=>p.id===state.id);body=`<p class="eyebrow">${c.modalExplore}</p><h2 id="modal-title">${esc(p.name[lang])}</h2><img class="modal-image" src="${p.image}" alt="${esc(p.alt[lang])}"><p>${esc(p.description[lang])}</p><p class="meta">${c.specs}</p><p class="meta">${lang==='en'?'Per tile':'单片长 × 宽 × 厚'}: ${p.dimensions.lengthIn} in × ${p.dimensions.widthIn} in × ${p.dimensions.thicknessIn} in (30 cm × 30 cm × 0.6 cm)</p><h3>${c.buy}</h3><p>${c.buyIntro}</p><div class="channel-grid">${['amazon','taobao'].filter(k=>channels[p.id][k]?.status==='connected'&&channels[p.id][k]?.url).map(k=>{const ch=channels[p.id][k],name=k==='amazon'?'Amazon':'淘宝 / Taobao';return ch.status==='connected'&&ch.url&&/^https:\/\//.test(ch.url)?`<a class="channel" data-purchase-platform="${k}" data-purchase-product="${p.id}" href="${esc(ch.url)}" target="_blank" rel="noopener noreferrer">${name}</a>`:`<div class="channel pending">${name}<small>${c.pending}</small></div>`;}).join('')}</div><p class="meta">${c.channelNote}</p><p class="meta">${c.more}</p>`;}
+ if(state.type==='product'){const p=products.find(p=>p.id===state.id);body=`<p class="eyebrow">${c.modalExplore}</p><h2 id="modal-title">${esc(p.name[lang])}</h2><img class="modal-image" src="${p.image}" alt="${esc(p.alt[lang])}"><p>${esc(p.description[lang])}</p><p class="meta">${c.specs}</p><p class="meta">${lang==='en'?'Per tile':'单片长 × 宽 × 厚'}: ${p.dimensions.lengthIn} in × ${p.dimensions.widthIn} in × ${p.dimensions.thicknessIn} in (30 cm × 30 cm × 0.6 cm)</p><h3>${c.buy}</h3><p>${c.buyIntro}</p><div class="channel-grid">${['amazon','taobao'].filter(k=>channels[p.id][k]?.status==='connected'&&channels[p.id][k]?.url).map(k=>{const ch=channels[p.id][k],name=k==='amazon'?'Amazon':'淘宝 / Taobao';return ch.status==='connected'&&ch.url&&/^https:\/\//.test(ch.url)?`<a class="channel" data-purchase-position="dialog" data-purchase-platform="${k}" data-purchase-product="${p.id}" href="${esc(purchaseDestination(ch,'dialog'))}" target="_blank" rel="noopener noreferrer">${name}</a>`:`<div class="channel pending">${name}<small>${c.pending}</small></div>`;}).join('')}</div><p class="meta">${c.channelNote}</p><p class="meta">${c.more}</p>`;}
  else if(state.type==='guide'){const i=state.id;body=`<p class="eyebrow">${c.guideTag}</p><h2 id="modal-title">${c.activities[i][0]}</h2><ol class="guide-steps">${c.guides[i].map(s=>`<li>${s}</li>`).join('')}</ol><p class="meta">${c.guideSafety}</p><button class="button primary" data-guide-products>${c.shop}</button>`;}
  else {const titles=[c.infoTitle,c.contactTitle,c.testTitle],bodies=[c.infoBody,c.contactBody,c.testBody];body=`<h2 id="modal-title">${titles[state.id]}</h2><p>${bodies[state.id]}</p>`;}
  document.querySelector('#modal-content').innerHTML=body;document.querySelector('.close').setAttribute('aria-label',c.close);if(!dialog.open)dialog.showModal();

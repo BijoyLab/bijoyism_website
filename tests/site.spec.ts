@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 import routeList from "../src/site/data/routes.json";
 
-const representative = ["", "products", "shop/compare", "shop/find-your-fit", "products/td03-aqua-tones", "play-ideas", "play-ideas/adventure-trail", "schools", "about", "contact?topic=customization"];
+const representative = ["", "products", "shop/compare", "shop/find-your-fit", "products/td03-aqua-tones", "guides/liquid-sensory-tiles", "guides/care", "guides/testing", "play-ideas", "play-ideas/adventure-trail", "schools", "about", "contact?topic=customization"];
 for (const locale of ["en", "zh"] as const) {
   test(`${locale}: all major page layouts and assets`, async ({ page }, testInfo) => {
     const errors: string[] = [];
@@ -96,7 +96,7 @@ test("play filters, language, history, detail return and printing", async ({ pag
   expect(await page.locator(".play-variation[open]").count()).toBe(openBefore);
 });
 
-test("FAQ language persistence and customization draft", async ({ page }) => {
+test("FAQ language persistence and email customization brief", async ({ page }) => {
   await page.goto("/en/faq/");
   await expect(page.locator("#app")).toHaveAttribute("data-ready", "true");
   await page.locator("details summary").first().click();
@@ -104,18 +104,18 @@ test("FAQ language persistence and customization draft", async ({ page }) => {
   await expect(page.locator("#app")).toHaveAttribute("data-ready", "true");
   await expect(page.locator("details").first()).toHaveAttribute("open", "");
   await page.goto("/zh/contact/?topic=customization");
-  await expect(page.locator("#delivery-notice")).toContainText("在线提交暂时不可用");
-  await expect(page.locator('#inquiry-form [type="submit"]')).toBeDisabled();
-  await page.locator("#organization").fill("Example School");
-  await page.selectOption("#inquiryType", "sample");
-  await expect(page.locator("#quantity-field")).toBeHidden();
+  await expect(page.locator('#inquiry-form')).toHaveCount(0);
+  const chinese = page.locator('a[href^="mailto:support@bijoyism.cn?subject="]');
+  await expect(chinese).toBeVisible();
+  expect(decodeURIComponent(await chinese.getAttribute('href') || '')).toContain('TD01');
   await page.selectOption("#language-select", "en");
   await expect(page).toHaveURL(/\/en\/contact\/\?topic=customization/);
-  await expect(page.locator("#organization")).toHaveValue("Example School");
-  await expect(page.locator("#inquiryType")).toHaveValue("sample");
+  const english = page.locator('a[href^="mailto:support@bijoyism.cn?subject="]');
+  await expect(english).toBeVisible();
+  expect(decodeURIComponent(await english.getAttribute('href') || '')).toContain('TD03');
 });
 
-test("all 80 reference routes have server HTML and assets; legacy redirects", async ({ request }, testInfo) => {
+test("all historical and GEO routes have server HTML and assets; legacy redirects", async ({ request }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop", "The HTTP route inventory is independent of viewport.");
   const assets = new Set<string>();
   for (const locale of ["en", "zh"]) {
@@ -125,7 +125,7 @@ test("all 80 reference routes have server HTML and assets; legacy redirects", as
       const html = await response.text();
       expect(html).toContain('<header>');
       expect(html).toContain('<footer>');
-      expect(html).toContain('name="robots" content="noindex, nofollow"');
+      expect(html).toContain('name="robots" content="index, follow"');
       expect((html.match(/<h1[ >]/g) || []).length, route).toBe(1);
       for (const match of html.matchAll(/(?:src|srcSet|srcset)="(\/assets\/[^" ]+)"/g)) assets.add(match[1]);
     }
@@ -136,7 +136,7 @@ test("all 80 reference routes have server HTML and assets; legacy redirects", as
     }
     const info = await request.get(`/${locale}/our-products/care/?from=old`, { maxRedirects: 0 });
     expect(info.status()).toBe(301);
-    expect(info.headers().location).toContain(`/products/?from=old#care`);
+    expect(info.headers().location).toContain(`/guides/care/?from=old`);
   }
   for (const asset of assets) expect((await request.get(asset)).status(), asset).toBe(200);
   const oldChinese = await request.get("/zh-cn/schools/?source=old", { maxRedirects: 0 });

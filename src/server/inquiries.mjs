@@ -42,7 +42,7 @@ export function createInquiryHandler({fetchEmail=fetch,now=()=>Date.now()}={}){
   const configured=!!env.RESEND_API_KEY&&env.INQUIRY_MAIL_ENABLED==='true';
   if(request.method==='GET')return reply(200,{available:configured});
   if(request.method!=='POST')return reply(405,{error:'method_not_allowed'});
-  const allowed=new Set((env.INQUIRY_ALLOWED_ORIGINS||'https://bijoyism.cc').split(',').map(s=>s.trim()));
+  const allowed=new Set((env.INQUIRY_ALLOWED_ORIGINS||'https://bijoyism.cc,https://bijoyism.cn').split(',').map(s=>s.trim()));
   if(!allowed.has(request.headers.get('origin')))return reply(403,{error:'origin_not_allowed'});
   if(!configured)return reply(503,{error:'not_configured'});
   if(!request.headers.get('content-type')?.startsWith('application/json'))return reply(415,{error:'invalid_content_type'});

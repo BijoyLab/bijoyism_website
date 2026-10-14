@@ -158,6 +158,42 @@
     ]
   },
   {
+    "asset": "homepage-carousel-td02-rearrange-desktop-v02",
+    "source": "materials/originals/scenes/home/bijoyism-td02-homepage-rearrange-desktop-v02.png",
+    "type": "generated",
+    "sourceSha256": "3a9f4b0cde6b154bad4233c56ad1fc8366748bbd762118c7a28e980bd603cb39",
+    "export": "public/assets/homepage-carousel-td02-rearrange-desktop-v02.webp",
+    "dimensions": [
+      1800,
+      738
+    ],
+    "bytes": 206754,
+    "transform": "Proportional WebP export to the homepage desktop carousel size; artwork unchanged",
+    "exportSha256": "004b4ff751900dbe378d3d899595b17ca7a3beb31c98947bf714fa8d955a99a1",
+    "uses": [
+      "homepage carousel slide 3 desktop",
+      "TD02 rearrange paths"
+    ]
+  },
+  {
+    "asset": "homepage-carousel-td02-rearrange-mobile-v02",
+    "source": "materials/originals/scenes/home/bijoyism-td02-homepage-rearrange-mobile-v02.png",
+    "type": "generated",
+    "sourceSha256": "6fae7ac262969a1d9fb5a75f3451e4bac137191a956e40a186693f38408576f8",
+    "export": "public/assets/homepage-carousel-td02-rearrange-mobile-v02.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "bytes": 179908,
+    "transform": "Proportional WebP export to the homepage mobile carousel size; artwork unchanged",
+    "exportSha256": "57631ebd100bd6b60c77a0747a6354e7288407bc69737dc65e7322e4550bc233",
+    "uses": [
+      "homepage carousel slide 3 mobile",
+      "TD02 rearrange paths"
+    ]
+  },
+  {
     "asset": "td03-reading-desktop-v01",
     "source": "materials/originals/scenes/reading/bijoyism-td03-reading-nook-desktop-v01.png",
     "type": "generated",

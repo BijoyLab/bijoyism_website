@@ -6,7 +6,7 @@ import "../globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bijoyism.cc"),
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
   icons: { icon: "/assets/favicon.svg" },
 };
 

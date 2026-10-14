@@ -1,6 +1,6 @@
 # BIJOYISM 网站素材共享进度
 
-更新时间：2026-10-12T07:21:37+08:00
+更新时间：2026-10-12T18:56:37+08:00
 
 归档、画面核对、使用范围与网页接入分别记录。选配项不是上线必备；已有文件待核对不能当作新制作完成。
 
@@ -13,7 +13,7 @@
 | homepage-play | 首页玩法主视觉 | P1 | 已登记／归档待核对 | desktop, mobile | 1 |
 | home-scene | 家庭页场景 | P1 | 未开始 | desktop, mobile | 0 |
 | school-scene | 学校与机构场景 | P1 | 所需变体已核对 | — | 5 |
-| td02-scene | TD02 双色观察场景 | P1 | 部分变体已核对 | desktop | 1 |
+| td02-scene | TD02 双色观察场景 | P1 | 所需变体已核对 | — | 3 |
 | td03-scene | TD03 蓝绿观察场景 | P1 | 所需变体已核对 | — | 3 |
 | about-scene | 真实品牌工作素材 | P2-optional | 部分变体已核对 | mobile | 1 |
 | td01-set | TD01 整套正面 | P1 | 所需变体已核对 | — | 2 |
@@ -109,3 +109,5 @@
 - td03-scene / mobile：[bijoyism-td03-reading-institutions-v02.png](</Users/emiliachen/Projects/Bijoysim_amazon_share/技术/bijoyism_website/materials/originals/scenes/reading/bijoyism-td03-reading-institutions-v02.png>)；1448 × 1086；核对=通过；网页=in-use；使用范围=confirmed
 - school-scene / mobile：[bijoyism-td01-classroom-table-v01.png](</Users/emiliachen/Projects/Bijoysim_amazon_share/技术/bijoyism_website/materials/originals/scenes/school/bijoyism-td01-classroom-table-v01.png>)；1448 × 1086；核对=通过；网页=in-use；使用范围=confirmed
 - td02-scene / mobile：[bijoyism-td02-homepage-rearrange-mobile-v01.png](</Users/emiliachen/Projects/Bijoysim_amazon_share/技术/bijoyism_website/materials/originals/scenes/home/bijoyism-td02-homepage-rearrange-mobile-v01.png>)；1448 × 1086；核对=通过；网页=in-use；使用范围=confirmed
+- td02-scene / desktop：[bijoyism-td02-homepage-rearrange-desktop-v02.png](</Users/emiliachen/Projects/Bijoysim_amazon_share/技术/bijoyism_website/materials/originals/scenes/home/bijoyism-td02-homepage-rearrange-desktop-v02.png>)；1959 × 803；核对=通过；网页=in-use；使用范围=confirmed
+- td02-scene / mobile：[bijoyism-td02-homepage-rearrange-mobile-v02.png](</Users/emiliachen/Projects/Bijoysim_amazon_share/技术/bijoyism_website/materials/originals/scenes/home/bijoyism-td02-homepage-rearrange-mobile-v02.png>)；1448 × 1086；核对=通过；网页=in-use；使用范围=confirmed

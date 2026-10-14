@@ -2,13 +2,29 @@ import createMiddleware from "next-intl/middleware";
 import { NextResponse, type NextRequest } from "next/server";
 import { routing } from "./i18n/routing";
 import { playRedirects } from "./site/play-content";
+import { routeAliases } from "./site/seo";
+import { hostLocale, siteConfig } from "./site/site-config";
 
 const internationalize = createMiddleware(routing);
-const oldInfo: Record<string, string> = {
-  "our-products": "products", "our-products/care": "products#care",
-  "our-products/testing": "products#testing", "our-products/liquid-sensory-tiles": "products#product-facts",
-};
+const oldInfo: Record<string, string> = routeAliases;
 export default function proxy(request: NextRequest) {
+  const host = request.headers.get('host')?.split(':')[0].toLowerCase() || '';
+  if (host === 'www.bijoyism.cc' || host === 'www.bijoyism.cn') {
+    const url = request.nextUrl.clone();
+    url.host = host.replace(/^www\./, ''); url.port = ''; url.protocol = 'https:';
+    return NextResponse.redirect(url, 308);
+  }
+  if (request.nextUrl.pathname === '/' && /^bijoyism\.(cn|cc)$/.test(host)) {
+    const country = request.headers.get('cf-ipcountry');
+    const preferred = request.cookies.get('NEXT_LOCALE')?.value;
+    const marketLocale = country === 'CN' ? 'zh' : country && country !== 'XX' ? 'en' : hostLocale(host);
+    const locale = preferred === 'en' || preferred === 'zh' ? preferred : marketLocale;
+    const url = new URL(`/${locale}/`, siteConfig.origins[marketLocale]);
+    url.search = request.nextUrl.search;
+    const response = NextResponse.redirect(url, 307);
+    response.headers.set('Cache-Control', 'private, no-store');
+    return response;
+  }
   const segments = request.nextUrl.pathname.split("/").filter(Boolean);
   const locale = segments[0];
   if (locale === "zh-cn") {
@@ -29,6 +45,9 @@ export default function proxy(request: NextRequest) {
       return NextResponse.redirect(url, 301);
     }
   }
-  return internationalize(request);
+  const response = internationalize(request);
+  // HTML carries cross-domain hreflang; avoid conflicting same-host HTTP alternates.
+  response.headers.delete('link');
+  return response;
 }
 export const config = { matcher: "/((?!api|trpc|_next|_vercel|.*\\..*).*)" };

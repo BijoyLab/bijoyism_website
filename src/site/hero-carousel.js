@@ -5,7 +5,7 @@ const labels = {
 const scenes = [
  {desktop:'homepage-carousel-school-desktop-v01.webp',mobile:'hero-mobile.webp',alt:{en:'Children following a sensory-tile path together in a bright indoor playroom.',zh:'孩子们在明亮室内空间一起探索感官地砖路径。'}},
  {desktop:'hero.webp',mobile:'hero-mobile.webp',alt:{en:'Children pressing and stepping on Animal Discovery tiles at home.',zh:'孩子们在家中按压和踩踏动物探索系列地垫。'}},
- {desktop:'homepage-carousel-td02-rearrange-v01.webp',mobile:'homepage-carousel-td02-rearrange-v01.webp',contain:true,width:1200,height:900,alt:{en:'A parent and child rearranging eight Color Duos sensory tiles into a playful path at home.',zh:'家长与孩子在家中将八片 Color Duos 感官地砖重排成活泼路径。'}}
+ {desktop:'homepage-carousel-td02-rearrange-desktop-v02.webp',mobile:'homepage-carousel-td02-rearrange-mobile-v02.webp',alt:{en:'A parent and child rearranging Color Duos sensory tiles into a playful path at home.',zh:'家长与孩子在家中将 Color Duos 感官地砖重排成活泼路径。'}}
 ];
 export function renderHeroCarousel(lang) {
  const c=labels[lang];

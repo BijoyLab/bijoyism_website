@@ -1,6 +1,7 @@
 [
   {
     "id": "td01",
+    "sku": "BJS-ANIMAL-8",
     "slug": "animal-discovery",
     "status": "live",
     "featured": true,
@@ -43,7 +44,7 @@
       "en": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid.",
       "zh": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
     },
-    "factSource": "product-truth.md; TD01_Animal_Discovery_Listing_V5_CN_EN.md"
+    "factSource": "Product/03-truth/product-truth.md"
   },
   {
     "id": "td02",
@@ -89,7 +90,7 @@
       "en": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns.",
       "zh": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
     },
-    "factSource": "product-truth.md; TD02_Color_Duos_Listing_V2_CN_EN.md",
+    "factSource": "Product/03-truth/product-truth.md",
     "gallery": [
       {
         "image": "/assets/color-duos.webp",
@@ -182,7 +183,7 @@
       "en": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork.",
       "zh": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
     },
-    "factSource": "TD3_Aqua_Tones_Amazon_Master_Plan_2026-10-02.md",
+    "factSource": "Product/03-truth/product-truth.md",
     "gallery": [
       {
         "image": "/assets/aqua-tones.webp",

@@ -1,0 +1,14 @@
+{
+  "source": "Product/00-core/product-facts.compact.json",
+  "sourceSha256": "af3aa402ed4fb25028f253478f6f68c2eb9fcb08cdb6b2c98583a69a56b4f847",
+  "verifiedOn": "2026-10-14",
+  "compliance": {
+    "covered_models": [
+      "TD01",
+      "TD02",
+      "TD03"
+    ],
+    "test_report": "C202602050363E",
+    "cpc": "CPCC202602050363E"
+  }
+}

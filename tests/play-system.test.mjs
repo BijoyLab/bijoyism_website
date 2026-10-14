@@ -6,6 +6,7 @@ import {filterGames,games,pickIdeas,renderLibrary,renderPlayDetail} from '../src
 import {getRoutes} from '../src/site/pages.js';
 import {cardAction,stepAction} from '../src/site/play-actions.js';
 const products=JSON.parse(fs.readFileSync(new URL('../src/site/data/products.json',import.meta.url)));
+const escapeHtml=value=>value.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 test('approved action drawings and complete print content share the same localized source',()=>{
  const sprite=fs.readFileSync(new URL('../public/assets/play-actions.svg',import.meta.url),'utf8');
  for(const idea of playIdeas){
@@ -13,8 +14,8 @@ test('approved action drawings and complete print content share the same localiz
   for(const lang of ['en','zh']){
    const html=renderPlayDetail(idea,lang,products,playIdeas),print=html.split('<section class="page-intro')[0];
    assert.ok(print.includes('/assets/logo-red-v01.svg'));
-   for(const field of ['title','summary','setup','easier','variation'])assert.ok(print.includes(idea[field][lang]));
-   for(const s of idea.ruleSteps)assert.ok(print.includes(s.text[lang]));
+   for(const field of ['title','summary','setup','easier','variation'])assert.ok(print.includes(escapeHtml(idea[field][lang])));
+   for(const s of idea.ruleSteps)assert.ok(print.includes(escapeHtml(s.text[lang])));
    assert.ok(!html.includes('<h1')||html.match(/<h1/g).length===1);
   }
  }
@@ -46,7 +47,7 @@ test('curated recommendations survive reordered content; guides never enter the 
  for(const lang of ['en','zh']){
   const html=renderLibrary(lang,products,playIdeas);assert.equal((html.match(/<select name=/g)||[]).length,4);
   assert.ok(!html.includes('name="mode"')&&!html.includes('name="mood"')&&!html.includes('name="difficulty"'));
-  assert.equal(getRoutes(products,playIdeas).length,40);
+  assert.equal(getRoutes(products,playIdeas).length,43);
   const detail=renderPlayDetail(playIdeas.find(i=>i.id==='adventure-trail'),lang,products,playIdeas);
   assert.ok(detail.includes('station-td01')&&detail.includes('station-td02')&&detail.includes('station-td03'));
  }

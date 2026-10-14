@@ -1,4 +1,4 @@
-// Product statements trace to product-truth.md, model plans and identity libraries.
+// Product statements trace to Product/03-truth/product-truth.md and identity libraries.
 // These describe play invitations, not measured developmental outcomes.
 export const knowledge={
  en:{

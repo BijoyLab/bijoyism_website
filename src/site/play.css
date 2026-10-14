@@ -1,5 +1,6 @@
 /* Shared play components. Action drawings describe tasks, never physical product artwork. */
-.play-print-card{display:none}
+.play-print-card{display:none;position:relative;overflow:hidden}
+.print-watermark{display:none}
 .play-action-icon{width:68px;height:68px;display:block;fill:none;stroke:currentColor;stroke-width:3.8;stroke-linecap:round;stroke-linejoin:round;color:var(--mode-color,#287588);--light:var(--mode-bg,#e0f4f1);flex-shrink:0}
 .mode-symbol .play-action-icon{width:62px;height:62px}
 .rule-mini{min-height:0!important;padding:6px!important;background:transparent!important}
@@ -16,6 +17,9 @@
  body:has(.play-print-card){color:#315369!important;background:white!important;font-size:10.5pt;print-color-adjust:exact;-webkit-print-color-adjust:exact}
  main:has(.play-print-card)>:not(.play-print-card){display:none!important}
  .play-print-card{display:block!important;width:100%;margin:0;color:#315369;line-height:1.45;font-size:10.5pt;break-inside:avoid}
+ .print-watermark{position:absolute;inset:-18%;display:grid;grid-template-columns:repeat(3,max-content);align-content:space-around;justify-content:space-around;gap:24pt 34pt;transform:rotate(-45deg);color:#315369;opacity:.095;pointer-events:none;user-select:none;z-index:0}
+ .print-watermark span{font-size:9pt;letter-spacing:.08em;line-height:1;white-space:nowrap}
+ .play-print-card> :not(.print-watermark){position:relative;z-index:1}
  .print-masthead{display:flex;align-items:center;justify-content:space-between;border-bottom:1.5pt solid #e13828;padding:0 0 8pt;margin-bottom:10pt}
  .print-masthead img{width:125pt;height:auto}.print-masthead span{font-size:9pt;color:var(--mode-color)}
  .play-print-card .print-title{font-size:23pt;font-weight:700;line-height:1.2;margin:0 0 6pt;color:var(--mode-color)}

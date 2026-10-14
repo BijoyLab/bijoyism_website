@@ -1,4 +1,13 @@
 import type { MetadataRoute } from "next";
-export default function robots(): MetadataRoute.Robots {
-  return { rules: { userAgent: "*", disallow: "/" } };
+import { headers } from "next/headers";
+import { hostLocale, siteConfig } from "@/site/site-config";
+export default async function robots(): Promise<MetadataRoute.Robots> {
+  const locale = hostLocale((await headers()).get('host'));
+  return {
+    rules: [
+      { userAgent: "*", allow: "/" },
+      { userAgent: "OAI-SearchBot", allow: "/" },
+    ],
+    sitemap: `${siteConfig.origins[locale]}/sitemap.xml`,
+  };
 }
