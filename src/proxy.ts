@@ -9,10 +9,14 @@ const internationalize = createMiddleware(routing);
 const oldInfo: Record<string, string> = routeAliases;
 export default function proxy(request: NextRequest) {
   const host = request.headers.get('host')?.split(':')[0].toLowerCase() || '';
-  if (host === 'www.bijoyism.cc' || host === 'www.bijoyism.cn') {
+  if (host === 'www.bijoyism.cc' || host === 'www.bijoyism.cn' || host === 'bijoyism.cn') {
     const url = request.nextUrl.clone();
-    url.host = host.replace(/^www\./, ''); url.port = ''; url.protocol = 'https:';
-    return NextResponse.redirect(url, 308);
+    url.host = 'bijoyism.cc'; url.port = ''; url.protocol = 'https:';
+    if (host.endsWith('bijoyism.cn') && url.pathname === '/') url.pathname = '/zh/';
+    // The .cn fallback is temporary; it only works once a request reaches this app.
+    const response = NextResponse.redirect(url, host.endsWith('bijoyism.cn') ? 307 : 308);
+    response.headers.set('Cache-Control', 'private, no-store');
+    return response;
   }
   if (request.nextUrl.pathname === '/' && /^bijoyism\.(cn|cc)$/.test(host)) {
     const country = request.headers.get('cf-ipcountry');
@@ -46,7 +50,7 @@ export default function proxy(request: NextRequest) {
     }
   }
   const response = internationalize(request);
-  // HTML carries cross-domain hreflang; avoid conflicting same-host HTTP alternates.
+  // HTML carries canonical hreflang; keep proxy defaults from conflicting with it.
   response.headers.delete('link');
   return response;
 }

@@ -9,7 +9,7 @@
 - 来源类型：用户提供的公司资料
 - 当前状态：已纳入项目事实源；公司英文名称和注册地址按 2026-10-13 提供的信息统一使用。
 - 联系邮箱：`support@bijoyism.cn`
-- 网站域名策略：`bijoyism.cn` 面向中国访问，`bijoyism.cc` 面向海外访问。两个域名应保持公司事实、产品事实和公开说明一致。
+- 网站域名策略：长期计划为 `bijoyism.cn` 面向中国访问、`bijoyism.cc` 面向海外访问。2026-10-14 用户确认暂时统一使用 `bijoyism.cc/zh/`（中国用户）及 `bijoyism.cc/en/`（海外用户），待 `.cn` 托管和 HTTPS 可用后再切换。当前网站 canonical、hreflang、Sitemap 和结构化数据均使用 `.cc`；邮箱仍为 `support@bijoyism.cn`。
 
 ## 公司基本事实
 
@@ -57,7 +57,12 @@ BIJOYISM designs sensory toys for children aged 3 and up. Its core product, the 
 
 ## 合规与检测事实
 
-公司资料列出：
+公司资料列出（2026-10-15 统一并列列示）：
+
+| 认证合规 | CPC；ASTM F963-23；CPSIA；GB6675 |
+| --- | --- |
+
+CPC 为儿童产品证书；ASTM F963-23、CPSIA、GB 6675 分别为标准或法规要求，不统称为四份证书。以下逐项保留原资料内容：
 
 - CPC
 - ASTM F963-23
@@ -80,11 +85,11 @@ BIJOYISM designs sensory toys for children aged 3 and up. Its core product, the 
 
 推荐使用：
 
-> The current TD01, TD02, and TD03 collections were tested together for applicable ASTM F963-23 and CPSIA requirements and are listed on the same Children's Product Certificate (CPC). Contact BIJOYISM with the collection or model name to request the applicable information.
+> The current TD01, TD02, and TD03 collections have a Children's Product Certificate (CPC) and have been tested for applicable ASTM F963-23 and CPSIA requirements. Contact BIJOYISM with the collection or model name to request the applicable information.
 
 中文可使用：
 
-> 当前 TD01、TD02、TD03 三个系列一起进行了适用的 ASTM F963-23 和 CPSIA 检测，并在同一份儿童产品证书（CPC）中列明。如需了解适用资料，请提供产品系列或型号名称联系 BIJOYISM。
+> 当前 TD01、TD02、TD03 三个系列均具备儿童产品证书（CPC），并完成适用的 ASTM F963-23 和 CPSIA 要求检测。如需了解适用资料，请提供产品系列或型号名称联系 BIJOYISM。
 
 ### English compliance scope
 

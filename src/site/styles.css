@@ -65,17 +65,17 @@ html[lang^="zh"] p:not(.eyebrow):not(.product-headline):not(.brand-banner-slogan
 @media(prefers-reduced-motion:reduce){.hero-carousel-overlay button{transition:none}}
 
 /* Home collection cards: one summary and two clearly separated actions. */
-#collections .product{display:flex;flex-direction:column}
-#collections .product-content{display:flex;flex-direction:column;flex:1;padding:22px 3px 0}
-#collections .product h3{margin:0 0 12px}
-#collections .product-summary{font-size:17px;line-height:1.65;margin:0 0 16px}
-#collections .product-content>.meta{margin-bottom:22px}
-#collections .product-actions{display:grid;grid-template-columns:auto 1fr;gap:12px;margin-top:auto}
-#collections .product-actions .button{min-height:48px;height:auto;padding:12px 16px;font-size:14px;line-height:1.5;white-space:nowrap}
-#collections .product-amazon{background:white;border:1px solid #a8b5bf;color:var(--ink);gap:8px;font-weight:600}
-#collections .product-amazon:hover{border-color:var(--ink);background:#f4f7f8}
-@media(max-width:1100px){#collections .product-actions{grid-template-columns:1fr}}
-@media(max-width:640px){#collections .product-summary{font-size:18px}#collections .product-actions .button{font-size:16px;min-height:50px}}
+.products .product{display:flex;flex-direction:column}
+.products .product-content{display:flex;flex-direction:column;flex:1;padding:22px 3px 0}
+.products .product h3{margin:0 0 12px}
+.products .product-summary{font-size:17px;line-height:1.65;margin:0 0 16px}
+.products .product-content>.meta{margin-bottom:22px}
+.products .product-actions{display:grid;grid-template-columns:auto 1fr;gap:12px;margin-top:auto}
+.products .product-actions .button{min-height:48px;height:auto;padding:12px 16px;font-size:14px;line-height:1.5;white-space:nowrap}
+.products .product-amazon{background:white;border:1px solid #a8b5bf;color:var(--ink);gap:8px;font-weight:600}
+.products .product-amazon:hover{border-color:var(--ink);background:#f4f7f8}
+@media(max-width:1100px){.products .product-actions{grid-template-columns:1fr}}
+@media(max-width:640px){.products .product-summary{font-size:18px}.products .product-actions .button{font-size:16px;min-height:50px}}
 
 /* Product details: text-free care scene, product close-ups, and four distinct benefits. */
 .details-section{padding:82px 0}
@@ -112,3 +112,12 @@ html[lang^="zh"] p:not(.eyebrow):not(.product-headline):not(.brand-banner-slogan
 .institution-safety{font-size:13px;line-height:1.6;margin:22px 0 0}
 @media(max-width:900px){.institution-scenes{gap:20px}.institution-scene h3{font-size:21px}}
 @media(max-width:640px){.institution-section{padding-block:55px}.institution-heading{text-align:left;margin-bottom:28px}.institution-scenes{grid-template-columns:1fr;gap:32px}.institution-scene h3{font-size:26px;margin-top:18px}.institution-scene p{font-size:18px}.institution-footer{text-align:left;margin-top:30px;padding-top:24px}.institution-actions{justify-content:flex-start}.institution-custom{font-size:16px}.institution-safety{font-size:14px}}
+
+/* Compatibility fallbacks for browsers that do not parse CSS min() or logical margins. */
+.wrap{width:calc(100% - 112px);max-width:1280px;margin-left:auto;margin-right:auto}
+.hero-photo{margin-left:24px;margin-right:24px}
+.hero-photo.hero-carousel{margin-left:auto;margin-right:auto}
+dialog{width:calc(100% - 32px);max-width:620px}
+.responsive-scene{width:100%;max-width:1440px;margin-left:auto;margin-right:auto}
+@media(max-width:1100px){.wrap{width:calc(100% - 64px)}}
+@media(max-width:640px){.wrap{width:calc(100% - 40px)}.hero-photo{margin-left:12px;margin-right:12px}}

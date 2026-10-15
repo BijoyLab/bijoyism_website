@@ -7,21 +7,16 @@ import {valueIcon} from './value-icons.js';
 import {languages} from './languages.js';
 import {copy} from './copy.js';
 import {siteCopy} from './site-copy.js';
-import {renderPage,productPath} from './pages.js';
+import {renderPage,productPath,productCardSummaries} from './pages.js';
 import {renderPlayCards,pickIdeas,playText} from './play-library.js';
 export function renderSite({lang,route='',products,channels,ideas,search=''}){
  const c=copy[lang],t=()=>c,pageUrl=input=>{const path=canonicalRoute(input);return `/${lang}/${path}${path?'/':''}`;};
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const summaries={
- td01:{zh:'在动物与流动色彩中，发现故事灵感。',en:'Explore animals, moving colors, and story ideas.'},
- td02:{zh:'按一按，踩一踩，观察双色流动。',en:'Press, step, and explore two moving colors.'},
- td03:{zh:'探索蓝绿流动，享受安静的游戏时光。',en:'Explore blue and green through quiet play.'}
-};
 function card(p){
  const amazon=channels?.[p.id]?.amazon;
  const destination=purchaseDestination(amazon,'home');
  const connected=Boolean(destination);
- return `<article class="product"><div class="product-image"><img src="${p.image}" alt="${esc(p.alt[lang])}" loading="lazy" width="1200" height="800"></div><div class="product-content"><h3>${esc(p.name[lang])}</h3><p class="product-summary">${esc(summaries[p.id]?.[lang]||p.headline[lang])}</p><div class="meta">${t().pieces} <span>·</span> ${t().ages}</div><div class="product-actions"><a class="button primary" href="${pageUrl(productPath(p))}">${lang==='en'?'View Details':'产品详情'}</a>${connected?`<a class="button product-amazon" href="${esc(destination)}" data-purchase-position="home" data-purchase-platform="amazon" data-purchase-product="${esc(p.id)}" target="_blank" rel="noopener noreferrer">${lang==='en'?'Shop on Amazon':'在 Amazon 购买'} <span aria-hidden="true">↗</span><span class="carousel-status">${lang==='en'?' (opens in a new tab)':'（在新标签页打开）'}</span></a>`:''}</div></div></article>`;
+ return `<article class="product"><div class="product-image"><img src="${p.image}" alt="${esc(p.alt[lang])}" loading="lazy" width="1200" height="800"></div><div class="product-content"><h3>${esc(p.name[lang])}</h3><p class="product-summary">${esc(productCardSummaries[p.id]?.[lang]||p.headline[lang])}</p><div class="meta">${t().pieces} <span>·</span> ${t().ages}</div><div class="product-actions"><a class="button primary" href="${pageUrl(productPath(p))}">${lang==='en'?'View Details':'产品详情'}</a>${connected?`<a class="button product-amazon" href="${esc(destination)}" data-purchase-position="home" data-purchase-platform="amazon" data-purchase-product="${esc(p.id)}" target="_blank" rel="noopener noreferrer">${lang==='en'?'Shop on Amazon':'在 Amazon 购买'} <span aria-hidden="true">↗</span><span class="carousel-status">${lang==='en'?' (opens in a new tab)':'（在新标签页打开）'}</span></a>`:''}</div></div></article>`;
 }
  let html=`<header><a class="brand" href="#" aria-label="BIJOYISM home"><img src="/assets/logo-red-v01.svg" alt="BIJOYISM" width="180" height="39"></a><nav id="navigation" aria-label="${c.menu}">${c.nav.map((n,i)=>`<a href="#${['collections','play','details','families','families'][i]}">${n}</a>`).join('')}</nav><div class="header-actions"><div class="languages"><select id="language-select" aria-label="${esc(languages.find(l=>l.code===lang).selectorLabel)}">${languages.map(l=>`<option value="${esc(l.code)}" lang="${esc(l.code)}"${l.code===lang?' selected':''}>${esc(l.label)}</option>`).join('')}</select></div><button class="menu-toggle" aria-controls="navigation" aria-expanded="false">${c.menu}<span>☰</span></button></div></header>
  <main id="main"><section class="hero"><div class="hero-intro wrap"><div><p class="eyebrow">${c.eyebrow}</p><h1>${c.hero}</h1></div><div class="hero-support"><p>${c.intro}</p><div class="actions"><a class="button primary" href="#collections">${c.shop}</a><a class="text-button" href="#play">${c.play}</a></div></div></div>${renderHeroCarousel(lang)}<ul class="ribbon" aria-label="${c.valuesLabel}">${c.ribbon.map((x,i)=>`<li class="value-item value-${i}"><div class="value-icon">${valueIcon(i)}</div><span class="value-title">${x[0]}</span><span class="value-subtitle">${x[1]}</span></li>`).join('')}</ul></section>

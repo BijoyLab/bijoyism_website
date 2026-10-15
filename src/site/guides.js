@@ -15,9 +15,9 @@ export function guideContent(lang,route){
  };
  if(route==='guides/care')return {
   title:zh?'液体感官地垫如何清洁、检查和收纳？':'How to Clean and Store Liquid Sensory Tiles',
-  intro:zh?'BIJOYISM TD01、TD02、TD03 液体感官地垫用柔软湿布擦拭，晾干后平放收纳。不要浸泡、折叠或长时间接触水。使用前检查是否损坏；发现损坏时停止使用。请在成人监护下，于室内干燥、平整的地面使用。':'Wipe BIJOYISM TD01, TD02, and TD03 liquid sensory tiles with a soft, damp cloth, let them dry, and store them flat. Do not submerge, fold, or leave them in prolonged contact with water. Check before play and stop using a damaged tile. Use indoors on a dry, level floor with adult supervision.',
-  steps:zh?['请孩子离开游戏区域，再检查每片地垫是否损坏。','用柔软湿布擦拭表面，不把整片浸入水中。','晾干后平放收纳，不折叠硬质地垫。','下次游戏前重新检查，纹理底面朝下，单层平放、互不叠压。']:['Ask children to leave the play area, then check each tile for damage.','Wipe the surface with a soft, damp cloth; do not submerge the tile.','Let dry and store flat. Do not fold the rigid tiles.','Check again before play. Place the textured side down in a single layer without overlaps.'],
-  sections:[...k.careFaq,[zh?'耐水是否意味着整片防水？':'Does a water-resistant surface mean the whole tile is waterproof?',zh?'透明 PVC 上表面可耐受日常零星水滴，并可擦拭清洁。这个范围仅限表面，不表示整片可浸泡或可长时间接触水。':'The transparent PVC top surface tolerates incidental water droplets and can be wiped clean. This applies to the surface only; it does not mean the whole tile can be submerged or left in prolonged contact with water.']],
+  intro:zh?'BIJOYISM TD01、TD02、TD03 液体感官地垫表面防泼溅，可湿布擦拭。请勿浸泡，也不要让地垫长时间接触水。清洁后擦干或在阴凉处晾干，再整齐叠放收纳。使用前检查是否损坏；发现损坏时停止使用。请在成人监护下，于室内干燥、平整的地面使用。':'BIJOYISM TD01, TD02, and TD03 liquid sensory tiles have splash-resistant surfaces that can be wiped clean with a damp cloth. Do not submerge the tiles or leave them in prolonged contact with water. Wipe them dry or air-dry them in a cool place, then stack them neatly for storage. Check before play and stop using a damaged tile. Use indoors on a dry, level floor with adult supervision.',
+  steps:zh?['请孩子离开游戏区域，再检查每片地垫是否损坏。','表面防泼溅，可湿布擦拭；不要浸泡地垫。','擦干或放在阴凉处晾干，干燥后整齐叠放收纳。','下次游戏前重新检查，纹理面朝下，单层平放、彼此不叠压。']:['Ask children to leave the play area, then check each tile for damage.','Wipe the splash-resistant surface with a damp cloth; do not submerge the tile.','Wipe dry or air-dry in a cool place, then stack the tiles neatly once dry.','Check again before play. Place the textured side down in a single layer without overlaps.'],
+  sections:[...k.careFaq],
   links:[['products',zh?'查看产品规格':'View product specifications'],['guides/testing',zh?'查看检测依据':'Read testing information'],['contact',zh?'联系产品支持':'Contact product support']]
  };
  return {

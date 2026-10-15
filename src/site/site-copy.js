@@ -25,12 +25,12 @@ siteCopy.en.indoor='Dry, level indoor floor or carpet · Adult supervision';
 siteCopy.en.how='Thoughtful Details. Easy Everyday Care.';
 siteCopy.en.howIntro='Take a closer look at the rounded edges, fine matte surface, textured TPE backing, and simple care and storage.';
 siteCopy.en.features=['Smooth, Rounded Edges','Fine Matte Surface','Textured TPE Backing','Easy Care & Storage'];
-siteCopy.en.featureBodies=['Smooth, rounded edges are visible along the tile perimeter.','The surface has a fine matte finish. Wipe incidental moisture from the surface and do not submerge the tile.','Use the textured TPE backing side down on a dry, flat indoor floor. This description does not claim a tested slip-resistance rating.','Wipe with a soft, damp cloth, then dry and store flat. Do not submerge or leave in prolonged contact with water.'];
-siteCopy.en.careItems=['Place the textured side down on a dry, level indoor floor or carpet.','Wipe with a damp cloth. Do not submerge or leave in prolonged contact with water.','Allow to dry, then store flat. Stop using a damaged tile.'];
+siteCopy.en.featureBodies=['Smooth, rounded edges are visible along the tile perimeter.','The surface has a fine matte finish. The surface is splash-resistant and can be wiped clean with a damp cloth.','Use the textured TPE backing side down on a dry, flat indoor floor. This description does not claim a tested slip-resistance rating.','Wipe with a soft, damp cloth, then dry and store flat. Do not submerge or leave in prolonged contact with water.'];
+siteCopy.en.careItems=['Place the textured side down on a dry, level indoor floor or carpet.','The surface is splash-resistant and can be wiped clean with a damp cloth. Do not submerge or leave in prolonged contact with water.','Wipe dry or air-dry in a cool place, then stack the tiles neatly. Stop using a damaged tile.'];
 siteCopy.en.testingTitle='Testing information belongs to the product model.';
 siteCopy.en.testingBody=testingSummary.en;
 siteCopy.en.testingNote='Use guidance: The tiles are recommended for children ages 3 and up and must be used with adult supervision. Place the textured side down on a clean, dry, level indoor floor or carpet. Clean with a soft, damp cloth; do not submerge the tiles or leave them soaking in water for an extended period.';
-siteCopy.en.surfaceBody='The current collections use a transparent PVC surface and TPE backing. The top has a fine matte finish; wipe incidental moisture from the surface and do not submerge the tile. The textured backing is designed to face down during use. The tile has rounded edges and a thin, flat profile.';
+siteCopy.en.surfaceBody='The current collections use a transparent PVC surface and TPE backing. The top has a fine matte finish. The surface is splash-resistant and can be wiped clean with a damp cloth. The textured backing is designed to face down during use. The tile has rounded edges and a thin, flat profile.';
 siteCopy.en.fitIntro='All three current collections are for ages 3+ and indoor use on a dry, level floor or carpet with adult supervision.';
 
 siteCopy['zh'].shop='产品';
@@ -52,12 +52,12 @@ siteCopy['zh'].indoor='室内干燥、平整地面或地毯 · 成人监护';
 siteCopy['zh'].how='细节看得见，日常更好打理。';
 siteCopy['zh'].howIntro='从圆润边缘、细密磨砂表面和带纹理的 TPE 底面，到清洁与收纳护理，近距离了解地垫的设计细节。';
 siteCopy['zh'].features=['圆润边缘','细密磨砂表面','带纹理的 TPE 底面','清洁与收纳'];
-siteCopy['zh'].featureBodies=['边缘圆润顺滑，具体外观以产品实物为准。','表面呈细密磨砂质感；如有少量水分应及时擦干，不要浸泡地垫。','使用时请将带纹理的 TPE 底面朝下，放在室内干燥、平整的地面；本描述不代表已确认的防滑等级。','用柔软湿布擦拭，晾干后平放收纳；请勿浸泡或长时间接触水。'];
-siteCopy['zh'].careItems=['将纹理面朝下，放在室内干燥、平整的地面或地毯上。','用柔软湿布擦拭，请勿浸泡或长时间接触水。','晾干后平放收纳，发现损坏时停止使用。'];
+siteCopy['zh'].featureBodies=['边缘圆润顺滑，具体外观以产品实物为准。','表面呈细密磨砂质感。表面防泼溅，可湿布擦拭。','使用时请将带纹理的 TPE 底面朝下，放在室内干燥、平整的地面；本描述不代表已确认的防滑等级。','用柔软湿布擦拭，晾干后平放收纳；请勿浸泡或长时间接触水。'];
+siteCopy['zh'].careItems=['将纹理面朝下，放在室内干燥、平整的地面或地毯上。','表面防泼溅，可湿布擦拭，请勿浸泡或长时间接触水。','擦干或在阴凉处晾干，再整齐叠放收纳。发现损坏时停止使用。'];
 siteCopy['zh'].testingTitle='检测信息应对应具体系列或型号';
 siteCopy['zh'].testingBody=testingSummary.zh;
 siteCopy['zh'].testingNote='⚠️ 使用提示：地垫适合 3 岁及以上儿童，务必在成人监护下使用；请将纹理面朝下铺设，放置在室内干燥、平整的地面或者地毯上；清洁建议使用柔软湿布擦拭，不要浸泡，避免长时间泡水。';
-siteCopy['zh'].surfaceBody='当前系列采用透明 PVC 表面与 TPE 底面。表面呈细密磨砂质感；如有少量水分应及时擦干，不要浸泡地垫。底面带纹理，使用时纹理面朝下。地垫边缘圆润，整体薄而平整。';
+siteCopy['zh'].surfaceBody='当前系列采用透明 PVC 表面与 TPE 底面。表面呈细密磨砂质感。表面防泼溅，可湿布擦拭。底面带纹理，使用时纹理面朝下。地垫边缘圆润，整体薄而平整。';
 siteCopy['zh'].fitIntro='目前三个系列均适用于 3 岁及以上儿童，可在成人监护下于室内干燥、平整的地面或地毯上使用。';
 
 // Family and school pages explain the setting; individual games live in the library.

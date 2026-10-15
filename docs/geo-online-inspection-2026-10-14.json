@@ -1,0 +1,425 @@
+{
+  "checkedOn": "2026-10-14",
+  "scope": "Read-only production inspection; 34 canonical English pages plus their 34 Chinese versions on bijoyism.cc, not 68 pages on bijoyism.cn.",
+  "pageCount": 68,
+  "statusCounts": {
+    "200": 68
+  },
+  "robotsCounts": {
+    "index, follow": 68
+  },
+  "canonicalHostCounts": {
+    "bijoyism.cc": 34,
+    "bijoyism.cn": 34
+  },
+  "controls": [
+    {
+      "url": "https://bijoyism.cc/robots.txt",
+      "status": "200",
+      "body": "User-Agent: *\nAllow: /\n\nUser-Agent: OAI-SearchBot\nAllow: /\n\nSitemap: https://bijoyism.cc/sitemap.xml\n\nSTATUS:200",
+      "locs": []
+    },
+    {
+      "url": "https://bijoyism.cc/sitemap.xml",
+      "status": "200",
+      "locs": [
+        "https://bijoyism.cc/en/",
+        "https://bijoyism.cc/en/products/",
+        "https://bijoyism.cc/en/shop/compare/",
+        "https://bijoyism.cc/en/shop/find-your-fit/",
+        "https://bijoyism.cc/en/play-ideas/",
+        "https://bijoyism.cc/en/families/",
+        "https://bijoyism.cc/en/schools/",
+        "https://bijoyism.cc/en/about/",
+        "https://bijoyism.cc/en/contact/",
+        "https://bijoyism.cc/en/faq/",
+        "https://bijoyism.cc/en/buying/",
+        "https://bijoyism.cc/en/privacy/",
+        "https://bijoyism.cc/en/guides/liquid-sensory-tiles/",
+        "https://bijoyism.cc/en/guides/care/",
+        "https://bijoyism.cc/en/guides/testing/",
+        "https://bijoyism.cc/en/products/td01-animal-discovery/",
+        "https://bijoyism.cc/en/products/td02-color-duos/",
+        "https://bijoyism.cc/en/products/td03-aqua-tones/",
+        "https://bijoyism.cc/en/play-ideas/animal-safari/",
+        "https://bijoyism.cc/en/play-ideas/move-like-an-animal/",
+        "https://bijoyism.cc/en/play-ideas/story-steps/",
+        "https://bijoyism.cc/en/play-ideas/color-command/",
+        "https://bijoyism.cc/en/play-ideas/follow-my-path/",
+        "https://bijoyism.cc/en/play-ideas/build-a-color-course/",
+        "https://bijoyism.cc/en/play-ideas/quiet-steps/",
+        "https://bijoyism.cc/en/play-ideas/balance-islands/",
+        "https://bijoyism.cc/en/play-ideas/slow-motion-trail/",
+        "https://bijoyism.cc/en/play-ideas/adventure-trail/",
+        "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/",
+        "https://bijoyism.cc/en/play-ideas/treasure-quest/",
+        "https://bijoyism.cc/en/play-ideas/choose-a-color/",
+        "https://bijoyism.cc/en/play-ideas/quiet-color-watch/",
+        "https://bijoyism.cc/en/play-ideas/three-tile-layouts/",
+        "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/"
+      ]
+    },
+    {
+      "url": "https://bijoyism.cn/robots.txt",
+      "error": "Command failed: curl -sS --max-time 20 -D - -w \nSTATUS:%{http_code} https://bijoyism.cn/robots.txt\ncurl: (35) LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure\n",
+      "status": "000",
+      "body": "\nSTATUS:000",
+      "locs": []
+    },
+    {
+      "url": "https://bijoyism.cn/sitemap.xml",
+      "error": "Command failed: curl -sS --max-time 20 -D - -w \nSTATUS:%{http_code} https://bijoyism.cn/sitemap.xml\ncurl: (35) LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure\n",
+      "status": "000",
+      "locs": []
+    },
+    {
+      "url": "https://www.bijoyism.cn/zh/",
+      "error": "Command failed: curl -sS --max-time 20 -D - -w \nSTATUS:%{http_code} https://www.bijoyism.cn/zh/\ncurl: (35) LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure\n",
+      "status": "000",
+      "locs": []
+    },
+    {
+      "url": "https://www.bijoyism.cc/en/",
+      "status": "308",
+      "location": " https://bijoyism.cc/en/",
+      "locs": []
+    },
+    {
+      "url": "https://bijoyism.cc/",
+      "status": "307",
+      "location": " https://bijoyism.cn/zh/",
+      "locs": []
+    },
+    {
+      "url": "https://bijoyism.cc/en/our-products/testing/?source=old",
+      "status": "301",
+      "location": " /en/guides/testing/?source=old",
+      "locs": []
+    },
+    {
+      "url": "https://bijoyism.cc/en/shop/",
+      "status": "301",
+      "location": " /en/products/",
+      "locs": []
+    },
+    {
+      "url": "https://bijoyism.cc/en/collections/animal-discovery/",
+      "status": "301",
+      "location": " /en/products/td01-animal-discovery/",
+      "locs": []
+    },
+    {
+      "url": "https://bijoyism.cc/api/purchase-events/",
+      "status": "200",
+      "body": "{\"enabled\":false}\nSTATUS:200",
+      "locs": []
+    }
+  ],
+  "issues": [],
+  "amazonLinks": [
+    "https://www.amazon.com/dp/B0HCPQ373H?th=1",
+    "https://www.amazon.com/dp/B0HCPFBKS3?th=1",
+    "https://www.amazon.com/dp/B0HCPR7VQM?th=1"
+  ],
+  "assetCheck": {
+    "count": 25,
+    "issues": []
+  },
+  "browserChecks": [
+    {
+      "width": 390,
+      "route": "en/",
+      "status": 200,
+      "errors": [],
+      "title": "BIJOYISM — Sparking Senses, Bright Minds",
+      "overflow": false,
+      "h1": "Sensory play that moves with every step.",
+      "brokenLoadedImages": [],
+      "ready": "true"
+    },
+    {
+      "width": 390,
+      "route": "en/about/",
+      "status": 200,
+      "errors": [],
+      "title": "About BIJOYISM: Company and Sensory Play Products | BIJOYISM",
+      "overflow": false,
+      "h1": "Sparking senses, bright minds.",
+      "brokenLoadedImages": [],
+      "ready": "true"
+    },
+    {
+      "width": 390,
+      "route": "en/guides/testing/",
+      "status": 200,
+      "errors": [],
+      "title": "Testing and CPC for TD01, TD02, and TD03 | BIJOYISM",
+      "overflow": false,
+      "h1": "Testing and CPC for TD01, TD02, and TD03",
+      "brokenLoadedImages": [],
+      "ready": "true"
+    },
+    {
+      "width": 768,
+      "route": "en/",
+      "status": 200,
+      "errors": [],
+      "title": "BIJOYISM — Sparking Senses, Bright Minds",
+      "overflow": false,
+      "h1": "Sensory play that moves with every step.",
+      "brokenLoadedImages": [],
+      "ready": "true"
+    },
+    {
+      "width": 768,
+      "route": "en/about/",
+      "status": 200,
+      "errors": [],
+      "title": "About BIJOYISM: Company and Sensory Play Products | BIJOYISM",
+      "overflow": false,
+      "h1": "Sparking senses, bright minds.",
+      "brokenLoadedImages": [],
+      "ready": "true"
+    },
+    {
+      "width": 768,
+      "route": "en/guides/testing/",
+      "status": 200,
+      "errors": [],
+      "title": "Testing and CPC for TD01, TD02, and TD03 | BIJOYISM",
+      "overflow": false,
+      "h1": "Testing and CPC for TD01, TD02, and TD03",
+      "brokenLoadedImages": [],
+      "ready": "true"
+    }
+  ],
+  "company": {
+    "@type": "Organization",
+    "@id": "https://bijoyism.cc/#organization",
+    "name": "BIJOYISM",
+    "legalName": "Shenzhen Hengzhian Technology Co., Ltd.",
+    "alternateName": "深圳恒之安科技有限公司",
+    "foundingDate": "2019-01",
+    "url": "https://bijoyism.cc/en/about/",
+    "sameAs": [
+      "https://bijoyism.cn/zh/about/"
+    ],
+    "email": "support@bijoyism.cn",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Room 301, No. 644, Longxiang Avenue, Longcheng Street, Longgang District",
+      "addressLocality": "Shenzhen",
+      "addressRegion": "Guangdong Province",
+      "addressCountry": "CN"
+    },
+    "areaServed": [
+      "CN",
+      "US"
+    ],
+    "knowsAbout": [
+      "children's sensory toys",
+      "liquid sensory floor tiles"
+    ],
+    "logo": "https://bijoyism.cc/assets/logo-red-v01.svg"
+  },
+  "products": [
+    {
+      "@type": "Product",
+      "@id": "https://bijoyism.cc/en/products/td01-animal-discovery/#product",
+      "name": "BIJOYISM Animal Discovery",
+      "model": "TD01",
+      "sku": "BJS-ANIMAL-8",
+      "url": "https://bijoyism.cc/en/products/td01-animal-discovery/",
+      "description": "Animal Discovery is an eight-tile liquid sensory floor set for ages 3+. Printed animal artwork provides prompts for naming and story play while hand or foot pressure moves the colored liquid. Use indoors on a dry, level floor or carpet with adult supervision.",
+      "image": "https://bijoyism.cc/assets/animal-discovery.webp",
+      "brand": {
+        "@type": "Brand",
+        "name": "BIJOYISM"
+      },
+      "material": "PVC / TPE",
+      "width": {
+        "@type": "QuantitativeValue",
+        "value": 11.8,
+        "unitCode": "INH"
+      },
+      "depth": {
+        "@type": "QuantitativeValue",
+        "value": 11.8,
+        "unitCode": "INH"
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "value": 0.24,
+        "unitCode": "INH"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Tiles per set",
+          "value": 8
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Recommended age",
+          "value": "3+"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Surface material",
+          "value": "PVC"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Backing material",
+          "value": "TPE"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "CPC document",
+          "value": "CPCC202602050363E"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Amazon US ASIN",
+          "value": "B0HCPQ373H"
+        }
+      ],
+      "subjectOf": {
+        "@id": "https://bijoyism.cc/en/guides/testing/#article"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://bijoyism.cc/en/products/td02-color-duos/#product",
+      "name": "BIJOYISM Color Duos",
+      "model": "TD02",
+      "url": "https://bijoyism.cc/en/products/td02-color-duos/",
+      "description": "Color Duos is an eight-tile liquid sensory floor set for ages 3+. Its two-color liquid patterns invite color choices, observation, and turn-taking. The separate tiles can form a short indoor path or grid on a dry, level floor or carpet with adult supervision.",
+      "image": "https://bijoyism.cc/assets/color-duos.webp",
+      "brand": {
+        "@type": "Brand",
+        "name": "BIJOYISM"
+      },
+      "material": "PVC / TPE",
+      "width": {
+        "@type": "QuantitativeValue",
+        "value": 11.8,
+        "unitCode": "INH"
+      },
+      "depth": {
+        "@type": "QuantitativeValue",
+        "value": 11.8,
+        "unitCode": "INH"
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "value": 0.24,
+        "unitCode": "INH"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Tiles per set",
+          "value": 8
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Recommended age",
+          "value": "3+"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Surface material",
+          "value": "PVC"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Backing material",
+          "value": "TPE"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "CPC document",
+          "value": "CPCC202602050363E"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Amazon US ASIN",
+          "value": "B0HCPFBKS3"
+        }
+      ],
+      "subjectOf": {
+        "@id": "https://bijoyism.cc/en/guides/testing/#article"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://bijoyism.cc/en/products/td03-aqua-tones/#product",
+      "name": "BIJOYISM Aqua Tones",
+      "model": "TD03",
+      "url": "https://bijoyism.cc/en/products/td03-aqua-tones/",
+      "description": "Aqua Tones is an eight-tile liquid sensory floor set with four blue and four green tiles, without animal artwork. For ages 3+, it offers observation and short-path play indoors on a dry, level floor or carpet with adult supervision.",
+      "image": "https://bijoyism.cc/assets/aqua-tones.webp",
+      "brand": {
+        "@type": "Brand",
+        "name": "BIJOYISM"
+      },
+      "material": "PVC / TPE",
+      "width": {
+        "@type": "QuantitativeValue",
+        "value": 11.8,
+        "unitCode": "INH"
+      },
+      "depth": {
+        "@type": "QuantitativeValue",
+        "value": 11.8,
+        "unitCode": "INH"
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "value": 0.24,
+        "unitCode": "INH"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Tiles per set",
+          "value": 8
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Recommended age",
+          "value": "3+"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Surface material",
+          "value": "PVC"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Backing material",
+          "value": "TPE"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "CPC document",
+          "value": "CPCC202602050363E"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Amazon US ASIN",
+          "value": "B0HCPR7VQM"
+        }
+      ],
+      "subjectOf": {
+        "@id": "https://bijoyism.cc/en/guides/testing/#article"
+      }
+    }
+  ],
+  "limitations": [
+    "bijoyism.cn and www.bijoyism.cn TLS handshake failed in curl; supplementary browser verification was not executed because automatic approval review hit usage limit.",
+    "No Search Console, real crawler logs, Amazon Attribution or sales data accessed.",
+    "No external mutations, production code changes, purchase clicks, analytics POSTs or email submissions."
+  ]
+}

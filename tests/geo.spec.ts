@@ -3,13 +3,14 @@ import { test, expect } from '@playwright/test';
 test('production HTML exposes company facts, correct testing scope and linked product identities', async ({ request }, info) => {
   test.skip(info.project.name !== 'desktop');
   for (const locale of ['en', 'zh']) {
-    const host = locale === 'zh' ? 'bijoyism.cn' : 'bijoyism.cc';
+    const host = 'bijoyism.cc';
     const about = await (await request.get(`/${locale}/about/`)).text();
     expect(about).toContain('id="company-facts"');
     expect(about).toContain('2019');
     expect(about).toContain('support@bijoyism.cn');
     expect(about).toContain(`rel="canonical" href="https://${host}/${locale}/about/"`);
-    expect(about).toContain('https://bijoyism.cn/zh/about/');
+    expect(about).toContain('https://bijoyism.cc/zh/about/');
+    expect(about).not.toContain('https://bijoyism.cn');
     expect(about).toContain('https://bijoyism.cc/en/about/');
     const evidence = await (await request.get(`/${locale}/guides/testing/`)).text();
     for (const value of ['TD01', 'TD02', 'TD03', 'CPCC202602050363E', 'C202602050363E']) expect(evidence).toContain(value);
@@ -25,23 +26,34 @@ test('production HTML exposes company facts, correct testing scope and linked pr
   }
 });
 
-test('domain-aware discovery and redirects preserve query strings', async ({ request }, info) => {
+test('single-domain discovery and country defaults preserve query strings and preferences', async ({ request }, info) => {
   test.skip(info.project.name !== 'desktop');
   for (const host of ['bijoyism.cn', 'bijoyism.cc']) {
     const locale = host.endsWith('.cn') ? 'zh' : 'en';
     const headers = { host };
     const robots = await (await request.get('/robots.txt', { headers })).text();
     expect(robots).toContain('Allow: /');
-    expect(robots).toContain(`https://${host}/sitemap.xml`);
+    expect(robots).toContain('https://bijoyism.cc/sitemap.xml');
     const sitemap = await (await request.get('/sitemap.xml', { headers })).text();
-    expect(sitemap).toContain(`<loc>https://${host}/${locale}/guides/testing/</loc>`);
+    expect(sitemap).toContain('<loc>https://bijoyism.cc/en/guides/testing/</loc>');
+    expect(sitemap).toContain('<loc>https://bijoyism.cc/zh/guides/testing/</loc>');
+    expect(sitemap).not.toContain('https://bijoyism.cn');
     expect(sitemap).not.toMatch(/<loc>[^<]*(our-products|\/collections\/|\/shop\/collections)/);
-    const alias = await request.get(`/${locale}/our-products/testing/?source=old`, { headers, maxRedirects: 0 });
+    const alias = await request.get(`/${locale}/our-products/testing/?source=old`, { headers: { host: 'bijoyism.cc' }, maxRedirects: 0 });
     expect(alias.status()).toBe(301);
     expect(alias.headers().location).toContain(`/guides/testing/?source=old`);
   }
   const china = await request.get('/?utm_source=test', { headers: { host: 'bijoyism.cc', 'cf-ipcountry': 'CN' }, maxRedirects: 0 });
-  expect(china.headers().location).toBe('https://bijoyism.cn/zh/?utm_source=test');
+  expect(china.headers().location).toBe('https://bijoyism.cc/zh/?utm_source=test');
+  const overseas = await request.get('/?utm_source=test', { headers: { host: 'bijoyism.cc', 'cf-ipcountry': 'US' }, maxRedirects: 0 });
+  expect(overseas.headers().location).toBe('https://bijoyism.cc/en/?utm_source=test');
+  const preferred = await request.get('/', { headers: { host: 'bijoyism.cc', 'cf-ipcountry': 'CN', cookie: 'NEXT_LOCALE=en' }, maxRedirects: 0 });
+  expect(preferred.headers().location).toBe('https://bijoyism.cc/en/');
+  for (const host of ['bijoyism.cn', 'www.bijoyism.cn']) {
+    const response = await request.get('/zh/about/?source=old', { headers: { host }, maxRedirects: 0 });
+    expect(response.status()).toBe(307);
+    expect(response.headers().location).toBe('https://bijoyism.cc/zh/about/?source=old');
+  }
 });
 
 test('purchase reporting is explicit about disabled collection', async ({ request }, info) => {

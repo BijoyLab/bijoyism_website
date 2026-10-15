@@ -30,7 +30,7 @@ npm run test:e2e
 
 首页；产品总览；Shop、Collections、系列比较、Find Your Fit；三个系列集合与产品详情；玩法内容库、12 项代表玩法、2 项入门玩法、2 份指南；家庭、幼儿园与机构、关于、联系、FAQ、购买与售后、隐私；产品信息、护理、检测、品类介绍兼容入口。
 
-中文规范地址为 `https://bijoyism.cn/zh/`，英文为 `https://bijoyism.cc/en/`，显式语言页面仍可在两个域名访问，canonical 与 hreflang 指向对应语言规范域名。生产根路径根据可信 Cloudflare 国家信息选择默认市场，保留语言偏好；本地预览不跨域跳转。原 `/zh-cn/` 跳转至 `/zh/`。Shop、集合和产品信息兼容入口使用 301，保留查询参数；品类、护理和检测分别跳转到新的独立指南。
+2026-10-14 暂行单域名方案：中文规范地址为 `https://bijoyism.cc/zh/`，英文为 `https://bijoyism.cc/en/`。canonical、hreflang、JSON-LD、语言切换和 Sitemap 均使用 `.cc`；同一个 Sitemap 包含两种语言。生产根路径根据可信 Cloudflare 国家信息选择默认语言：中国默认中文，海外默认英文，并尊重已保存的语言偏好；本地预览不跨域跳转。`.cn` 在托管和 HTTPS 可用前不作为网站入口；联系邮箱继续使用 `support@bijoyism.cn`。原 `/zh-cn/` 跳转至 `/zh/`。Shop、集合和产品信息兼容入口使用 301，保留查询参数；品类、护理和检测分别跳转到新的独立指南。
 
 - 产品筛选：系列、已确认年龄、空间；匹配页另有玩法偏好。
 - 产品：图库切换、英文英寸／中文厘米展示、各系列真实 Amazon 链接和可配置的 Attribution 入口。

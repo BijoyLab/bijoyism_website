@@ -40,18 +40,25 @@ test('product schema separates real SKU, model and ASIN with exact dimensions',(
   assert.equal(graph.find(x=>x['@type']==='BreadcrumbList').itemListElement.length,3);
  }
 });
-test('sitemaps include only canonical URLs and reciprocal cross-domain alternates',()=>{
+test('temporary single-domain sitemaps contain both languages and no unavailable cn targets',()=>{
  const routes=getRoutes(products,playIdeas);
  for(const lang of ['en','zh']){
-  const entries=sitemapEntries(lang,routes),host=lang==='en'?'bijoyism.cc':'bijoyism.cn';
+  const entries=sitemapEntries(lang,routes),host='bijoyism.cc';
   assert.equal(new Set(entries.map(x=>x.url)).size,entries.length);
   for(const entry of entries){
    assert.equal(new URL(entry.url).hostname,host);
    const path=new URL(entry.url).pathname.split('/').slice(2).filter(Boolean).join('/');
    assert.ok(!routeAliases[path]);
    assert.equal(new URL(entry.alternates.languages.en).hostname,'bijoyism.cc');
-   assert.equal(new URL(entry.alternates.languages['zh-CN']).hostname,'bijoyism.cn');
+   assert.equal(new URL(entry.alternates.languages['zh-CN']).hostname,'bijoyism.cc');
+   assert.ok(entry.alternates.languages['zh-CN'].includes('/zh/'));
   }
+ }
+ const entries=['en','zh'].flatMap(lang=>sitemapEntries(lang,routes));
+ assert.equal(new Set(entries.map(x=>x.url)).size,entries.length);
+ for(const lang of ['en','zh'])for(const route of routes){
+  const page=renderPage({lang,route,products,channels,ideas:playIdeas});
+  assert.ok(!JSON.stringify(structuredGraph(lang,route,page,products,playIdeas,channels)).includes('https://bijoyism.cn'));
  }
 });
 test('tracking preserves ASIN and rejects malformed or unrelated events',()=>{
