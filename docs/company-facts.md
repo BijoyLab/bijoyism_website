@@ -45,6 +45,22 @@
 
 BIJOYISM is a children's sensory-toy brand operated by Shenzhen Hengzhian Technology Co., Ltd., registered at Room 301, No. 644, Longxiang Avenue, Longcheng Street, Longgang District, Shenzhen, Guangdong Province, China, and established in January 2019. The brand designs and sells sensory toys for children aged 3 and up, with liquid sensory floor tiles as its core category. BIJOYISM primarily serves customers in the United States and China and can serve customers worldwide.
 
+## 品牌理念
+
+2026-10-16 用户确认归类为品牌理念；中文保留原文，补充对应英文。
+
+### 中文
+
+**让感官被唤醒，让想象自然发生。**
+
+BIJOYISM 相信，孩子通过感官认识世界。我们将色彩、触感、运动与想象融入日常游戏，创造简单、开放、有趣的感官体验，让孩子自由探索、主动发现，并在每一次玩耍中找到新的可能。
+
+### English
+
+**Awaken the Senses. Let Imagination Unfold.**
+
+At BIJOYISM, we believe children discover the world through their senses. We bring color, touch, movement, and imagination into everyday play, creating simple, open-ended, playful sensory experiences that invite children to explore freely, make discoveries of their own, and find new possibilities each time they play.
+
 ## 品牌定位底稿
 
 ### 中文

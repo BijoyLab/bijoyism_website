@@ -51,7 +51,7 @@ test('single-domain discovery and country defaults preserve query strings and pr
   expect(preferred.headers().location).toBe('https://bijoyism.cc/en/');
   for (const host of ['bijoyism.cn', 'www.bijoyism.cn']) {
     const response = await request.get('/zh/about/?source=old', { headers: { host }, maxRedirects: 0 });
-    expect(response.status()).toBe(307);
+    expect(response.status()).toBe(308);
     expect(response.headers().location).toBe('https://bijoyism.cc/zh/about/?source=old');
   }
 });

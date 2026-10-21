@@ -2,6 +2,7 @@ import {siteConfig,localizedUrl,languageAlternates} from './site-config.js';
 import {companyIdentity} from './company-facts.js';
 import {guideRoutes} from './guides.js';
 import {testingEvidence} from './evidence.js';
+import {seoOverrides,brandedTitle} from './seo-overrides.js';
 
 export const routeAliases={
  'shop':'products','shop/collections':'products',
@@ -19,27 +20,30 @@ export function seoInfo(locale,route,page,products,ideas){
   'shop/compare':[zh?'动物探索、缤纷双色与水漾色彩怎么选？':'Animal Discovery vs Color Duos vs Aqua Tones',zh?'按图案、可见配色和玩法比较 TD01、TD02、TD03，同时核对共同规格、年龄、使用条件与检测证书。':'Compare TD01, TD02, and TD03 by artwork, visible colors, and play ideas, alongside shared specifications, ages, use conditions, and testing records.']
  };
  const relatedProduct=idea?.mode!=='mix'&&products.find(p=>p.id===idea?.productIds[0]);
- const image=product?.shareImages?.[locale]||product?.image||relatedProduct?.image||'/assets/hero.webp';
+ const image=product?.shareImages?.[locale]||product?.image||relatedProduct?.shareImages?.[locale]||relatedProduct?.image||'/assets/hero.webp';
  const title=labels[route]?.[0]||(idea?(zh?`${page.title}：儿童室内游戏玩法`:`${page.title}: Indoor Play for Ages ${idea.ageMin}–${idea.ageMax}`):page.title);
- return {title,description:labels[route]?.[1]||page.description,image,url:localizedUrl(locale,canonicalRoute(route)),languages:languageAlternates(canonicalRoute(route))};
+ const override=seoOverrides[locale]?.[canonicalRoute(route)];
+ return {title:brandedTitle(override?.title||title),description:override?.description||labels[route]?.[1]||page.description,image,url:localizedUrl(locale,canonicalRoute(route)),languages:languageAlternates(canonicalRoute(route))};
 }
 export function structuredGraph(locale,route,page,products,ideas,channels){
  const info=seoInfo(locale,route,page,products,ideas),origin=siteConfig.origins[locale],identity=companyIdentity;
  const organization={
   '@type':'Organization','@id':`${siteConfig.origin}/#organization`,name:identity.brand,
   legalName:identity.legalName,alternateName:identity.chineseLegalName,foundingDate:identity.foundingDate,
-  url:localizedUrl('en','about'),sameAs:[localizedUrl('zh','about')],email:siteConfig.supportEmail,
+  url:localizedUrl('en'),email:siteConfig.supportEmail,
   address:{'@type':'PostalAddress',streetAddress:identity.streetAddress,addressLocality:identity.addressLocality,addressRegion:identity.addressRegion,addressCountry:identity.addressCountry},areaServed:identity.markets,
   knowsAbout:["children's sensory toys",'liquid sensory floor tiles'],logo:`${siteConfig.origin}/assets/logo-red-v01.svg`
  };
- const webpage={'@type':route==='about'?'AboutPage':'WebPage','@id':`${info.url}#webpage`,url:info.url,name:info.title,description:info.description,inLanguage:locale==='zh'?'zh-CN':'en',isPartOf:{'@id':`${origin}/#website`},publisher:{'@id':organization['@id']}};
- const graph=[organization,{'@type':'WebSite','@id':`${origin}/#website`,name:identity.brand,url:origin,publisher:{'@id':organization['@id']}},webpage];
+ const pageType=route==='about'?'AboutPage':route==='contact'?'ContactPage':['products','play-ideas'].includes(route)?'CollectionPage':'WebPage';
+ const webpage={'@type':pageType,'@id':`${info.url}#webpage`,url:info.url,name:info.title,description:info.description,inLanguage:locale==='zh'?'zh-CN':'en',isPartOf:{'@id':`${origin}/#website`},publisher:{'@id':organization['@id']}};
+ const graph=[organization,{'@type':'WebSite','@id':`${origin}/#website`,name:identity.brand,url:localizedUrl('en'),inLanguage:['en','zh-CN'],publisher:{'@id':organization['@id']}},webpage];
  if(route){
   const parent=route.startsWith('products/')||route.startsWith('guides/')?'products':route.startsWith('play-ideas/')?'play-ideas':null;
   const items=[{'@type':'ListItem',position:1,name:locale==='zh'?'首页':'Home',item:localizedUrl(locale)}];
   if(parent)items.push({'@type':'ListItem',position:2,name:parent==='products'?(locale==='zh'?'产品':'Products'):(locale==='zh'?'玩法灵感':'Play Ideas'),item:localizedUrl(locale,parent)});
   items.push({'@type':'ListItem',position:items.length+1,name:info.title,item:info.url});
-  graph.push({'@type':'BreadcrumbList',itemListElement:items});
+  graph.push({'@type':'BreadcrumbList','@id':`${info.url}#breadcrumb`,itemListElement:items});
+  webpage.breadcrumb={'@id':`${info.url}#breadcrumb`};
  }
  const product=products.find(p=>route===`products/${p.id}-${p.slug}`);
  if(product){
@@ -58,5 +62,5 @@ export function structuredGraph(locale,route,page,products,ideas,channels){
  return graph;
 }
 export function sitemapEntries(locale,routes){
- return routes.filter(route=>!routeAliases[route]).map(route=>({url:localizedUrl(locale,route),alternates:{languages:languageAlternates(route)},...(guideRoutes.includes(route)||['about','products','shop/compare'].includes(route)?{lastModified:siteConfig.reviewedOn}:{})}));
+ return [...new Set(routes)].filter(route=>!routeAliases[route]).map(route=>({url:localizedUrl(locale,route),alternates:{languages:languageAlternates(route)},...(guideRoutes.includes(route)||['about','products','shop/compare'].includes(route)?{lastModified:siteConfig.reviewedOn}:{})}));
 }

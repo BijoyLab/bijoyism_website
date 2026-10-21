@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { pageHtml, pageInfo, routes, products, playIdeas, productPath, channels } from "@/site/content";
+import { pageHtml, pageInfo, routes, products, playIdeas, channels } from "@/site/content";
 import { seoInfo, structuredGraph } from "@/site/seo";
+import { pageMetadata } from "@/site/metadata";
 import { Website } from "@/components/website";
 
 type Props = {
   params: Promise<{ locale: string; slug?: string[] }>;
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
+export const revalidate = 3600;
 function searchString(values: Record<string, string | string[] | undefined>) {
   const search = new URLSearchParams();
   for (const [key, value] of Object.entries(values)) {
@@ -31,17 +33,8 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const { locale, route, search } = await context(props);
   const page = pageInfo(locale, route, search);
   const info = seoInfo(locale, route, page, products, playIdeas);
-  const product = products.find((p) => route === productPath(p) || route === `collections/${p.slug}`);
   const idea = playIdeas.find((item) => route === `play-ideas/${item.id}`);
-  const relatedProduct = idea && idea.mode !== "mix" ? products.find((item) => item.id === idea.productIds[0]) : undefined;
-  const image = product?.shareImages?.[locale] || product?.image || relatedProduct?.shareImages?.[locale] || relatedProduct?.image || "/assets/hero.webp";
-  const title = route && !info.title.startsWith('BIJOYISM') ? `${info.title} | BIJOYISM` : info.title;
-  return {
-    title, description: info.description,
-    alternates: { canonical: info.url, languages: info.languages },
-    openGraph: { title, description: info.description, url: info.url, type: idea || route.startsWith('guides/') ? "article" : "website", images: [image] },
-    twitter: { card: "summary_large_image", title, description: info.description, images: [image] },
-  };
+  return pageMetadata(info, locale, Boolean(idea || route.startsWith('guides/')));
 }
 export default async function Page(props: Props) {
   const { locale, route, search } = await context(props);

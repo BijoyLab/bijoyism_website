@@ -1,0 +1,2920 @@
+[
+  {
+    "locale": "en",
+    "route": "",
+    "title": "BIJOYISM — Sparking Senses, Bright Minds",
+    "description": "Liquid sensory floor tiles for indoor play, ages 3+. Press, step, and watch colors move. Each collection includes eight separate tiles.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/",
+      "zh-CN": "https://bijoyism.cc/zh/",
+      "x-default": "https://bijoyism.cc/en/"
+    },
+    "bodyHash": "a626390dc19924689329d872cb8959e5cd82c2dea66cd1ea67dc02105ee96504",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/homepage-carousel-school-desktop-v01.webp",
+        "alt": "Children following a sensory-tile path together in a bright indoor playroom."
+      },
+      {
+        "src": "/assets/hero.webp",
+        "alt": "Children pressing and stepping on Animal Discovery tiles at home."
+      },
+      {
+        "src": "/assets/homepage-carousel-td02-rearrange-desktop-v02.webp",
+        "alt": "A parent and child rearranging Color Duos sensory tiles into a playful path at home."
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/home-care-scene-v02.webp",
+        "alt": "A child wipes a BIJOYISM sensory tile on a wood floor."
+      },
+      {
+        "src": "/assets/td01-classroom-table-v01.webp",
+        "alt": "A teacher and three children discuss animal sensory tiles around a classroom table"
+      },
+      {
+        "src": "/assets/homepage-carousel-school-desktop-v01.webp",
+        "alt": "Children follow a sensory tile route indoors with a teacher nearby"
+      },
+      {
+        "src": "/assets/td03-reading-institutions-v02.webp",
+        "alt": "A seated teacher and children explore a reading corner with eight blue and green sensory tiles"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "products",
+    "title": "BIJOYISM Liquid Sensory Floor Tiles: Compare 3 Collections",
+    "description": "Compare Animal Discovery, Color Duos, and Aqua Tones: eight-tile sets for ages 3+. Explore dimensions, materials, care, shared testing records, and purchase options.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/products/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/products/",
+      "zh-CN": "https://bijoyism.cc/zh/products/",
+      "x-default": "https://bijoyism.cc/en/products/"
+    },
+    "bodyHash": "569829c3ac2522ec8470fa812067b3ec90fff6b3c649adef943de2204480d146",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "shop/compare",
+    "title": "Animal Discovery vs Color Duos vs Aqua Tones",
+    "description": "Compare TD01, TD02, and TD03 by artwork, visible colors, and play ideas, alongside shared specifications, ages, use conditions, and testing records.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/shop/compare/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/shop/compare/",
+      "zh-CN": "https://bijoyism.cc/zh/shop/compare/",
+      "x-default": "https://bijoyism.cc/en/shop/compare/"
+    },
+    "bodyHash": "278ec734a670f4dbbb0418190ae3412ba51c1624fd289759b433a22e900af653",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "shop/find-your-fit",
+    "title": "Choose by your space and invitation.",
+    "description": "All three current collections are for ages 3+ and indoor use on a dry, level floor or carpet with adult supervision.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/shop/find-your-fit/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/shop/find-your-fit/",
+      "zh-CN": "https://bijoyism.cc/zh/shop/find-your-fit/",
+      "x-default": "https://bijoyism.cc/en/shop/find-your-fit/"
+    },
+    "bodyHash": "48eb57a5890edf87dda14ce6a426342f5c5b226541c3fd423a7c945e29260812",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas",
+    "title": "Play Your Way",
+    "description": "Choose your collection, then find a game for your age, group, and indoor setting.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/"
+    },
+    "bodyHash": "938b3beadbb6f4708263c94836027aa5c3c3922f1d490ff7c8a19e0fb44302fb",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "families",
+    "title": "More discoveries, together.",
+    "description": "Start with a color, a gentle press, or a path you build together. Leave room for your child’s curiosity and let play become part of your day.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/families/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/families/",
+      "zh-CN": "https://bijoyism.cc/zh/families/",
+      "x-default": "https://bijoyism.cc/en/families/"
+    },
+    "bodyHash": "590d774d35e365c9a3f352b331ad135d83bb623f8cae4b7635643b56199a482f",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/td02-heart-path-v01.webp",
+        "alt": "A parent and child explore an extended heart layout using more than one eight-tile set."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "schools",
+    "title": "Bring color and movement into your classroom.",
+    "description": "From noticing colors to taking turns and building routes, choose activities that fit your group, space, and classroom routine.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/schools/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/schools/",
+      "zh-CN": "https://bijoyism.cc/zh/schools/",
+      "x-default": "https://bijoyism.cc/en/schools/"
+    },
+    "bodyHash": "faf53a4ad14ad6cfc38e94e8db7b9facbc68314a1d7d69e5ea7ee3de0ba71e3f",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/school-desktop-v03.webp",
+        "alt": "A teacher guides one child while two children wait beside separate sensory tiles in a classroom."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "about",
+    "title": "About BIJOYISM: Company and Sensory Play Products",
+    "description": "At BIJOYISM, we believe children discover the world through their senses. We bring color, touch, movement, and imagination into everyday play—creating thoughtful, open-ended experiences that invite children to explore freely and discover something new through play.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/about/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/about/",
+      "zh-CN": "https://bijoyism.cc/zh/about/",
+      "x-default": "https://bijoyism.cc/en/about/"
+    },
+    "bodyHash": "f5a640d2027a7f5aa316e4aaa952775c99718310b0205c5349facadac20cda00",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/bijoyism-brand-banner-desktop-v01.png",
+        "alt": "BIJOYISM brand background in a bright indoor space"
+      },
+      {
+        "src": "/assets/td02-press-exploration-v01.webp",
+        "alt": "Discover a World of Color"
+      },
+      {
+        "src": "/assets/td02-rearrange-path-v01.webp",
+        "alt": "Find Joy in Motion"
+      },
+      {
+        "src": "/assets/td02-heart-path-v01.webp",
+        "alt": "Create More Possibilities"
+      },
+      {
+        "src": "/assets/shared-play.webp",
+        "alt": "Let Curiosity Lead"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "AboutPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "contact",
+    "title": "Let’s find the right next step.",
+    "description": "For product questions or school and organization inquiries, email our support team.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/contact/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/contact/",
+      "zh-CN": "https://bijoyism.cc/zh/contact/",
+      "x-default": "https://bijoyism.cc/en/contact/"
+    },
+    "bodyHash": "a1c2f86b31c4a5c6771e6d2a095cc16d776d503fee2ca3d6e8de853affc87dc4",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "faq",
+    "title": "Answers for everyday play.",
+    "description": "Animal Discovery combines printed animal artwork with moving liquid. Color Duos features changing two-color patterns. Aqua Tones uses four blue and four green tiles without animal artwork.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/faq/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/faq/",
+      "zh-CN": "https://bijoyism.cc/zh/faq/",
+      "x-default": "https://bijoyism.cc/en/faq/"
+    },
+    "bodyHash": "d152245ca97ddf6ebf9df71a22be68d8b7681e6ca5b38196890fb2dba11ac7a6",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "buying",
+    "title": "Buying & after-sales",
+    "description": "Select Shop on Amazon on a product page to visit the listing. Prices, availability, payment, shipping, and returns follow the purchase platform’s terms. For product or after-sales questions, contact support@bijoyism.cn.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/buying/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/buying/",
+      "zh-CN": "https://bijoyism.cc/zh/buying/",
+      "x-default": "https://bijoyism.cc/en/buying/"
+    },
+    "bodyHash": "fee47e06e773c2a2c5b1cc40deba25c5d8fd0e5d41127eda4cdac38899dbe719",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "privacy",
+    "title": "Privacy",
+    "description": "We use the contact details, inquiry requirements, and reference files you submit to respond to your request. Online inquiries are delivered through our email provider, Resend, to support@bijoyism.cn. If submission is unavailable, the form will display a notice and will not send your information. Draft text is stored temporarily in this browser tab for language switching and is cleared after successful submission or when the tab closes. Your language preference is stored in this browser and can be cleared below. Purchases take place on Amazon and are subject to its privacy policy. For privacy questions, email support@bijoyism.cn. When purchase-click analytics is enabled, we record the product collection, language, page path, button position, purchase destination, referring site name and campaign labels in our website service logs. This reporting does not use analytics cookies or record raw IP addresses, full referrer URLs or purchase-link query strings in the event record. It respects the browser’s Global Privacy Control signal. A click does not establish a purchase; Amazon processes purchases under its own policies.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/privacy/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/privacy/",
+      "zh-CN": "https://bijoyism.cc/zh/privacy/",
+      "x-default": "https://bijoyism.cc/en/privacy/"
+    },
+    "bodyHash": "9100e3aa3cc50986092dc8b477ad681deecf4f1bb3c22b2de23f6258c3e3f0d2",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "guides/liquid-sensory-tiles",
+    "title": "What Are Liquid Sensory Floor Tiles?",
+    "description": "BIJOYISM liquid sensory floor tiles are separate, rigid tiles for indoor play, ages 3+. Hand or foot pressure moves the colored liquid pattern. The current Animal Discovery, Color Duos, and Aqua Tones collections each contain eight tiles. Use them on a dry, level floor or carpet with adult supervision.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/guides/liquid-sensory-tiles/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/guides/liquid-sensory-tiles/",
+      "zh-CN": "https://bijoyism.cc/zh/guides/liquid-sensory-tiles/",
+      "x-default": "https://bijoyism.cc/en/guides/liquid-sensory-tiles/"
+    },
+    "bodyHash": "ea636cefff5a5b386765da3d275c03006551279b043ae375c0217307fb346e8b",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "guides/care",
+    "title": "How to Clean and Store Liquid Sensory Tiles",
+    "description": "BIJOYISM TD01, TD02, and TD03 liquid sensory tiles have splash-resistant surfaces that can be rinsed or wiped with a soft, damp cloth. Do not submerge the tiles or leave them in prolonged contact with water. Wipe them dry or air-dry them in a cool place, then stack them neatly for storage. Check before play and stop using a damaged tile. Use indoors on a dry, level floor with adult supervision.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/guides/care/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/guides/care/",
+      "zh-CN": "https://bijoyism.cc/zh/guides/care/",
+      "x-default": "https://bijoyism.cc/en/guides/care/"
+    },
+    "bodyHash": "3033ac81ffa69830a4916580850feeee06b6fc3ceb0fb31b47bcbca6fc26de09",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "guides/testing",
+    "title": "Testing and CPC for TD01, TD02, and TD03",
+    "description": "The current TD01, TD02, and TD03 collections have a Children’s Product Certificate (CPC) and have been tested for applicable ASTM F963-23 and CPSIA requirements. The documents cover the listed models and applicable test items.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/guides/testing/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/guides/testing/",
+      "zh-CN": "https://bijoyism.cc/zh/guides/testing/",
+      "x-default": "https://bijoyism.cc/en/guides/testing/"
+    },
+    "bodyHash": "3d13da1adada8b65df071ee7988f2c50d2c9ea4581143c12f05f66ff4973cbe6",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "products/td01-animal-discovery",
+    "title": "Animal Discovery Liquid Sensory Tiles, 8-Piece Set",
+    "description": "Animal Discovery is an eight-tile liquid sensory floor set for ages 3+. Printed animal artwork provides prompts for naming and story play while hand or foot pressure moves the colored liquid. Use indoors on a dry, level floor or carpet with adult supervision.",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/en/products/td01-animal-discovery/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/products/td01-animal-discovery/",
+      "zh-CN": "https://bijoyism.cc/zh/products/td01-animal-discovery/",
+      "x-default": "https://bijoyism.cc/en/products/td01-animal-discovery/"
+    },
+    "bodyHash": "ffa9b81f9eddcb5352eef31ebcec376db68d142b9d2c97ac5773160fc6f3e557",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Product"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "products/td02-color-duos",
+    "title": "Color Duos Liquid Sensory Tiles, 8-Piece Set",
+    "description": "Color Duos is an eight-tile liquid sensory floor set for ages 3+. Its two-color liquid patterns invite color choices, observation, and turn-taking. The separate tiles can form a short indoor path or grid on a dry, level floor or carpet with adult supervision.",
+    "image": "/assets/color-duos.webp",
+    "url": "https://bijoyism.cc/en/products/td02-color-duos/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/products/td02-color-duos/",
+      "zh-CN": "https://bijoyism.cc/zh/products/td02-color-duos/",
+      "x-default": "https://bijoyism.cc/en/products/td02-color-duos/"
+    },
+    "bodyHash": "80b790b55a9ddd8e97483660886f66c467f291ed158208b785ec48e9c49d3904",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td02-press-exploration-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td02-heart-path-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td02-rearrange-path-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Product"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "products/td03-aqua-tones",
+    "title": "Aqua Tones Liquid Sensory Tiles, 8-Piece Set",
+    "description": "Aqua Tones is an eight-tile liquid sensory floor set with four blue and four green tiles, without animal artwork. For ages 3+, it offers observation and short-path play indoors on a dry, level floor or carpet with adult supervision.",
+    "image": "/assets/td03-share-en-v01.jpg",
+    "url": "https://bijoyism.cc/en/products/td03-aqua-tones/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/products/td03-aqua-tones/",
+      "zh-CN": "https://bijoyism.cc/zh/products/td03-aqua-tones/",
+      "x-default": "https://bijoyism.cc/en/products/td03-aqua-tones/"
+    },
+    "bodyHash": "29f070a6d12e9eb9d6f2e4556d44287f3e396e6c4dd01ee6579a5c9015b076aa",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td03-angled-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td03-reading-desktop-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td03-corner-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td03-back-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Product"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/animal-safari",
+    "title": "Animal Safari: Indoor Play for Ages 3–6",
+    "description": "Find the named animal, step over to it, and describe what you notice.",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/animal-safari/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/animal-safari/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/animal-safari/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/animal-safari/"
+    },
+    "bodyHash": "2d6eb13a4a08e02e03756b07f5366007e25ccaf150fdf9de3ecadccfed5c1735",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/move-like-an-animal",
+    "title": "Move Like an Animal: Indoor Play for Ages 3–7",
+    "description": "Choose an animal, copy a simple movement, and let a friend guess.",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/move-like-an-animal/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/move-like-an-animal/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/move-like-an-animal/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/move-like-an-animal/"
+    },
+    "bodyHash": "c482864731a808056c2aa659a1ef8cea63da3d1d012c7b5a02382198368ac365",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/story-steps",
+    "title": "Story Steps: Indoor Play for Ages 4–7",
+    "description": "Add one sentence at each animal stop to build a shared story.",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/story-steps/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/story-steps/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/story-steps/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/story-steps/"
+    },
+    "bodyHash": "a97ab304775f23963c302cc27f0dcea58e779ad564297fbb4e08369a73ac66ed",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/color-command",
+    "title": "Color Command: Indoor Play for Ages 3–6",
+    "description": "Agree on color-to-action rules, then listen and try each movement.",
+    "image": "/assets/color-duos.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/color-command/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/color-command/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/color-command/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/color-command/"
+    },
+    "bodyHash": "ff3a3698ed9d073d31235316be1e5015bfafa30439bd599d05dafcd49e62e5f6",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/follow-my-path",
+    "title": "Follow My Path: Indoor Play for Ages 4–7",
+    "description": "Watch a short color route, repeat it, then swap the leader.",
+    "image": "/assets/color-duos.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/follow-my-path/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/follow-my-path/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/follow-my-path/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/follow-my-path/"
+    },
+    "bodyHash": "902ac51ba6c6cba985b95c7e280e17b99787572d3fbe3a3fb91b2c0f3708aaca",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/build-a-color-course",
+    "title": "Build a Color Course: Indoor Play for Ages 4–8",
+    "description": "Design a color route and decide what happens at each stop.",
+    "image": "/assets/color-duos.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/build-a-color-course/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/build-a-color-course/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/build-a-color-course/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/build-a-color-course/"
+    },
+    "bodyHash": "39ed79a563885cfd5db041c159146791ceb2353d7062f8999a31349d37a8540e",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/quiet-steps",
+    "title": "Quiet Steps: Indoor Play for Ages 3–7",
+    "description": "Take gentle steps, pause to notice a pattern, and continue at your own pace.",
+    "image": "/assets/aqua-tones.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/quiet-steps/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/quiet-steps/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/quiet-steps/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/quiet-steps/"
+    },
+    "bodyHash": "32ea4bb53b1ca9d712de64977abaabc8ad56fc94ae9838a4baae9fae13face8a",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/balance-islands",
+    "title": "Balance Islands: Indoor Play for Ages 4–8",
+    "description": "Stand steadily on each island, pause, then walk to the next stop.",
+    "image": "/assets/aqua-tones.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/balance-islands/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/balance-islands/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/balance-islands/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/balance-islands/"
+    },
+    "bodyHash": "b06a31861d32521ea27b954d997c190e0cfc2b2640224366415c6c6b8460472e",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/slow-motion-trail",
+    "title": "Slow Motion Trail: Indoor Play for Ages 4–7",
+    "description": "Keep a slow step–pause rhythm along a short route.",
+    "image": "/assets/aqua-tones.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/slow-motion-trail/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/slow-motion-trail/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/slow-motion-trail/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/slow-motion-trail/"
+    },
+    "bodyHash": "847e7b99fcbbe2639021c10f1b5c28d53fcbd43e021c2258e84d64149af363f4",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/adventure-trail",
+    "title": "Adventure Trail: Indoor Play for Ages 4–8",
+    "description": "Imagine at an animal stop, move at a color stop, and pause at an Aqua stop.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/adventure-trail/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/adventure-trail/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/adventure-trail/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/adventure-trail/"
+    },
+    "bodyHash": "73f21127c45d3c94b0745f0eebcdf1b0a23c729b92ebf5bd744ef68b86cb5149",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/build-your-own-adventure",
+    "title": "Build Your Own Adventure: Indoor Play for Ages 4–8",
+    "description": "Choose story, movement and pause rules, then invite someone to try your adventure.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/build-your-own-adventure/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/"
+    },
+    "bodyHash": "f0df1fbdba51739109fb00db90f587acbdaaca19a58ecf8db842cf443f7f8209",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/treasure-quest",
+    "title": "Treasure Quest: Indoor Play for Ages 4–8",
+    "description": "Create animal, color and pause clues for a friend to find a paper treasure.",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/treasure-quest/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/treasure-quest/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/treasure-quest/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/treasure-quest/"
+    },
+    "bodyHash": "c4017f882e514305e57e09127f038a6d3aecec0f0396a22cced85d84224082bc",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/choose-a-color",
+    "title": "Choose a Color, Choose a Step: Indoor Play for Ages 3–6",
+    "description": "Choose the next color yourself, explore its pattern, then swap roles.",
+    "image": "/assets/color-duos.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/choose-a-color/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/choose-a-color/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/choose-a-color/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/choose-a-color/"
+    },
+    "bodyHash": "029d23ee80dc4d1a46f66d787b3098de063173efb950095a847f0a82af4d2923",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/quiet-color-watch",
+    "title": "Quiet Color Watch: Indoor Play for Ages 3–8",
+    "description": "Look, press with a hand, then lift your hand and describe the changing pattern.",
+    "image": "/assets/aqua-tones.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/quiet-color-watch/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/quiet-color-watch/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/quiet-color-watch/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/quiet-color-watch/"
+    },
+    "bodyHash": "7b82de361d89fc5ecd885dc912c2247e93f8c138cf7a426fe9d07d02b812d07c",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/three-tile-layouts",
+    "title": "Arrange, Combine & Create: Indoor Play for Ages 3–8",
+    "description": "Choose any one collection and arrange the tiles into all kinds of shapes—from lines and grids to curves or a layout of your own.",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/three-tile-layouts/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/three-tile-layouts/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/three-tile-layouts/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/three-tile-layouts/"
+    },
+    "bodyHash": "5a576cfbd7ec6dd2f26e80d2e168f99174768f9acc2c3888a0d73005ae0b1d61",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "Four blue and four green Aqua Tones tiles laid flat in two rows, without animal artwork."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "play-ideas/preschool-turn-taking",
+    "title": "Preschool Turn-Taking: Indoor Play for Ages 3–8",
+    "description": "Organize chooser, explorer and observer roles for a shared classroom activity.",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/preschool-turn-taking/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/"
+    },
+    "bodyHash": "270e5bca6781b7884a4db7de78bda00f75d0c9240841bc21ddea95e5be84b3db",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "Eight Animal Discovery tiles laid separately in two rows, with animal artwork and colorful liquid."
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "Eight Color Duos tiles in a flat two-row grid, showing their different two-color patterns."
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "",
+    "title": "BIJOYISM — 唤醒感知，启迪心智",
+    "description": "适合 3 岁及以上儿童的室内液体感知地垫。按一按，踩一踩，看色彩流动；每套八片，可以自由排列。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/",
+      "zh-CN": "https://bijoyism.cc/zh/",
+      "x-default": "https://bijoyism.cc/en/"
+    },
+    "bodyHash": "3d817bf0cabc35d04399f57b1baae25e168fb73b3b44d3901c15118ba2ee9e9f",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/homepage-carousel-school-desktop-v01.webp",
+        "alt": "孩子们在明亮室内空间一起探索感官地砖路径。"
+      },
+      {
+        "src": "/assets/hero.webp",
+        "alt": "孩子们在家中按压和踩踏动物探索系列地垫。"
+      },
+      {
+        "src": "/assets/homepage-carousel-td02-rearrange-desktop-v02.webp",
+        "alt": "家长与孩子在家中将 Color Duos 感官地砖重排成活泼路径。"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/home-care-scene-v02.webp",
+        "alt": "孩子在木地板上擦拭 BIJOYISM 感官地垫。"
+      },
+      {
+        "src": "/assets/td01-classroom-table-v01.webp",
+        "alt": "老师与三名儿童围桌观察动物探索系列地垫并交流"
+      },
+      {
+        "src": "/assets/homepage-carousel-school-desktop-v01.webp",
+        "alt": "儿童在老师陪伴下沿感知地垫组成的路线进行室内游戏"
+      },
+      {
+        "src": "/assets/td03-reading-institutions-v02.webp",
+        "alt": "老师坐在阅读角与儿童交流，八片蓝绿感知地垫平铺在前方"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "products",
+    "title": "BIJOYISM 液体感官地垫：比较三个系列",
+    "description": "比较动物探索、缤纷双色和水漾色彩。三个系列均为八片装、适合 3 岁及以上儿童；查看单片尺寸、材质、护理、共同检测依据与购买入口。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/products/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/products/",
+      "zh-CN": "https://bijoyism.cc/zh/products/",
+      "x-default": "https://bijoyism.cc/en/products/"
+    },
+    "bodyHash": "2cb9cf1ef5eb96228318fff070b1ff4bad26ef8c0f3ad8b5b479368628a8ea29",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "shop/compare",
+    "title": "动物探索、缤纷双色与水漾色彩怎么选？",
+    "description": "按图案、可见配色和玩法比较 TD01、TD02、TD03，同时核对共同规格、年龄、使用条件与检测证书。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/shop/compare/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/shop/compare/",
+      "zh-CN": "https://bijoyism.cc/zh/shop/compare/",
+      "x-default": "https://bijoyism.cc/en/shop/compare/"
+    },
+    "bodyHash": "8543401641ebbfc665d8dee9c7ac0f01f4927860e57ab8a2439c13a75c1f7de8",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "shop/find-your-fit",
+    "title": "按空间和玩法，找到适合的系列。",
+    "description": "目前三个系列均适用于 3 岁及以上儿童，可在成人监护下于室内干燥、平整的地面或地毯上使用。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/shop/find-your-fit/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/shop/find-your-fit/",
+      "zh-CN": "https://bijoyism.cc/zh/shop/find-your-fit/",
+      "x-default": "https://bijoyism.cc/en/shop/find-your-fit/"
+    },
+    "bodyHash": "da28a9eda81613951e30cadb6b533d2d8785623f91ed6d5530b1d0c0f6d7bc30",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas",
+    "title": "找到适合一起玩的方式",
+    "description": "选好产品系列，再按年龄、参与人数和使用场景，找到适合的玩法。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/"
+    },
+    "bodyHash": "a0023aa65395a127f5b427b407db57796dc763b07606a6b3baec86323b42947b",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "families",
+    "title": "一起玩，让日常多一点发现。",
+    "description": "不必安排复杂的活动。从看看颜色、轻轻按一按，到一起排出路线，让孩子顺着自己的兴趣探索，也让陪伴自然发生。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/families/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/families/",
+      "zh-CN": "https://bijoyism.cc/zh/families/",
+      "x-default": "https://bijoyism.cc/en/families/"
+    },
+    "bodyHash": "d0d5bc7245ad88a6091aadcf89341aa3996107d18bf54e93ac84b01557db1b95",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/td02-heart-path-v01.webp",
+        "alt": "家长和孩子探索爱心形扩展布局，使用多于一套八片地垫。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "schools",
+    "title": "让色彩和动作，融入课堂活动。",
+    "description": "从观察颜色到轮流参与，再到一起设计路线，教师可以根据人数、空间和活动安排，选择适合班级的游戏方式。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/schools/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/schools/",
+      "zh-CN": "https://bijoyism.cc/zh/schools/",
+      "x-default": "https://bijoyism.cc/en/schools/"
+    },
+    "bodyHash": "d4c807a1052e1d31598bbbedf105505338909e8d1dfab96a69265e05baf9da4f",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/school-desktop-v03.webp",
+        "alt": "老师引导一名孩子探索地垫，另两名孩子在旁等候，产品单层分开摆放。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "about",
+    "title": "关于 BIJOYISM：公司与儿童感官玩具",
+    "description": "BIJOYISM 相信，孩子通过感官认识世界。我们将色彩、触感、运动与想象融入日常游戏，创造简单、开放、有趣的感官体验，让孩子自由探索、主动发现，并在每一次玩耍中找到新的可能。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/about/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/about/",
+      "zh-CN": "https://bijoyism.cc/zh/about/",
+      "x-default": "https://bijoyism.cc/en/about/"
+    },
+    "bodyHash": "b088725077b470673fe3e8040ecc88fc7105ae52f0a819a70de7490fdefc6b4a",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/bijoyism-brand-banner-desktop-v01.png",
+        "alt": "明亮室内空间中的 BIJOYISM 品牌背景"
+      },
+      {
+        "src": "/assets/td02-press-exploration-v01.webp",
+        "alt": "发现多彩世界"
+      },
+      {
+        "src": "/assets/td02-rearrange-path-v01.webp",
+        "alt": "乐在其中"
+      },
+      {
+        "src": "/assets/td02-heart-path-v01.webp",
+        "alt": "创造更多可能"
+      },
+      {
+        "src": "/assets/shared-play.webp",
+        "alt": "让好奇心引路"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "AboutPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "contact",
+    "title": "找到合适的下一步。",
+    "description": "如有产品问题或学校、机构采购需求，欢迎通过电子邮箱联系我们。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/contact/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/contact/",
+      "zh-CN": "https://bijoyism.cc/zh/contact/",
+      "x-default": "https://bijoyism.cc/en/contact/"
+    },
+    "bodyHash": "79cf2a8dfd4bf72613426850702e4d45326c05a921def49e7a7b963c7f43ae94",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "faq",
+    "title": "关于日常游戏的几个答案。",
+    "description": "动物探索是印刷动物画面与流动液体的结合；缤纷双色以变化的双色液体纹理为主；水漾色彩包含四片蓝色与四片绿色，无动物印刷画面。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/faq/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/faq/",
+      "zh-CN": "https://bijoyism.cc/zh/faq/",
+      "x-default": "https://bijoyism.cc/en/faq/"
+    },
+    "bodyHash": "8f559a846a3f7f34cdc1ca0feebbbc9b8f2aa4ae13fbbf6004d0448d6744d6cc",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "buying",
+    "title": "购买与售后说明",
+    "description": "在产品页面选择 Amazon 购买，即可前往对应商品页面。价格、库存、付款、配送和退换规则以购买平台为准。如有产品或售后问题，请联系 support@bijoyism.cn。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/buying/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/buying/",
+      "zh-CN": "https://bijoyism.cc/zh/buying/",
+      "x-default": "https://bijoyism.cc/en/buying/"
+    },
+    "bodyHash": "9e9aae41c788215879e55357963bcd40b6f39c6d38a9234ed6a2f6b5fc119e7e",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "privacy",
+    "title": "隐私说明",
+    "description": "我们使用你提交的联系方式、咨询需求与参考文件来处理咨询。在线咨询通过邮件服务商 Resend 发送至 support@bijoyism.cn。提交服务不可用时，表单会显示提示，不会发送你的信息。文字草稿临时保存在当前浏览器标签页，用于切换语言，并在提交成功或关闭标签页后清除。语言偏好保存在当前浏览器，可通过下方按钮清除。购买在 Amazon 完成，相关信息处理适用 Amazon 的隐私政策。如有隐私问题，请联系 support@bijoyism.cn。 启用购买点击统计时，我们在网站服务日志中记录产品系列、语言、页面路径、按钮位置、购买目标、来源网站名称与活动标签。该统计不使用分析 Cookie，事件记录不包含原始 IP 地址、完整来源网址或购买链接的查询参数，并尊重浏览器的 Global Privacy Control 信号。点击不代表购买，购买过程由 Amazon 按其政策处理。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/privacy/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/privacy/",
+      "zh-CN": "https://bijoyism.cc/zh/privacy/",
+      "x-default": "https://bijoyism.cc/en/privacy/"
+    },
+    "bodyHash": "6b803d82803e7ff336edfdc33698101739eb0c14d6ca2ae6c90f8a066c89610b",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "guides/liquid-sensory-tiles",
+    "title": "液体感官地垫是什么，三个系列怎么选？",
+    "description": "BIJOYISM 液体感官地垫是适合 3 岁及以上儿童的独立硬质地垫。手掌按压或脚部踩踏时，彩色液体纹理会移动。当前动物探索、缤纷双色和水漾色彩三个系列均为八片装，适用于室内干燥、平整的地面或地毯，并需成人监护。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/guides/liquid-sensory-tiles/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/guides/liquid-sensory-tiles/",
+      "zh-CN": "https://bijoyism.cc/zh/guides/liquid-sensory-tiles/",
+      "x-default": "https://bijoyism.cc/en/guides/liquid-sensory-tiles/"
+    },
+    "bodyHash": "4649755a5d4657ba30f08392a75687854b87182e68c9e32941fd7a2adf2865a2",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "guides/care",
+    "title": "液体感官地垫如何清洁、检查和收纳？",
+    "description": "BIJOYISM TD01、TD02、TD03 液体感官地垫表面防泼溅，可冲洗或用柔软湿布擦拭。请勿浸泡，也不要让地垫长时间接触水。清洁后擦干或在阴凉处晾干，再整齐叠放收纳。使用前检查是否损坏；发现损坏时停止使用。请在成人监护下，于室内干燥、平整的地面使用。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/guides/care/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/guides/care/",
+      "zh-CN": "https://bijoyism.cc/zh/guides/care/",
+      "x-default": "https://bijoyism.cc/en/guides/care/"
+    },
+    "bodyHash": "0d7d0f2f9939d7755cfd65ba0d494da02caec04db1a44917b860665a1e42dbdc",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "guides/testing",
+    "title": "TD01、TD02、TD03 的检测与证书依据",
+    "description": "当前 TD01、TD02、TD03 三个系列均具备儿童产品证书（CPC），并完成适用的 ASTM F963-23 和 CPSIA 要求检测。文件适用范围以所列型号和检测项目为准。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/guides/testing/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/guides/testing/",
+      "zh-CN": "https://bijoyism.cc/zh/guides/testing/",
+      "x-default": "https://bijoyism.cc/en/guides/testing/"
+    },
+    "bodyHash": "e8cbe4601027cf797373ed8bc9edcd07da4b54ec17c8c5832d73bf105f55ffd4",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "products/td01-animal-discovery",
+    "title": "动物探索液体感官地垫 · 8 片装",
+    "description": "动物探索是适合 3 岁及以上儿童的八片装液体感官地垫。印刷动物画面可以用于认动物和讲故事，按压或踩踏时可以观察彩色液体移动。请在成人监护下，于室内干燥、平整的地面或地毯上使用。",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/zh/products/td01-animal-discovery/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/products/td01-animal-discovery/",
+      "zh-CN": "https://bijoyism.cc/zh/products/td01-animal-discovery/",
+      "x-default": "https://bijoyism.cc/en/products/td01-animal-discovery/"
+    },
+    "bodyHash": "d03b5820ad46d6d94bf706f04c8dd714af7ca1f968471273bcd1923be2dc348b",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Product"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "products/td02-color-duos",
+    "title": "缤纷双色液体感官地垫 · 8 片装",
+    "description": "缤纷双色是适合 3 岁及以上儿童的八片装液体感官地垫。变化的双色液体纹理可以用于颜色选择、观察与轮流游戏。独立地垫可排成室内短路线或方阵，请在成人监护下于干燥、平整的地面或地毯上使用。",
+    "image": "/assets/color-duos.webp",
+    "url": "https://bijoyism.cc/zh/products/td02-color-duos/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/products/td02-color-duos/",
+      "zh-CN": "https://bijoyism.cc/zh/products/td02-color-duos/",
+      "x-default": "https://bijoyism.cc/en/products/td02-color-duos/"
+    },
+    "bodyHash": "0dfddc82313cf7464cbe525fdfe06cb26df2a1a8c215b52a34b9c2d9e64e2007",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td02-press-exploration-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td02-heart-path-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td02-rearrange-path-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Product"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "products/td03-aqua-tones",
+    "title": "水漾色彩液体感官地垫 · 8 片装",
+    "description": "水漾色彩是一套八片的液体感官地垫，包含四片蓝色与四片绿色，无动物印刷图案。适合 3 岁及以上儿童在成人监护下，于室内干燥、平整的地面或地毯上观察色彩或玩短路线游戏。",
+    "image": "/assets/td03-share-zh-cn-v01.jpg",
+    "url": "https://bijoyism.cc/zh/products/td03-aqua-tones/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/products/td03-aqua-tones/",
+      "zh-CN": "https://bijoyism.cc/zh/products/td03-aqua-tones/",
+      "x-default": "https://bijoyism.cc/en/products/td03-aqua-tones/"
+    },
+    "bodyHash": "0fca55bcc01d85cae1932ca03c07804a7bf30457d9b90541e4bcb8b26fd034bc",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td03-angled-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td03-reading-desktop-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td03-corner-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/td03-back-v01.webp",
+        "alt": ""
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Product"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/animal-safari",
+    "title": "动物探险：儿童室内游戏玩法",
+    "description": "找到被点名的动物，走过去，说说它的特征。",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/animal-safari/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/animal-safari/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/animal-safari/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/animal-safari/"
+    },
+    "bodyHash": "4f81a5a25726fed2b942613bac606173c64a7aeabff9c297470ded1e61a1a15d",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/move-like-an-animal",
+    "title": "动物模仿秀：儿童室内游戏玩法",
+    "description": "选一只动物，模仿简单动作，让同伴猜。",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/move-like-an-animal/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/move-like-an-animal/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/move-like-an-animal/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/move-like-an-animal/"
+    },
+    "bodyHash": "23e1daf23a5388a9273981a7ca28b9c8ba3d4c0413ecd48c06ee1eae011f3266",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/story-steps",
+    "title": "走一步，讲一句故事：儿童室内游戏玩法",
+    "description": "每到一个动物站点，接着讲一句，一起编故事。",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/story-steps/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/story-steps/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/story-steps/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/story-steps/"
+    },
+    "bodyHash": "c0bc0b32acae705f6b86c18a92b98229088a853cba9522ba76e3ace80b050c4b",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/color-command",
+    "title": "颜色指令：儿童室内游戏玩法",
+    "description": "先约定颜色对应的动作，再听指令完成。",
+    "image": "/assets/color-duos.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/color-command/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/color-command/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/color-command/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/color-command/"
+    },
+    "bodyHash": "4a4ba3781ef3a9a68858754ebf6d1f892460d5bb28410e87ba647f3c3d28ac07",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/follow-my-path",
+    "title": "跟着我的路线：儿童室内游戏玩法",
+    "description": "看一段颜色路线，记住并复现，再交换领路人。",
+    "image": "/assets/color-duos.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/follow-my-path/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/follow-my-path/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/follow-my-path/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/follow-my-path/"
+    },
+    "bodyHash": "e9df7d3d5ec0ad2381f0c456b25351bf5832f7e1e54a66f8909a5b29c4a4b6c1",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/build-a-color-course",
+    "title": "设计彩色路线：儿童室内游戏玩法",
+    "description": "设计颜色路线，为每一站约定任务。",
+    "image": "/assets/color-duos.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/build-a-color-course/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/build-a-color-course/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/build-a-color-course/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/build-a-color-course/"
+    },
+    "bodyHash": "d351cb91ede472797eeba409994adb07bb31744f75abe51284eae8d833ffd50f",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/quiet-steps",
+    "title": "安静脚步：儿童室内游戏玩法",
+    "description": "轻轻落脚，停下来看看颜色的变化，再按自己的节奏继续。",
+    "image": "/assets/aqua-tones.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/quiet-steps/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/quiet-steps/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/quiet-steps/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/quiet-steps/"
+    },
+    "bodyHash": "e8810e1b52e0ed496f5ce50294ecb38a84b0033c4473fec0484b3dc61dd1edd1",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/balance-islands",
+    "title": "平衡小岛：儿童室内游戏玩法",
+    "description": "在每座小岛上站稳停留，再走到下一站。",
+    "image": "/assets/aqua-tones.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/balance-islands/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/balance-islands/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/balance-islands/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/balance-islands/"
+    },
+    "bodyHash": "2cc0e37bd536a419d71a6f78ae81d13dd48381895dc27cd4aeff4288633dd35c",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/slow-motion-trail",
+    "title": "慢动作挑战：儿童室内游戏玩法",
+    "description": "沿短路线保持慢步、停留的节奏。",
+    "image": "/assets/aqua-tones.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/slow-motion-trail/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/slow-motion-trail/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/slow-motion-trail/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/slow-motion-trail/"
+    },
+    "bodyHash": "d053b2cf631ac8bf740aa444b76e06f9f342aabeec5084ae148ad00ea5caa538",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/adventure-trail",
+    "title": "冒险路线：儿童室内游戏玩法",
+    "description": "动物站想象，双色站行动，蓝绿站点停留。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/adventure-trail/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/adventure-trail/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/adventure-trail/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/adventure-trail/"
+    },
+    "bodyHash": "971b240ef6a8c39f39ef4e788ab3bf6c8fdc5f48d31279bc2aef6ec69c244b79",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/build-your-own-adventure",
+    "title": "自己设计游戏路线：儿童室内游戏玩法",
+    "description": "自选故事、动作和停顿规则，再邀请同伴试玩。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/build-your-own-adventure/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/build-your-own-adventure/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/"
+    },
+    "bodyHash": "9732203fd752941d0dfab2490af333d56b293b76f87a9b68c37144fb3572b91c",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/treasure-quest",
+    "title": "寻宝任务：儿童室内游戏玩法",
+    "description": "设计动物、颜色和停顿线索，让同伴找到纸质宝藏。",
+    "image": "/assets/hero.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/treasure-quest/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/treasure-quest/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/treasure-quest/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/treasure-quest/"
+    },
+    "bodyHash": "25ec1d87d20af8364350b148bcfa1cf6320c4c74611217e7128701c006215f64",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/choose-a-color",
+    "title": "选一个颜色，走下一步：儿童室内游戏玩法",
+    "description": "自己选下一种颜色，探索纹理，再交换角色。",
+    "image": "/assets/color-duos.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/choose-a-color/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/choose-a-color/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/choose-a-color/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/choose-a-color/"
+    },
+    "bodyHash": "c48be53d9c97381b26a8eb2b256c3ff626692e1bf83a1ebd2f6783828e57ef21",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/quiet-color-watch",
+    "title": "静静看蓝绿流动：儿童室内游戏玩法",
+    "description": "先看、用手按压、移开，再描述纹理变化。",
+    "image": "/assets/aqua-tones.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/quiet-color-watch/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/quiet-color-watch/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/quiet-color-watch/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/quiet-color-watch/"
+    },
+    "bodyHash": "8f22df7b1e15515d74a927670c886ce78902dc8f6ba40f872a0af3715f645e42",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/three-tile-layouts",
+    "title": "排列组合，摆出各种形状：儿童室内游戏玩法",
+    "description": "任选一个系列的地垫，自由排列组合，摆成直线、方阵、弧线等形状，也可以试试自己的新布局。",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/three-tile-layouts/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/three-tile-layouts/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/three-tile-layouts/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/three-tile-layouts/"
+    },
+    "bodyHash": "5a1c813abc2a7dd4f20912f75a27b4b370e39f20fb74b178f54a7e48089b5bf2",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/aqua-tones.webp",
+        "alt": "四片蓝色与四片绿色水漾色彩地垫分两排平铺，无动物印刷画面。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  },
+  {
+    "locale": "zh",
+    "route": "play-ideas/preschool-turn-taking",
+    "title": "课堂轮流组织指南：儿童室内游戏玩法",
+    "description": "用选择者、探索者、观察者组织课堂活动。",
+    "image": "/assets/animal-discovery.webp",
+    "url": "https://bijoyism.cc/zh/play-ideas/preschool-turn-taking/",
+    "languages": {
+      "en": "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/",
+      "zh-CN": "https://bijoyism.cc/zh/play-ideas/preschool-turn-taking/",
+      "x-default": "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/"
+    },
+    "bodyHash": "c4cb77cd8455d5871ffbfc9837c73c762610e1dfe3c72944f6e8eafd0ffa25d9",
+    "h1": 1,
+    "missingAlt": [],
+    "missingFiles": [],
+    "images": [
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/logo-red-v01.svg",
+        "alt": "BIJOYISM"
+      },
+      {
+        "src": "/assets/animal-discovery.webp",
+        "alt": "八片动物探索地垫分两排单层摆放，展示动物画面和彩色液体。"
+      },
+      {
+        "src": "/assets/color-duos.webp",
+        "alt": "八片缤纷双色地垫平铺成两排，展示不同的双色液体纹理。"
+      },
+      {
+        "src": "/assets/logo-white-v01.svg",
+        "alt": "BIJOYISM"
+      }
+    ],
+    "schema": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Article"
+    ]
+  }
+]

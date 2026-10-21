@@ -14,8 +14,8 @@ export default function proxy(request: NextRequest) {
     url.host = 'bijoyism.cc'; url.port = ''; url.protocol = 'https:';
     if (host.endsWith('bijoyism.cn') && url.pathname === '/') url.pathname = '/zh/';
     // The .cn fallback is temporary; it only works once a request reaches this app.
-    const response = NextResponse.redirect(url, host.endsWith('bijoyism.cn') ? 307 : 308);
-    response.headers.set('Cache-Control', 'private, no-store');
+    const response = NextResponse.redirect(url, 308);
+    response.headers.set('Cache-Control', 'public, max-age=3600');
     return response;
   }
   if (request.nextUrl.pathname === '/' && /^bijoyism\.(cn|cc)$/.test(host)) {

@@ -1,0 +1,2582 @@
+{
+  "checkedAt": "2026-10-20",
+  "scope": "Public HTTP fetch checks, not authenticated Google index inspection",
+  "method": "curl compressed HTTP/1.1, concurrency 4, 20-second timeout, one automatic retry for failed/incomplete fetch",
+  "results": [
+    {
+      "kind": "sitemap",
+      "status": 200,
+      "error": null,
+      "complete": true,
+      "count": 68
+    },
+    {
+      "kind": "robots",
+      "status": 200,
+      "body": "User-Agent: *\nAllow: /\n\nUser-Agent: OAI-SearchBot\nAllow: /\n\nSitemap: https://bijoyism.cc/sitemap.xml\n",
+      "error": null
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/shop/compare/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/shop/compare/",
+      "seconds": 4.281914,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/shop/compare/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Animal Discovery vs Color Duos vs Aqua Tones | BIJOYISM",
+      "h1": "Same tile format. Different invitations.",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/shop/compare/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/shop/compare/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/shop/compare/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/products/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/products/",
+      "seconds": 8.441527,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/products/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "BIJOYISM Liquid Sensory Floor Tiles: Compare 3 Collections",
+      "h1": "Find the Right Sensory Play for Your Child",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/products/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/products/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/products/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/",
+      "seconds": 8.952621,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "BIJOYISM — Sparking Senses, Bright Minds",
+      "h1": "Sensory play that moves with every step.",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/families/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/families/",
+      "seconds": 3.654124,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/families/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "More discoveries, together. | BIJOYISM",
+      "h1": "More discoveries, together.",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/families/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/families/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/families/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/schools/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/schools/",
+      "seconds": 4.47108,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/schools/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Bring color and movement into your classroom. | BIJOYISM",
+      "h1": "Bring color and movement into your classroom.",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/schools/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/schools/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/schools/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/about/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/about/",
+      "seconds": 12.674801,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/about/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "About BIJOYISM: Company and Sensory Play Products | BIJOYISM",
+      "h1": "Sparking senses, bright minds.",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/about/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/about/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/about/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/shop/find-your-fit/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/shop/find-your-fit/",
+      "seconds": 5.003453,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/shop/find-your-fit/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Choose by your space and invitation. | BIJOYISM",
+      "h1": "Choose by your space and invitation.",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/shop/find-your-fit/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/shop/find-your-fit/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/shop/find-your-fit/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/",
+      "seconds": 1.772284,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Play Your Way | BIJOYISM",
+      "h1": "Play Your Way",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/faq/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/faq/",
+      "seconds": 2.771288,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/faq/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Answers for everyday play. | BIJOYISM",
+      "h1": "Answers for everyday play.",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/faq/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/faq/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/faq/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/buying/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/buying/",
+      "seconds": 2.867671,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/buying/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Buying &amp; after-sales | BIJOYISM",
+      "h1": "Buying & after-sales",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/buying/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/buying/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/buying/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/guides/liquid-sensory-tiles/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/guides/liquid-sensory-tiles/",
+      "seconds": 1.197082,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/guides/liquid-sensory-tiles/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "What Are Liquid Sensory Floor Tiles? | BIJOYISM",
+      "h1": "What Are Liquid Sensory Floor Tiles?",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/guides/liquid-sensory-tiles/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/guides/liquid-sensory-tiles/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/guides/liquid-sensory-tiles/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/contact/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/contact/",
+      "seconds": 0.845081,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/contact/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Let’s find the right next step. | BIJOYISM",
+      "h1": "Let’s find the right next step.",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/contact/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/contact/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/contact/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/privacy/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/privacy/",
+      "seconds": 16.104273,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/privacy/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Privacy | BIJOYISM",
+      "h1": "Privacy",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/privacy/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/privacy/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/privacy/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/products/td01-animal-discovery/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/products/td01-animal-discovery/",
+      "seconds": 11.678928,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/products/td01-animal-discovery/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Animal Discovery Liquid Sensory Tiles, 8-Piece Set | BIJOYISM",
+      "h1": "Animal Discovery Liquid Sensory Tiles, 8-Piece Set",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/products/td01-animal-discovery/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/products/td01-animal-discovery/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/products/td01-animal-discovery/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/products/td02-color-duos/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/products/td02-color-duos/",
+      "seconds": 6.434131,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/products/td02-color-duos/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Color Duos Liquid Sensory Tiles, 8-Piece Set | BIJOYISM",
+      "h1": "Color Duos Liquid Sensory Tiles, 8-Piece Set",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/products/td02-color-duos/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/products/td02-color-duos/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/products/td02-color-duos/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/animal-safari/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/animal-safari/",
+      "seconds": 2.825585,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/animal-safari/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Animal Safari: Indoor Play for Ages 3–6 | BIJOYISM",
+      "h1": "Animal Safari",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/animal-safari/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/animal-safari/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/animal-safari/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/guides/testing/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/guides/testing/",
+      "seconds": 6.185653,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/guides/testing/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Testing and CPC for TD01, TD02, and TD03 | BIJOYISM",
+      "h1": "Testing and CPC for TD01, TD02, and TD03",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/guides/testing/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/guides/testing/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/guides/testing/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/guides/care/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/guides/care/",
+      "seconds": 7.908493,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/guides/care/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "How to Clean and Store Liquid Sensory Tiles | BIJOYISM",
+      "h1": "How to Clean and Store Liquid Sensory Tiles",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/guides/care/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/guides/care/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/guides/care/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/story-steps/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/story-steps/",
+      "seconds": 2.566687,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/story-steps/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Story Steps: Indoor Play for Ages 4–7 | BIJOYISM",
+      "h1": "Story Steps",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/story-steps/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/story-steps/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/story-steps/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/color-command/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/color-command/",
+      "seconds": 3.114103,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/color-command/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Color Command: Indoor Play for Ages 3–6 | BIJOYISM",
+      "h1": "Color Command",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/color-command/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/color-command/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/color-command/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/follow-my-path/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/follow-my-path/",
+      "seconds": 2.331376,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/follow-my-path/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Follow My Path: Indoor Play for Ages 4–7 | BIJOYISM",
+      "h1": "Follow My Path",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/follow-my-path/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/follow-my-path/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/follow-my-path/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/quiet-steps/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/quiet-steps/",
+      "seconds": 0.916476,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/quiet-steps/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Quiet Steps: Indoor Play for Ages 3–7 | BIJOYISM",
+      "h1": "Quiet Steps",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/quiet-steps/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/quiet-steps/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/quiet-steps/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/move-like-an-animal/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/move-like-an-animal/",
+      "seconds": 13.647002,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/move-like-an-animal/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Move Like an Animal: Indoor Play for Ages 3–7 | BIJOYISM",
+      "h1": "Move Like an Animal",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/move-like-an-animal/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/move-like-an-animal/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/move-like-an-animal/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/products/td03-aqua-tones/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/products/td03-aqua-tones/",
+      "seconds": 1.954603,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/products/td03-aqua-tones/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Aqua Tones Liquid Sensory Tiles, 8-Piece Set | BIJOYISM",
+      "h1": "Aqua Tones Liquid Sensory Tiles, 8-Piece Set",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/products/td03-aqua-tones/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/products/td03-aqua-tones/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/products/td03-aqua-tones/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/slow-motion-trail/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/slow-motion-trail/",
+      "seconds": 6.838828,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/slow-motion-trail/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Slow Motion Trail: Indoor Play for Ages 4–7 | BIJOYISM",
+      "h1": "Slow Motion Trail",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/slow-motion-trail/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/slow-motion-trail/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/slow-motion-trail/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/balance-islands/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/balance-islands/",
+      "seconds": 14.759772,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/balance-islands/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Balance Islands: Indoor Play for Ages 4–8 | BIJOYISM",
+      "h1": "Balance Islands",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/balance-islands/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/balance-islands/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/balance-islands/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/build-a-color-course/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/build-a-color-course/",
+      "seconds": 2.264632,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/build-a-color-course/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Build a Color Course: Indoor Play for Ages 4–8 | BIJOYISM",
+      "h1": "Build a Color Course",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/build-a-color-course/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/build-a-color-course/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/build-a-color-course/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/treasure-quest/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/treasure-quest/",
+      "seconds": 2.269277,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/treasure-quest/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Treasure Quest: Indoor Play for Ages 4–8 | BIJOYISM",
+      "h1": "Treasure Quest",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/treasure-quest/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/treasure-quest/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/treasure-quest/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/choose-a-color/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/choose-a-color/",
+      "seconds": 2.882362,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/choose-a-color/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Choose a Color, Choose a Step: Indoor Play for Ages 3–6 | BIJOYISM",
+      "h1": "Choose a Color, Choose a Step",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/choose-a-color/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/choose-a-color/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/choose-a-color/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/three-tile-layouts/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/three-tile-layouts/",
+      "seconds": 1.334495,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/three-tile-layouts/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Arrange, Combine &amp; Create: Indoor Play for Ages 3–8 | BIJOYISM",
+      "h1": "Arrange, Combine &amp; Create",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/three-tile-layouts/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/three-tile-layouts/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/three-tile-layouts/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/quiet-color-watch/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/quiet-color-watch/",
+      "seconds": 10.115481,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/quiet-color-watch/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Quiet Color Watch: Indoor Play for Ages 3–8 | BIJOYISM",
+      "h1": "Quiet Color Watch",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/quiet-color-watch/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/quiet-color-watch/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/quiet-color-watch/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/",
+      "seconds": 3.173093,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "BIJOYISM — 唤醒感知，启迪心智",
+      "h1": "每一步，都让感官游戏动起来。",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/products/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/products/",
+      "seconds": 1.764061,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/products/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "BIJOYISM 液体感官地垫：比较三个系列",
+      "h1": "寻找适合孩子的感官游戏",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/products/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/products/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/products/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/",
+      "seconds": 1.754274,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Build Your Own Adventure: Indoor Play for Ages 4–8 | BIJOYISM",
+      "h1": "Build Your Own Adventure",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/build-your-own-adventure/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/adventure-trail/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/adventure-trail/",
+      "seconds": 8.229301,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/adventure-trail/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Adventure Trail: Indoor Play for Ages 4–8 | BIJOYISM",
+      "h1": "Adventure Trail",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/adventure-trail/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/adventure-trail/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/adventure-trail/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/shop/compare/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/shop/compare/",
+      "seconds": 3.674997,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/shop/compare/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "动物探索、缤纷双色与水漾色彩怎么选？ | BIJOYISM",
+      "h1": "相同的地垫规格，各有不同的玩法。",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/shop/compare/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/shop/compare/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/shop/compare/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/families/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/families/",
+      "seconds": 8.844048,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/families/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "一起玩，让日常多一点发现。 | BIJOYISM",
+      "h1": "一起玩，让日常多一点发现。",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/families/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/families/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/families/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/schools/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/schools/",
+      "seconds": 2.530632,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/schools/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "让色彩和动作，融入课堂活动。 | BIJOYISM",
+      "h1": "让色彩和动作，融入课堂活动。",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/schools/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/schools/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/schools/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/",
+      "seconds": 13.598398,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "Preschool Turn-Taking: Indoor Play for Ages 3–8 | BIJOYISM",
+      "h1": "Preschool Turn-Taking",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/preschool-turn-taking/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/contact/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/contact/",
+      "seconds": 0.89098,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/contact/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "找到合适的下一步。 | BIJOYISM",
+      "h1": "找到合适的下一步。",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/contact/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/contact/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/contact/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/",
+      "seconds": 1.289241,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "找到适合一起玩的方式 | BIJOYISM",
+      "h1": "找到适合一起玩的方式",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/about/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/about/",
+      "seconds": 9.82945,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/about/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "关于 BIJOYISM：公司与儿童感官玩具 | BIJOYISM",
+      "h1": "让感官被唤醒，让想象自然发生。",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/about/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/about/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/about/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/buying/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/buying/",
+      "seconds": 2.46055,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/buying/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "购买与售后说明 | BIJOYISM",
+      "h1": "购买与售后说明",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/buying/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/buying/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/buying/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/privacy/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/privacy/",
+      "seconds": 2.256337,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/privacy/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "隐私说明 | BIJOYISM",
+      "h1": "隐私说明",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/privacy/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/privacy/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/privacy/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/faq/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/faq/",
+      "seconds": 5.817874,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/faq/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "关于日常游戏的几个答案。 | BIJOYISM",
+      "h1": "关于日常游戏的几个答案。",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/faq/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/faq/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/faq/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/guides/care/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/guides/care/",
+      "seconds": 2.873297,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/guides/care/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "液体感官地垫如何清洁、检查和收纳？ | BIJOYISM",
+      "h1": "液体感官地垫如何清洁、检查和收纳？",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/guides/care/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/guides/care/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/guides/care/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/guides/testing/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/guides/testing/",
+      "seconds": 1.998523,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/guides/testing/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "TD01、TD02、TD03 的检测与证书依据 | BIJOYISM",
+      "h1": "TD01、TD02、TD03 的检测与证书依据",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/guides/testing/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/guides/testing/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/guides/testing/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/guides/liquid-sensory-tiles/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/guides/liquid-sensory-tiles/",
+      "seconds": 7.169631,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/guides/liquid-sensory-tiles/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "液体感官地垫是什么，三个系列怎么选？ | BIJOYISM",
+      "h1": "液体感官地垫是什么，三个系列怎么选？",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/guides/liquid-sensory-tiles/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/guides/liquid-sensory-tiles/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/guides/liquid-sensory-tiles/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/products/td01-animal-discovery/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/products/td01-animal-discovery/",
+      "seconds": 4.902281,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/products/td01-animal-discovery/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "动物探索液体感官地垫 · 8 片装 | BIJOYISM",
+      "h1": "动物探索液体感官地垫 · 8 片装",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/products/td01-animal-discovery/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/products/td01-animal-discovery/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/products/td01-animal-discovery/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/products/td03-aqua-tones/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/products/td03-aqua-tones/",
+      "seconds": 3.053344,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/products/td03-aqua-tones/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "水漾色彩液体感官地垫 · 8 片装 | BIJOYISM",
+      "h1": "水漾色彩液体感官地垫 · 8 片装",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/products/td03-aqua-tones/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/products/td03-aqua-tones/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/products/td03-aqua-tones/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/animal-safari/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/animal-safari/",
+      "seconds": 4.813814,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/animal-safari/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "动物探险：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "动物探险",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/animal-safari/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/animal-safari/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/animal-safari/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/shop/find-your-fit/",
+      "status": 0,
+      "effective": "https://bijoyism.cc/zh/shop/find-your-fit/",
+      "seconds": 20.004851,
+      "error": "curl: (28) Connection timed out after 20004 milliseconds",
+      "retried": true,
+      "complete": false,
+      "canonical": [],
+      "robots": [],
+      "xRobots": [],
+      "alternates": [],
+      "jsonLdBlocks": 0,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/story-steps/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/story-steps/",
+      "seconds": 2.412817,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/story-steps/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "走一步，讲一句故事：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "走一步，讲一句故事",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/story-steps/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/story-steps/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/story-steps/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/products/td02-color-duos/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/products/td02-color-duos/",
+      "seconds": 16.993088,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/products/td02-color-duos/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "缤纷双色液体感官地垫 · 8 片装 | BIJOYISM",
+      "h1": "缤纷双色液体感官地垫 · 8 片装",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/products/td02-color-duos/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/products/td02-color-duos/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/products/td02-color-duos/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/build-a-color-course/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/build-a-color-course/",
+      "seconds": 1.264796,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/build-a-color-course/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "设计彩色路线：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "设计彩色路线",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/build-a-color-course/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/build-a-color-course/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/build-a-color-course/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/move-like-an-animal/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/move-like-an-animal/",
+      "seconds": 16.615133,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/move-like-an-animal/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "动物模仿秀：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "动物模仿秀",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/move-like-an-animal/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/move-like-an-animal/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/move-like-an-animal/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/balance-islands/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/balance-islands/",
+      "seconds": 2.243468,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/balance-islands/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "平衡小岛：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "平衡小岛",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/balance-islands/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/balance-islands/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/balance-islands/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/color-command/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/color-command/",
+      "seconds": 4.119874,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/color-command/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "颜色指令：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "颜色指令",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/color-command/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/color-command/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/color-command/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/follow-my-path/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/follow-my-path/",
+      "seconds": 4.125914,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/follow-my-path/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "跟着我的路线：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "跟着我的路线",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/follow-my-path/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/follow-my-path/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/follow-my-path/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/build-your-own-adventure/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/build-your-own-adventure/",
+      "seconds": 1.146218,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/build-your-own-adventure/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "自己设计游戏路线：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "自己设计游戏路线",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/build-your-own-adventure/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/build-your-own-adventure/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/quiet-steps/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/quiet-steps/",
+      "seconds": 18.990177,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/quiet-steps/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "安静脚步：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "安静脚步",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/quiet-steps/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/quiet-steps/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/quiet-steps/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/slow-motion-trail/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/slow-motion-trail/",
+      "seconds": 17.218257,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/slow-motion-trail/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "慢动作挑战：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "慢动作挑战",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/slow-motion-trail/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/slow-motion-trail/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/slow-motion-trail/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/choose-a-color/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/choose-a-color/",
+      "seconds": 7.137416,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/choose-a-color/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "选一个颜色，走下一步：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "选一个颜色，走下一步",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/choose-a-color/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/choose-a-color/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/choose-a-color/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/quiet-color-watch/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/quiet-color-watch/",
+      "seconds": 3.21008,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/quiet-color-watch/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "静静看蓝绿流动：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "静静看蓝绿流动",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/quiet-color-watch/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/quiet-color-watch/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/quiet-color-watch/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/preschool-turn-taking/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/preschool-turn-taking/",
+      "seconds": 2.804143,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/preschool-turn-taking/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "课堂轮流组织指南：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "课堂轮流组织指南",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/preschool-turn-taking/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/preschool-turn-taking/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/three-tile-layouts/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/three-tile-layouts/",
+      "seconds": 7.237741,
+      "error": null,
+      "retried": false,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/three-tile-layouts/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "排列组合，摆出各种形状：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "排列组合，摆出各种形状",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/three-tile-layouts/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/three-tile-layouts/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/three-tile-layouts/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/adventure-trail/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/adventure-trail/",
+      "seconds": 2.237082,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/adventure-trail/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "冒险路线：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "冒险路线",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/adventure-trail/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/adventure-trail/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/adventure-trail/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    },
+    {
+      "kind": "page",
+      "url": "https://bijoyism.cc/zh/play-ideas/treasure-quest/",
+      "status": 200,
+      "effective": "https://bijoyism.cc/zh/play-ideas/treasure-quest/",
+      "seconds": 5.778702,
+      "error": null,
+      "retried": true,
+      "complete": true,
+      "canonical": [
+        "https://bijoyism.cc/zh/play-ideas/treasure-quest/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index, follow"
+        }
+      ],
+      "xRobots": [],
+      "title": "寻宝任务：儿童室内游戏玩法 | BIJOYISM",
+      "h1": "寻宝任务",
+      "alternates": [
+        {
+          "lang": "en",
+          "url": "https://bijoyism.cc/en/play-ideas/treasure-quest/"
+        },
+        {
+          "lang": "zh-CN",
+          "url": "https://bijoyism.cc/zh/play-ideas/treasure-quest/"
+        },
+        {
+          "lang": "x-default",
+          "url": "https://bijoyism.cc/en/play-ideas/treasure-quest/"
+        }
+      ],
+      "jsonLdBlocks": 1,
+      "invalidJson": 0
+    }
+  ]
+}
