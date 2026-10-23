@@ -1,0 +1,6 @@
+/* The scene, heading and four cards use the homepage's existing classes. */
+.catalog-specs{padding-block:28px;border-top:1px solid var(--line)}
+.catalog-specs ul{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 32px;list-style:none;margin:0;padding:0;font-size:15px;color:var(--muted)}
+.catalog-guide-links{text-align:center;padding-block:28px 44px}
+.catalog-guide-links>.page-links{justify-content:center;margin:18px 0 0}
+@media(max-width:640px){.catalog-specs ul{justify-content:flex-start;gap:10px 20px}.catalog-guide-links{text-align:left;padding-bottom:32px}.catalog-guide-links>.page-links{justify-content:flex-start;gap:20px}}

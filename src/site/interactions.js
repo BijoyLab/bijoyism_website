@@ -1,4 +1,5 @@
 import {bindHeroCarousel} from './hero-carousel.js';
+import {bindReviewWall} from './review-wall.js';
 import {languageUrl} from './site-config.js';
 import {seoInfo,canonicalRoute} from './seo.js';
 import {purchaseDestination} from './purchase-links.js';
@@ -24,8 +25,10 @@ const dialog=document.querySelector('#modal');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const t=()=>copy[lang];
 let disposeCarousel=()=>{};
+let disposeReviews=()=>{};
 function render(){
  disposeCarousel();
+ disposeReviews();
  app.innerHTML=renderSite({lang,route,products,channels,ideas,search:location.search});
  const languageSelect=document.querySelector('#language-select');
  if(languageSelect){
@@ -49,6 +52,7 @@ function render(){
  restorePlayReturn();
  if(modalState) showModal(modalState);
  disposeCarousel=bindHeroCarousel(app,lang);
+ disposeReviews=bindReviewWall(app);
  app.dataset.ready='true';
 }
 function showModal(state){modalState=state;const c=t();let body='';
@@ -72,5 +76,5 @@ dialog.querySelector('.close').onclick=()=>dialog.close();listen(dialog,'close',
 bindPurchaseEvents(signal);
 bindPlayInteractions({app,render,signal});
 render();
-return () => { disposeCarousel(); controller.abort(); dialog.querySelector('.close').onclick=null; };
+return () => { disposeCarousel(); disposeReviews(); controller.abort(); dialog.querySelector('.close').onclick=null; };
 }

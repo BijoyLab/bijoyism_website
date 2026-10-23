@@ -4,6 +4,8 @@
 @import "../site/styles.css";
 @import "../site/play.css";
 @import "../site/play-library-layout.css";
+@import "../site/review-wall.css";
+@import "../site/catalog-details.css";
 @plugin "daisyui" {
   themes: light --default;
 }
