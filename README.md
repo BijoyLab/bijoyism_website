@@ -84,6 +84,8 @@ npm run test:e2e
 
 ## GEO 与上线交接（2026-10-14）
 
+2026-10-28 抓取修复：应用入口对正式 `.cc` / `.cn` 域名的 HTTP 请求返回 308，保留路径和查询参数并转至 HTTPS 正式域名；包括页面、XML、静态资产和 API。HTTPS 根路径继续按语言偏好及国家信息做 307 分流。只在正式域名生效，本地 HTTP 预览不受影响。应用通过 `X-Forwarded-Proto` 判断访客协议，托管/CDN 必须覆盖该请求头，不能将 HTTPS 访客一律标成源站 HTTP，否则会形成重定向循环；若某类静态资源由 CDN 绕过应用直接提供，应同时在 CDN 层启用 HTTP→HTTPS 跳转。404 的 `noindex` 由 Next.js 输出，布局不再设置会与其冲突的默认 `index`；正常页面仍由页面元数据输出 `index, follow`。部署后需在线复核，代码修改本身不代表线上已更新。
+
 实现与外部待办见 `docs/geo-local-implementation-2026-10-14.md`。公开品类指南为 `/en/guides/liquid-sensory-tiles/`，护理为 `/en/guides/care/`，检测为 `/en/guides/testing/`；中文使用对应 `/zh/` 路径。
 
 `src/site/evidence.js` 记录 TD01、TD02、TD03 共同检测及同一 CPC 的已确认范围，单元测试对照 `Product/00-core/product-facts.compact.json`。当前三个系列不是仅 TD01 被覆盖；不自动推导到未来型号或其他性能。

@@ -4,10 +4,13 @@ import { routing } from "./i18n/routing";
 import { playRedirects } from "./site/play-content";
 import { routeAliases } from "./site/seo";
 import { hostLocale, siteConfig } from "./site/site-config";
+import { httpsRedirectUrl } from "./site/transport";
 
 const internationalize = createMiddleware(routing);
 const oldInfo: Record<string, string> = routeAliases;
 export default function proxy(request: NextRequest) {
+  const secureUrl = httpsRedirectUrl(request.nextUrl, request.headers);
+  if (secureUrl) return NextResponse.redirect(secureUrl, 308);
   const host = request.headers.get('host')?.split(':')[0].toLowerCase() || '';
   if (host === 'www.bijoyism.cc' || host === 'www.bijoyism.cn' || host === 'bijoyism.cn') {
     const url = request.nextUrl.clone();
@@ -28,6 +31,11 @@ export default function proxy(request: NextRequest) {
     const response = NextResponse.redirect(url, 307);
     response.headers.set('Cache-Control', 'private, no-store');
     return response;
+  }
+  // Transport enforcement also covers XML, assets and APIs, but these paths
+  // must not be rewritten by locale routing after the HTTPS check.
+  if (/^\/(?:api|trpc|_next|_vercel)(?:\/|$)/.test(request.nextUrl.pathname) || request.nextUrl.pathname.includes('.')) {
+    return NextResponse.next();
   }
   const segments = request.nextUrl.pathname.split("/").filter(Boolean);
   const locale = segments[0];
@@ -54,4 +62,4 @@ export default function proxy(request: NextRequest) {
   response.headers.delete('link');
   return response;
 }
-export const config = { matcher: "/((?!api|trpc|_next|_vercel|.*\\..*).*)" };
+export const config = { matcher: "/:path*" };

@@ -28,9 +28,8 @@ test('production HTML exposes company facts, correct testing scope and linked pr
 
 test('single-domain discovery and country defaults preserve query strings and preferences', async ({ request }, info) => {
   test.skip(info.project.name !== 'desktop');
-  for (const host of ['bijoyism.cn', 'bijoyism.cc']) {
-    const locale = host.endsWith('.cn') ? 'zh' : 'en';
-    const headers = { host };
+  for (const locale of ['zh', 'en']) {
+    const headers = { host: 'bijoyism.cc', 'x-forwarded-proto': 'https' };
     const robots = await (await request.get('/robots.txt', { headers })).text();
     expect(robots).toContain('Allow: /');
     expect(robots).toContain('https://bijoyism.cc/sitemap.xml');
@@ -39,15 +38,15 @@ test('single-domain discovery and country defaults preserve query strings and pr
     expect(sitemap).toContain('<loc>https://bijoyism.cc/zh/guides/testing/</loc>');
     expect(sitemap).not.toContain('https://bijoyism.cn');
     expect(sitemap).not.toMatch(/<loc>[^<]*(our-products|\/collections\/|\/shop\/collections)/);
-    const alias = await request.get(`/${locale}/our-products/testing/?source=old`, { headers: { host: 'bijoyism.cc' }, maxRedirects: 0 });
+    const alias = await request.get(`/${locale}/our-products/testing/?source=old`, { headers, maxRedirects: 0 });
     expect(alias.status()).toBe(301);
     expect(alias.headers().location).toContain(`/guides/testing/?source=old`);
   }
-  const china = await request.get('/?utm_source=test', { headers: { host: 'bijoyism.cc', 'cf-ipcountry': 'CN' }, maxRedirects: 0 });
+  const china = await request.get('/?utm_source=test', { headers: { host: 'bijoyism.cc', 'x-forwarded-proto': 'https', 'cf-ipcountry': 'CN' }, maxRedirects: 0 });
   expect(china.headers().location).toBe('https://bijoyism.cc/zh/?utm_source=test');
-  const overseas = await request.get('/?utm_source=test', { headers: { host: 'bijoyism.cc', 'cf-ipcountry': 'US' }, maxRedirects: 0 });
+  const overseas = await request.get('/?utm_source=test', { headers: { host: 'bijoyism.cc', 'x-forwarded-proto': 'https', 'cf-ipcountry': 'US' }, maxRedirects: 0 });
   expect(overseas.headers().location).toBe('https://bijoyism.cc/en/?utm_source=test');
-  const preferred = await request.get('/', { headers: { host: 'bijoyism.cc', 'cf-ipcountry': 'CN', cookie: 'NEXT_LOCALE=en' }, maxRedirects: 0 });
+  const preferred = await request.get('/', { headers: { host: 'bijoyism.cc', 'x-forwarded-proto': 'https', 'cf-ipcountry': 'CN', cookie: 'NEXT_LOCALE=en' }, maxRedirects: 0 });
   expect(preferred.headers().location).toBe('https://bijoyism.cc/en/');
   for (const host of ['bijoyism.cn', 'www.bijoyism.cn']) {
     const response = await request.get('/zh/about/?source=old', { headers: { host }, maxRedirects: 0 });
